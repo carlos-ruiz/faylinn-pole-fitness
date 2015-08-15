@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 
 		<!-- Page Title -->
-		<title>Kevin & Maria Wedding HTML Template</title>
+		<title>Faylinn Pole Fitness</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
 		<!-- Favicon -->
