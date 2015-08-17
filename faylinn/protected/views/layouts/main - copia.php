@@ -42,23 +42,23 @@
 			<!-- Top Navigation -->
 			<nav data-scroll-reveal>
 				<ul class="main-nav">
-					<li><a href="#our-story">Nosotros</a></li>
+					<li><a href="#our-story">Our Story</a></li>
 					<li class="sep"></li>
-					<li><a href="#ceremony">Horarios</a></li>
+					<li><a href="#ceremony">Ceremony</a></li>
 					<li class="sep"></li>
-					<li><a href="#restaurant">Ubicación</a></li>
+					<li><a href="#restaurant">Restaurant</a></li>
 					<li class="sep"></li>
-					<li><a href="#party">Galería</a></li>
+					<li><a href="#party">Party</a></li>
 					<li class="sep"></li>
-					<li><a href="#accommodation">Contacto</a></li>
+					<li><a href="#accommodation">Accommodation</a></li>
 					<li class="sep"></li>
-					<li><a href="#gifts">Eventos</a></li>
+					<li><a href="#gifts">Gifts</a></li>
 					<li class="sep"></li>
 					<li><a href="#rsvp">RSVP</a></li>
 					<li class="sep"></li>
 					<li><a href="#" class="stay">Pages</a>
 						<ul class="dropdown">
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.html">Home Page</a></li>
 							<li><a href="uielements.html">UI Elements</a></li>
 							<li><a href="blog.html">Blog</a></li>
 							<li><a href="guestbook.html">Guest Book</a></li>
@@ -70,12 +70,12 @@
 				
 				<div class="mobile-nav">
 					<ul class="mobile-nav-menu">
-						<li><a href="#our-story">Nosotros</a></li>
-						<li><a href="#ceremony">Horarios</a></li>
-						<li><a href="#restaurant">Ubicación</a></li>
-						<li><a href="#party">Galería</a></li>
-						<li><a href="#accommodation">Contacto</a></li>
-						<li><a href="#gifts">Eventos</a></li>
+						<li><a href="#our-story">Our Story</a></li>
+						<li><a href="#ceremony">Ceremony</a></li>
+						<li><a href="#restaurant">Restaurant</a></li>
+						<li><a href="#party">Party</a></li>
+						<li><a href="#accommodation">Accommodation</a></li>
+						<li><a href="#gifts">Gifts</a></li>
 						<li><a href="#rsvp">RSVP</a></li>
 						<li><div>Pages <i class="fa fa-chevron-right"></i></div>
 							<ul>
@@ -93,15 +93,38 @@
 			</nav>
 
 			<!-- Names -->
-			<div class="names" data-scroll-reveal>Ven con nosotros!! </div>
+			<div class="names" data-scroll-reveal>Kevin <span>&</span> Maria</div>
+
+			<!-- Wedding Date -->
+			<div class="wedate">Friday <i>-</i> <strong>December 25</strong> <i>-</i> 2015</div>
 			
 			<!-- Header Images -->
 			<div class="main-images center-content" data-scroll-reveal="enter bottom, after 0.2s">
 
 				<div class="couple">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" width=90%  height=50% alt="" class="round-img round-img-lgb">
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/main-03.jpg" alt="" class="round-img round-img-lgb">
 				</div>
-			</div>			
+
+				<div class="images">
+					<div class="image-01">
+						<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/main-01.jpg" alt="" class="round-img">
+					</div>
+					<div class="image-02">
+						<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/main-02.jpg" alt="" class="round-img">
+					</div>
+					<div class="image-04">
+						<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/main-04.jpg" alt="" class="round-img">
+					</div>
+					<div class="image-05">
+						<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/main-05.jpg" alt="" class="round-img">
+					</div>
+				</div>
+			</div>
+			
+			<!-- Countdown -->
+			<div class="countdown countdown-white" data-countdown="2015/12/25"></div>
+			<!-- Countdown Mobile -->
+			<div class="countdown-mobile countdown-white" data-countdown-mobile="2015/12/25"></div>
 		</header>
 		<!-- END HEADER -->
 
@@ -109,31 +132,24 @@
 
 		<!-- Our Story -->
 		<section id="our-story">
-			<h1 data-scroll-reveal>Nosotros</h1>
+			<h1 data-scroll-reveal>Request the honour of your presence at their marriage</h1>
 			<hr>
 
 			<!-- Couple Info -->
 			<div class="center-container clearfix" data-scroll-reveal>
 				<div class="m-06" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
-					<h2>Misión</h2>
-					<p>Promover y Motivar a personas de todas las edades y capacidades a desarrollar hábitos saludables así como habilidades necesarias para la práctica del pole fitness y pole dance y otras actividades fitness mediante una enseñanza de calidad,teniendo como base el profesionalismo de nuestros instructores.</p>
+					<h2>Kevin Jackson</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel ligula nisi. Vestibulum a magna auctor, tristique sapien et, tempus velit. Proin feugiat dui ac egestas aliquet. In erat arcu, accumsan mollis tincidunt quis, venenatis ut massa. Duis aliquet auctor dui id placerat. Aenean euismod semper ante adipiscing molestie.</p>
 				</div>
 
 				<div class="m-06" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
-					<h2>Visión</h2>
-					<p>Ser el estudio líder en Michoacán, con exclusivos e innovadores programas de capacitación continuaque hagan la diferencia, posicionándonos como la mejor opción de nuestros clientes para alcanzar la óptima calidad en sus entrenamientos en un marco de respeto, alegría y cordialidad.</p>
+					<h2>Maria Steward</h2>
+					<p>Duis aliquet, libero at lobortis aliquet, risus nunc gravida dolor, ac sollicitudin turpis est et risus. Maecenas eget nunc vitae nibh laoreet sodales vel quis nisi. Pellentesque ligula, lobortis iaculis libero placerat, luctus elementum sem. Curabitur vestibulum risus vel dui lobortis iaculis. Phasellus ut augue id felis vestibulum pulvinar quis in est.</p>
 				</div>
 			</div>
 
 			<hr>
-			<h2 data-scroll-reveal>¿Por qué Faylinn fitness & pole dance?</h2>
-			
-			<p><i class="fa fa-heart fa-mid"></i> Nuestros instructores están certificados y en capacitación continua con profesionales  industria del pole fitness.</p>
-			<p><i class="fa fa-heart fa-mid"></i> Somos el primer estudio en Morelia con un equipo de competencia que participar  en una competencia nacional obteniendo el primer lugar en la categoría infantil en noviembre de 2014, primer lugar amateur y tercer lugar profesional en mayo 2015.</p>
-            <p><i class="fa fa-heart fa-mid"></i> Somos estudio avalado por la APM</p>
-
-
-			</ui>
+			<h2 data-scroll-reveal>Class aptent taciti sociosqu ad litora torquent per conubia nostra</h2>
 
 			<!-- Carousel Gallery -->
 			<div id="owl-gallery" class="owl-carousel owl-theme" data-scroll-reveal>
@@ -518,11 +534,3 @@
 
 	</body>
 </html>
-
-<script type="text/javascript">
-	.floatRigth{
-		float:right;
-		
-	}
-
-</script>
