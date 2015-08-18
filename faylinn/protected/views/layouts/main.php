@@ -1,3 +1,4 @@
+
 <!doctype html>
 
 <html>
@@ -127,31 +128,15 @@
 
 			<hr>
 			<h2 data-scroll-reveal>¿Por qué Faylinn fitness & pole dance?</h2>
-			
-			<p><i class="fa fa-heart fa-mid"></i> Nuestros instructores están certificados y en capacitación continua con profesionales  industria del pole fitness.</p>
-			<p><i class="fa fa-heart fa-mid"></i> Somos el primer estudio en Morelia con un equipo de competencia que participar  en una competencia nacional obteniendo el primer lugar en la categoría infantil en noviembre de 2014, primer lugar amateur y tercer lugar profesional en mayo 2015.</p>
-            <p><i class="fa fa-heart fa-mid"></i> Somos estudio avalado por la APM</p>
-
+			<div class="row">
+			<div class="rightContainer text-right"><i class="fa fa-heart fa-mid"></i> Nuestros instructores están certificados y en capacitación continua con profesionales  industria del pole fitness.</div>
+			<div class="rightContainer text-right"><i class="fa fa-heart fa-mid"></i> Somos el primer estudio en Morelia con un equipo de competencia que participar  en una competencia nacional obteniendo el primer lugar en la categoría infantil en noviembre de 2014, primer lugar amateur y tercer lugar profesional en mayo 2015.</div>
+            <div class="rightContainer text-right"><i class="fa fa-heart fa-mid"></i> Somos estudio avalado por la APM</div>
+			</row>
 
 			</ui>
 
-			<!-- Carousel Gallery -->
-			<div id="owl-gallery" class="owl-carousel owl-theme" data-scroll-reveal>
-			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-01.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-01.jpg" alt=""></a></div>
-			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-02.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-02.jpg" alt=""></a></div>
-			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-03.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-03.jpg" alt=""></a></div>
-			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-04.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-04.jpg" alt=""></a></div>
-			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-05.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-05.jpg" alt=""></a></div>
-			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-06.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-06.jpg" alt=""></a></div>
-			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-07.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-07.jpg" alt=""></a></div>
-			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-08.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-08.jpg" alt=""></a></div>
-			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-09.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-09.jpg" alt=""></a></div>
-			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-10.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-10.jpg" alt=""></a></div>
-			</div>
-
-			<h2 data-scroll-reveal>Vestibulum ante ipsum primis luctus et ultrices</h2>
-
-			<p data-scroll-reveal>Integer turpis odio, vestibulum id adipiscing dictum, tempor sit amet massa. Nam nec mollis augue.</p>
+			
 			
 			<!-- Comments -->
 			<div id="comments" class="center-container clearfix">
@@ -266,24 +251,60 @@
 
 		<!-- Restaurant -->
 		<section id="restaurant">
-			<h1 data-scroll-reveal>Restaurant</h1>
+			<h1 data-scroll-reveal>Dueña del Estudio: Laura Avilés Rodríguez</h1>
+			<h2 data-scroll-reveal>Mexicana</h2>
 			<hr>
 
 			<div class="center-container clearfix">
 				<div class="m-04 mt-40" data-scroll-reveal="enter left, over 1s">
-					<h2>Interdum et malesuada fames</h2>
-					<p><strong>Tellus pellentesque convallis, lacus non imperdiet posuere, nibh urna faucibus justo, vel iaculis eros libero quis libero. Proin est augue, cursus ut euismod eu, consequat non urna.</strong></p>
-					<p>Suspendisse porttitor enim orci, eget aliquam urna fermentum sed. In et ante ac turpis consequat euismod ac et massa.</p>
+					<h2>Un poco de ella...</h2>
+					<div class="floatLeft">
+						<p>Comienza su experiencia en Pole Fitness en 2010 como instructora.</p>
+						<p><strong>Certificaciones: </strong>
+						   • Polerinas 2013 módulos principiante, intermedio y avanzado.
+						   • Diana Ham 2015 módulo intermedio-avanzado.</p>
+					</div>
+					<h2>Cursos y talleres</h2>
+					<div class="floatLeft">
+						<p><strong>2011</strong></br>
+							•Taller de pole fitness con Kris Medsey</br>
+							•Taller de streching con Salvador Muñoz</br>
+							•Taller de pilates con Ceci Avila</br>
+						</p>
+						<p><strong>2013</strong></br>
+							•Taller de introducción al programa de FitCombat</br>
+							•Taller de danza aérea en telas con RuzenaLiskova</br>
+						</p>
+					</div>
 				</div>
 
 				<div class="m-04" data-scroll-reveal>
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/restaurant.jpg" alt="Restaurant" class="round-img">
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/lau.png" alt="Restaurant" class="round-img">
 				</div>
 
 				<div class="m-04 mt-40" data-scroll-reveal="enter right, over 1s">
-					<h2>Phasellus feugiat vehicula</h2>
-					<p><strong>Proin est augue, cursus ut euismod eu, consequat non urna. Pellentesque convallis, lacus non imperdiet posuere, nibh urna faucibus justo, vel iaculis eros  quis libero eu non fata.</strong></p>
-					<p>Mauris et justo vitae libero rutrum mattis quis eu felis. Curabitur purus dolor, iaculis eget fermentum vitae.</p>
+					<h2>Cursos y talleres</h2>
+					<div class="floatLeft">
+						<p><strong>2014</strong></br>
+							•Taller de estiramiento con RuzenaLiskova</br>
+							•Taller de pole coreográfico con Mark Buhanstov</br>
+							•Taller de pole signaturetricks con Mark Buhanstov</br>
+							•Taller de pole Acrobacias con Mark Buhanstov</br>
+							•Taller de Aro circense con Estefany Giron</br>
+							•Taller pole HelloFonji con Diana Pardo</br>
+							•Taller de pole con Sergio Chan</br>
+							•Taller de contemporáneo con Mario Hernández</br>
+						</p>
+						<p><strong>2015</strong></br>
+							•Seminario de Sensualidad con Andrea Macías</br>
+							•Taller de pole perfección con Mónica Ochoa</br>
+							•Taller de power pole con Mónica Ochoa</br>
+							•Taller de SignatureTricks con Mónica Ochoa</br>
+							•Taller de escapes con Andrea Vélez</br>
+							•Taller de Handspring con Andrea Vélez</br>
+							•Taller de Saltos y Caídas con Andrea Vélez</br>
+						</p>
+					</div>
 				</div>
 			</div>
 
@@ -519,10 +540,22 @@
 	</body>
 </html>
 
-<script type="text/javascript">
-	.floatRigth{
-		float:right;
-		
+<style type="text/css">
+
+
+	.rightContainer{
+		padding-right: 5%;
+		text-align: left;
+		padding-left: 5%;
+		font-size: 100%;		
 	}
 
-</script>
+	.floatRight{
+		float:right !important;
+	}
+
+		.floatLeft{
+		text-align: left;
+	}
+
+</style>
