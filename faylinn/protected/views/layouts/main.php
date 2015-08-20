@@ -131,14 +131,14 @@
 
 		<!-- Our Story -->
 		<section id="our-story">
-			<h1 data-scroll-reveal>Request the honour of your presence at their marriage</h1>
+			<h1 data-scroll-reveal>Clasificación</h1>
 			<hr>
 
 			<!-- Couple Info -->
 			<div class="center-container clearfix" data-scroll-reveal>
 				<div class="m-06" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
-					<h2>Kevin Jackson</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel ligula nisi. Vestibulum a magna auctor, tristique sapien et, tempus velit. Proin feugiat dui ac egestas aliquet. In erat arcu, accumsan mollis tincidunt quis, venenatis ut massa. Duis aliquet auctor dui id placerat. Aenean euismod semper ante adipiscing molestie.</p>
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/poledancer.png" width="200" height:"100" alt="" >
+					
 				</div>
 
 				<div class="m-06" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
