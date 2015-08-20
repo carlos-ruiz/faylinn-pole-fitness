@@ -43,55 +43,38 @@
 			<!-- Top Navigation -->
 			<nav data-scroll-reveal>
 				<ul class="main-nav">
+					<li><a href="#home">Home</a></li>
+					<li class="sep"></li>
 					<li><a href="#our-story">Nosotros</a></li>
 					<li class="sep"></li>
-					<li><a href="#ceremony">Horarios</a></li>
+					<li><a href="#ceremony">Ubicación</a></li>
 					<li class="sep"></li>
-					<li><a href="#restaurant">Ubicación</a></li>
+					<li><a href="#restaurant">Dueña</a></li>
 					<li class="sep"></li>
-					<li><a href="#party">Galería</a></li>
+					<li><a href="#party">Horario</a></li>
 					<li class="sep"></li>
-					<li><a href="#accommodation">Contacto</a></li>
+					<li><a href="#accommodation">Eventos</a></li>
 					<li class="sep"></li>
-					<li><a href="#gifts">Eventos</a></li>
+					<li><a href="#gifts">Experiencias</a></li>
 					<li class="sep"></li>
-					<li><a href="#rsvp">RSVP</a></li>
-					<li class="sep"></li>
-					<li><a href="#" class="stay">Pages</a>
-						<ul class="dropdown">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="uielements.html">UI Elements</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="guestbook.html">Guest Book</a></li>
-							<li><a href="fontawesome.html">Font Awesome</a></li>
-							<li><a href="404.html">Error 404</a></li>
-						</ul>
-					</li>
+					<li><a href="#rsvp">Contacto</a></li>
 				</ul>
 				
 				<div class="mobile-nav">
 					<ul class="mobile-nav-menu">
+						<li><a href="#our-story">Home</a></li>
 						<li><a href="#our-story">Nosotros</a></li>
-						<li><a href="#ceremony">Horarios</a></li>
-						<li><a href="#restaurant">Ubicación</a></li>
-						<li><a href="#party">Galería</a></li>
-						<li><a href="#accommodation">Contacto</a></li>
-						<li><a href="#gifts">Eventos</a></li>
-						<li><a href="#rsvp">RSVP</a></li>
-						<li><div>Pages <i class="fa fa-chevron-right"></i></div>
-							<ul>
-								<li><a href="index.html">Home Page</a></li>
-								<li><a href="uielements.html">UI Elements</a></li>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="guestbook.html">Guest Book</a></li>
-								<li><a href="fontawesome.html">Font Awesome</a></li>
-								<li><a href="404.html">Error 404</a></li>
-							</ul>	
-						</li>
+						<li><a href="#ceremony">Ubicación</a></li>
+						<li><a href="#restaurant">Dueña</a></li>
+						<li><a href="#party">Horario</a></li>
+						<li><a href="#accommodation">Eventos</a></li>
+						<li><a href="#gifts">Experiencias</a></li>
+						<li><a href="#rsvp">Contacto</a></li>
 					</ul>
 					<span class="show-menu"><i class="fa fa-bars"></i></span>
 				</div>
 			</nav>
+			<div id="home">
 
 			<!-- Names -->
 			<div class="names" data-scroll-reveal>Ven con nosotros!! </div>
@@ -100,8 +83,10 @@
 			<div class="main-images center-content" data-scroll-reveal="enter bottom, after 0.2s">
 
 				<div class="couple">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" width=90%  height=50% alt="" class="round-img round-img-lgb">
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" width=100%  height=45% alt="" class="">
 				</div>
+			</div>
+
 			</div>			
 		</header>
 		<!-- END HEADER -->
@@ -124,128 +109,43 @@
 					<h2>Visión</h2>
 					<p>Ser el estudio líder en Michoacán, con exclusivos e innovadores programas de capacitación continuaque hagan la diferencia, posicionándonos como la mejor opción de nuestros clientes para alcanzar la óptima calidad en sus entrenamientos en un marco de respeto, alegría y cordialidad.</p>
 				</div>
-			</div>
-
-			<hr>
-			<h2 data-scroll-reveal>¿Por qué Faylinn fitness & pole dance?</h2>
-			<div class="row">
-			<div class="rightContainer text-right"><i class="fa fa-heart fa-mid"></i> Nuestros instructores están certificados y en capacitación continua con profesionales  industria del pole fitness.</div>
-			<div class="rightContainer text-right"><i class="fa fa-heart fa-mid"></i> Somos el primer estudio en Morelia con un equipo de competencia que participar  en una competencia nacional obteniendo el primer lugar en la categoría infantil en noviembre de 2014, primer lugar amateur y tercer lugar profesional en mayo 2015.</div>
-            <div class="rightContainer text-right"><i class="fa fa-heart fa-mid"></i> Somos estudio avalado por la APM</div>
-			</row>
-
-			</ui>
-
-			
-			
-			<!-- Comments -->
-			<div id="comments" class="center-container clearfix">
-				
-				<div class="m-12 mt-20">
-					
-					<!-- Comment 01 -->
-					<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/comment-1.jpg" alt="" class="comment-avatar">
-						<h3>Maria Schmidt</h3>
-						<p>Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Vestibulum ante ipsum primis luctus et ultrices posuer.</p>
-
-						<div class="m-12 meta-info clearfix">
-							<span><i class="fa fa-heart fa-mid"></i> Maria</span>
-							<span><i class="fa fa-calendar fa-mid"></i> July 18th, 2015</span>
-						</div>
-
-					</div>
-
-					<!-- Comment 02 -->
-					<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.3s">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/comment-2.jpg" alt="" class="comment-avatar">
-						<h3>Thomas Edwards</h3>
-						<p>Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Vestibulum ante ipsum primis luctus et ultrices posuer.</p>
-
-						<div class="m-12 meta-info clearfix">
-							<span><i class="fa fa-heart fa-mid"></i> Thomas</span>
-							<span><i class="fa fa-calendar fa-mid"></i> July 18th, 2015</span>
-						</div>
-
-					</div>
-
-					<!-- Comment 03 -->
-					<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.6s">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/comment-3.jpg" alt="" class="comment-avatar">
-						<h3>Trevor Kaske</h3>
-						<p>Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Vestibulum ante ipsum primis luctus et ultrices posuer.</p>
-
-						<div class="m-12 meta-info clearfix">
-							<span><i class="fa fa-heart fa-mid"></i> Trevor</span>
-							<span><i class="fa fa-calendar fa-mid"></i> July 18th, 2015</span>
-						</div>
-
-					</div>
-
-					<!-- Comment 04 -->
-					<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.9s">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/comment-4.jpg" alt="" class="comment-avatar">
-						<h3>Rebeca Monde</h3>
-						<p>Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Vestibulum ante ipsum primis luctus et ultrices posuer.</p>
-
-						<div class="m-12 meta-info clearfix">
-							<span><i class="fa fa-heart fa-mid"></i> Rebeca</span>
-							<span><i class="fa fa-calendar fa-mid"></i> July 18th, 2015</span>
-						</div>
-
+				<div class="m-06" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
+					<h2>¿Por qué Faylinn fitness & pole dance?</h2>
+					<div class="row">
+						<div class="rightContainer text-right"><i class="fa fa-heart fa-mid"></i> Nuestros instructores están certificados y en capacitación continua con profesionales  industria del pole fitness.</div>
+						</br><div class="rightContainer text-right"><i class="fa fa-heart fa-mid"></i> Somos el primer estudio en Morelia con un equipo de competencia que participar  en una competencia nacional obteniendo el primer lugar en la categoría infantil en noviembre de 2014, primer lugar amateur y tercer lugar profesional en mayo 2015.</div>
+			            </br><div class="rightContainer text-right"><i class="fa fa-heart fa-mid"></i> Somos estudio avalado por la APM</div>
 					</div>
 				</div>
 
+				<div class="m-06" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/apm.jpg" alt="APM" width=40%  height=3% class="round-img">
+				</div>
 			</div>
+
+
+			
+
 			
 		</section>
 
 		<!-- Ceremony -->
 		<section id="ceremony">
-			<h1 data-scroll-reveal>Ceremony</h1>
+			<h1 data-scroll-reveal></h1>
 			<hr>
 
-			<div class="center-container">
-				<h2 data-scroll-reveal>Proin lacinia fermentum diam at dictum</h2>
-				<p data-scroll-reveal>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales lacus ultricies mauris rhoncus, ut tristique quam malesuada. Sed eu sapien id nulla viverra fringilla non a massa. Integer turpis odio, vestibulum id adipiscing dictum, tempor sit amet massa. Nam nec mollis augue.</p>
-				<p data-scroll-reveal><strong>Duis dapibus purus ac metus ullamcorper, vel consequat nibh consectetur. Nam eu euismod libero. Praesent nec odio sed urna sagittis condimentum. Integer ut viverra odio. Integer sed tincidunt tellus. Quisque urna, eu rhoncus lorem tempus in.</strong></p>
+			<div class="center-container">	
 
-				<div class="m-12 ceremony-images">
-					<div class="m-04 remove-2">
-						<div class="m-06 mt-40 remove" data-scroll-reveal="enter left, over 2s, after 0.5s">
-							<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/ceremony-01.jpg" alt="Ceremony" class="round-img">
-						</div>
-
-						<div class="m-06 mt-40" data-scroll-reveal="enter left, over 2s">
-							<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/ceremony-02.jpg" alt="Ceremony" class="round-img">
-						</div>
-					</div>
-
-					<div class="m-04" data-scroll-reveal>
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/ceremony-03.jpg" alt="Ceremony" class="round-img round-img-lgb">
-					</div>
-
-					<div class="m-04 remove-2">
-						<div class="m-06 mt-40" data-scroll-reveal="enter right, over 2s">
-							<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/ceremony-04.jpg" alt="Ceremony" class="round-img">
-						</div>
-
-						<div class="m-06 mt-40 remove" data-scroll-reveal="enter right, over 2s, after 0.5s">
-							<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/ceremony-05.jpg" alt="Ceremony" class="round-img">
-						</div>
-					</div>
-				</div>
-
-				<p data-scroll-reveal>Aliquam erat volutpat. Vestibulum hendrerit leo id rutrum porttitor. Praesent id tellus tellus. Pellentesque convallis, lacus non imperdiet posuere, nibh urna faucibus justo, vel iaculis eros libero quis libero. Proin est augue, cursus ut euismod eu, consequat non urna.</p>
-
-				<hr>
-
-				<h2>Location</h2>
-				<p><strong>Millenium Hilton</strong> / 55 Church St / New York, NY 10007</p>
+				<h1 data-scroll-reveal>Ubicación</h1>
+				<p><strong>Av. Fuentes de Morelia no. 107</strong> Morelia, Michoacán </p>
 			</div>
 
 			<!-- Google Map -->
-			<div id="map-canvas" class="m-12" data-scroll-reveal></div>
+			<div id="map-canvas" class="m-12" data-scroll-reveal>
+				
+
+				
+			</div>
 
 		</section>
 
@@ -312,88 +212,137 @@
 
 		<!-- The Party -->
 		<section id="party">
-			<h1 data-scroll-reveal>Party</h1>
+			<h1 data-scroll-reveal>Horario</h1>
 			<hr>
-
-			<div class="center-container clearfix">
-				<div class="m-04" data-scroll-reveal="enter left, over 1s">
-					<div class="m-06 remove">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/party-01.jpg" alt="Party" class="round-img">
-					</div>
-
-					<div class="m-06">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/party-02.jpg" alt="Party" class="round-img">
-					</div>
-				</div>
-
-				<div class="m-04 mt-40" data-scroll-reveal>
-					<h2>Nunc faucibus vulputate tempor quis</h2>
-					<p>Pellentesque convallis, lacus non imperdiet posuere, nibh urna faucibus justo, vel iaculis eros libero quis libero.</p>
-				</div>
-
-				<div class="m-04" data-scroll-reveal="enter right, over 1s">
-					<div class="m-06">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/party-03.jpg" alt="Party" class="round-img">
-					</div>
-
-					<div class="m-06 remove">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/party-04.jpg" alt="Party" class="round-img">
-					</div>
-				</div>
-			</div>
+<div data-scroll-reveal="enter bottom, over 1s, after 0.9s" class="center-container clearfix">
+			<table style="width:100%">
+			  <tr class="letter pink-background">
+			    <td>Hora</td>
+			    <td>Lunes</td>		
+			    <td>Martes</td>
+			    <td>Miércoles</td>		
+			    <td>Jueves</td>
+			    <td>Viernes</td>		
+			    <td>Sábado</td>
+			  </tr>
+			  <tr>
+			    <td><strong>8:00-9:00 am</strong></td>
+			    <td>Pole</td>		
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>-</td>
+			  </tr>
+			  <tr>
+			    <td><strong>9:00-10:00 am</strong></td>
+			    <td>Entrenamiento Funcional</td>		
+			    <td>Entrenamiento Funcional</td>
+			    <td>Entrenamiento Funcional</td>
+			    <td>Entrenamiento Funcional</td>
+			    <td>Entrenamiento Funcional</td>
+			    <td>-</td>
+			  </tr>
+			  <tr>
+			    <td><strong>10:00-11:00 am</strong></td>
+			    <td>Pole</td>		
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			  </tr>
+			  <tr>
+			    <td><strong>5:00-6:00 pm</strong></td>
+			    <td>Pole</td>		
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>-</td>
+			  </tr>
+			   <tr>
+			    <td><strong>6:00-7:00 pm</strong></td>
+			    <td>Entrenamiento Funcional</td>		
+			    <td>Fit-Combat</td>
+			    <td>Entrenamiento Funcional</td>
+			    <td>Fit-Combat</td>
+			    <td>Entrenamiento Funcional</td>
+			    <td>-</td>
+			  </tr>
+			   <tr>
+			    <td><strong>7:00-8:00 pm</strong></td>
+			    <td>Pole</td>		
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>-</td>
+			  </tr>
+			   <tr>
+			    <td><strong>8:00-9:00 pm</strong></td>
+			    <td>Telas Aéreas</td>		
+			    <td>Zumba</td>
+			    <td>Telas Aéreas</td>
+			    <td>Zumba</td>
+			    <td>Telas Aéreas</td>
+			    <td>-</td>
+			  </tr>
+			   <tr>
+			    <td><strong>9:00-10:00 pm</strong></td>
+			    <td>Pole</td>		
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>-</td>
+			  </tr>
+			</table>
+</div>
+			
 		</section>
 
 		<!-- Accommodation -->
 		<section id="accommodation">
-			<h1 data-scroll-reveal>Guests Accommodation</h1>
+			<h1 data-scroll-reveal>Eventos</h1>
 			<hr>
+			<h3 data-scroll-reveal>Despedidas de Solteras</h3>
 
 			<div class="center-container clearfix">
 
-				<!-- Hotel 01 -->
-				<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
-					<h2>Magna Hotel</h2>
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/hotel-1.jpg" alt="" class="round-img">
-					<p>Pellentesque convallis, lacus non imperdiet posuere, nibh urna faucibus justo, vel iaculis eros libero quis libero.</p>
-					<a class="more-button" href="#">more</a>
+
+			<div class="center-container clearfix" data-scroll-reveal>
+				<div class="m-06" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/desp.png" alt="" >
 				</div>
 
-				<!-- Hotel 02 -->
-				<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.3s">
-					<h2>Faucibus Hotel</h2>
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/hotel-2.jpg" alt="" class="round-img">
-					<p>Maecenas vitae rutrum nulla. Quisque sodales tincidunt ut pulvinar. Nunc dui risus, tincidunt vitae arcu lobortis.</p>
-					<a class="more-button" href="#">more</a>
+				<div class="m-06" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">				
+					<p>Ser el estudio líder en Michoacán, con exclusivos e innovadores programas de capacitación continuaque hagan la diferencia, posicionándonos como la mejor opción de nuestros clientes para alcanzar la óptima calidad en sus entrenamientos en un marco de respeto, alegría y cordialidad.</p>
 				</div>
+			</div>
 
-				<!-- Hotel 03 -->
-				<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.6s">
-					<h2>Hotel Bibendum</h2>
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/hotel-3.jpg" alt="" class="round-img">
-					<p>Sed eu sapien id nulla viverra fringilla non a massa. Integer turpis odio, vestibulum id adipiscing dictum, tempor nisl.</p>
-					<a class="more-button" href="#">more</a>
-				</div>
-
-				<!-- Hotel 04 -->
-				<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.9s">
-					<h2>Porrtitor Hotel</h2>
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/hotel-4.jpg" alt="" class="round-img">
-					<p>Pellentesque convallis, lacus non imperdiet posuere, nibh urna faucibus justo, vel iaculis eros libero quis libero.</p>
-					<a class="more-button" href="#">more</a>
-				</div>
-
+			
 			</div>
 		</section>
 
 		<!-- Gifts -->
 		<section id="gifts">
-			<h1 data-scroll-reveal>Gifts</h1>
+			<h1 data-scroll-reveal>Experiencias</h1>
 			<hr>
-			<h2 data-scroll-reveal>Tempor quis nunc faucibus vulputate</h2>
+			<h2 data-scroll-reveal>Nosotros compartimos motivación pole</h2>
+			<p> Mi motivación en el pole fitness además de ser un ejercicio muy completo debido a que se trabajan todos los grupos musculares, es un actividad que me reta a diario a mejorar día a día. 
+Otra motivación importante es la satisfacción de ver los logros de cada alumna tanto físicos como emocionales.- Laura Áviles</p>
+
 
 			<div class="center-container clearfix">
 				<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gifts-1.png" alt="" class="center-content">
+				
+					<video width="300" height="300" controls>
+	 				 <source src="<?php echo Yii::app()->request->baseUrl; ?>/images/video1.mp4">
+					</video>
+		
+
+				
 				</div>
 
 				<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.3s">
@@ -457,38 +406,41 @@
 
 		<!-- RSVP Form -->
 		<section id="rsvp">
-			<h1 data-scroll-reveal>Event Attending</h1>
+			<h1 data-scroll-reveal>Escribenos</h1>
 			<hr>
-			<h2 data-scroll-reveal>Ellentesque sapien justo, auctor ut neque quis, dignissim facilisis sem</h2>
+			<h2 data-scroll-reveal>¿Tienes alguna duda? </h2>
 			
-			<p data-scroll-reveal><i class="fa fa-heart-o fa-1x"></i>&nbsp;Yes, I will gladly attend your wedding ceremony.&nbsp;<i class="fa fa-heart-o fa-1x"></i></p>
+			<p data-scroll-reveal><i class="fa fa-heart-o fa-1x"></i>&nbsp;Nosotros te contactamos.&nbsp;<i class="fa fa-heart-o fa-1x"></i></p>
 
 			<form id="rsvp-form" action="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/inc/rsvp-send.php" method="post" data-scroll-reveal>
 				<div class="center-container">
 					<div class="m-12">
 						<div class="m-06">
 							<div class="m-06">
-								<input class="text-box pl-fix firstname" type="text" placeholder="First Name" name="firstname" value="">
+								<input class="text-box pl-fix firstname" type="text" placeholder="Nombree" name="nombre" value="">
 							</div>
 
 							<div class="m-06">
-								<input class="text-box pl-fix lastname" type="text" placeholder="Last Name" name="lastname" value="">
+								<input class="text-box pl-fix lastname" type="text" placeholder="Apellidos" name="apellido" value="">
+							</div>
+						</div>
+						<div class="m-06">
+							
+							<div class="m-06">
+								<input class="text-box pl-fix lastname" type="text" placeholder="Apellidos" name="apellido" value="">
 							</div>
 						</div>
 						<div class="m-06">
 							<div class="m-06">
-								<input class="text-box pl-fix phone" type="text" placeholder="Telephone Number" name="phone" value="">
+								<input class="text-box pl-fix phone" type="text" placeholder="Telefono / Celular" name="tel" value="">
 							</div>
 							
 							<div class="m-06">
-								<input class="text-box pl-fix email" type="text" placeholder="Your E-mail Address" name="email" value="">
+								<input class="text-box pl-fix email" type="text" placeholder="E-mail" name="email" value="">
 							</div>
 						</div>
 						<div class="m-06">
-							<input class="text-box text-box-2 pl-fix custom-options" type="text" placeholder="Custom Options (vegetarian, diabetic etc)" name="custom-options" value="">
-						</div>
-						<div class="m-06">
-							<input class="text-box text-box-2 pl-fix comments" type="text" placeholder="Please write few words to us..." name="comments" value="">
+							<input class="text-box text-box-2 pl-fix custom-options" type="text" placeholder="Dudas / Comentarios" name="custom-options" value="dudas">
 						</div>
 					</div>
 
@@ -544,9 +496,10 @@
 
 
 	.rightContainer{
+		text-align: justify;
 		padding-right: 5%;
 		text-align: left;
-		padding-left: 5%;
+		padding-left:5%;
 		font-size: 100%;		
 	}
 
@@ -558,4 +511,23 @@
 		text-align: left;
 	}
 
+	.letter{
+		font-family: 'Great Vibes', cursive;
+		font-size: 200%;
+		color: #992e68;
+	}
+
+
+	table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.pink-background{
+	 background: rgba(229, 76, 159, 0.3);
+}
+
+
 </style>
+
+
