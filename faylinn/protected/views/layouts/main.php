@@ -136,14 +136,30 @@
 
 			<!-- Couple Info -->
 			<div class="center-container clearfix" data-scroll-reveal>
-				<div class="m-06" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
+				<div class="m-04 mt-40" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
 					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/poledancer.png" width="200" height:"100" alt="" >
-					
 				</div>
-
-				<div class="m-06" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
-					<h2>Maria Steward</h2>
-					<p>Duis aliquet, libero at lobortis aliquet, risus nunc gravida dolor, ac sollicitudin turpis est et risus. Maecenas eget nunc vitae nibh laoreet sodales vel quis nisi. Pellentesque ligula, lobortis iaculis libero placerat, luctus elementum sem. Curabitur vestibulum risus vel dui lobortis iaculis. Phasellus ut augue id felis vestibulum pulvinar quis in est.</p>
+				<div class="m-06" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">				
+					<div class="m-06">
+						<h2>CATEGORÍA INFANTIL</h2>
+						<p>Podrán participar todos los niños de 6 a 10 años de los gimnasios que paractiquen pole fitness, representando a su estudio o gimnasio.</p>
+						<h2>CATEGORÍA ESTUDIANTE</h2>
+						<p>Podrán participar todos los alumnos no profesionales de los gimnasios que practiquen pole fitness, representando a su estudio o gimnasio.</p>
+						<h2>CATEGORÍA ELITE</h2>
+						<p>Podrán participar atletas de pole fitness que hayan competido en el extranjero o competencias nacionales (mayores de edad).</p>
+						<h3>Bases:</h3>
+						<p> 1er Competencia Pole Art Pole Fitness Michoacán</p>
+					</div>
+					<div class="m-06">
+						<h2>CATEGORÍA TEENS</h2>
+						<p>Podrán participar todos los jóvenes de 11 a 17 años de gimnasios que practiquen pole fitness, representando a su estudio o gimnasio.</p>
+						<h2>CATEGORÍA PROFESIONAL</h2>
+						<p>Podrán participar maestros y profesionales del polefitness solamente, el sistema de clasificación se regira por la técnica del pole.</p>
+						<h2>CATEGORÍA POLE ART</h2>
+						<p>Esta categoría ha sido creada para artistas pole performance cuyo interés genuino sea expresar a través del pole.</p>
+						</br></br></br></br>
+						<p><strong>poleartfitness-michoacan@hotmail.com</strong></p>
+					</div>
 				</div>
 			</div>
 
