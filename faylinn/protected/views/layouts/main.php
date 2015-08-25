@@ -131,7 +131,7 @@
 
 		<!-- Our Story -->
 		<section id="our-story">
-			<h1 data-scroll-reveal>Clasificación</h1>
+			<h1 data-scroll-reveal>Convocatoria</h1>
 			<hr>
 			
 
@@ -141,27 +141,23 @@
 					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/poledancer.png" width="200" height:"100" alt="" >
 				</div>
 				<div class="m-06 floatLeft" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
+					<div class="logo">
+						<img class="logo-img" src="<?php echo Yii::app()->request->baseUrl; ?>/images/artlogo.png" alt="" >
+					</div>	
+
 					<p>        Para todos los atletas de PoleArt & PoleFitness:  </p>
-					<h2 data-scroll-reveal class="greenColor">1era. COMPETENCIA Y CONGRESO ZONA CENTRO</h2>
+					<div><h2 data-scroll-reveal class="greenColor"><span class="purpleColor"><strong> 1era. </strong></span>  COMPETENCIA Y CONGRESO ZONA CENTRO</h2></div>
 									
+						<div class="paddingLeft">
+							<div><h2> •  INFANTIL</h2></div>
+							<h2> •  TEENS</h2>
+							<h2> •  ESTUDIANTES</h2>
+							<h2> •  PROFESIONALES</h2>
+							<h2> •  POLE ART</h2>
+							<h2> •  POLE ELIT</h2>
+						</div>
 						
-						<h2>*INFANTIL</h2>
-						<h2>*TEENS</h2>
-						<h2>*ESTUDIANTES</h2>
-						<h2>*PROFESIONALES</h2>
-						<h2>*POLE ART</h2>
-						<h2>*POLE ELIT</h2>
-						
-					<div class="m-06">
-						<h2>CATEGORÍA TEENS</h2>
-						<p>Podrán participar todos los jóvenes de 11 a 17 años de gimnasios que practiquen pole fitness, representando a su estudio o gimnasio.</p>
-						<h2>CATEGORÍA PROFESIONAL</h2>
-						<p>Podrán participar maestros y profesionales del polefitness solamente, el sistema de clasificación se regira por la técnica del pole.</p>
-						<h2>CATEGORÍA POLE ART</h2>
-						<p>Esta categoría ha sido creada para artistas pole performance cuyo interés genuino sea expresar a través del pole.</p>
-						</br></br></br></br>
-						<p><strong>poleartfitness-michoacan@hotmail.com</strong></p>
-					</div>
+					
 				</div>
 			</div>
 
@@ -169,7 +165,7 @@
 		</section>
 
 		<section id="clasificacion">
-			<h1 data-scroll-reveal>Convocatoria</h1>
+			<h1 data-scroll-reveal>Clasificación</h1>
 			<hr>
 
 			<!-- Couple Info -->
@@ -611,6 +607,14 @@
 	}
 	.floatLeft{
 		text-align: left;
+	}
+
+	.purpleColor{
+		color:#992e68;
+	}
+
+	.paddingLeft{
+		padding-left: 10%;
 	}
 
 
