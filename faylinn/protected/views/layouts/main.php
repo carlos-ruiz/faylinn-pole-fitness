@@ -127,14 +127,49 @@
 		</header>
 		<!-- END HEADER -->
 
+		<section id="terminos">
+			<h1 data-scroll-reveal>Términos y Condiciones para la Compra de paquetes</h1>				
+			<hr>
+			<!-- Couple Info -->
+			<div class="center-container clearfix" data-scroll-reveal>		
+					<div class="floatLeft">
+						<p><strong><h3>Paquetes</h3></strong> </p>
+						<p>Se ofreceran los siguientes paquetes:</p>
+						<p>a) Congresista </br> b) Congresista menor de edad </br> c)Acompañante </br> d) Acompañante menor de edad </br> e) Solo congreso</p>
+						<p>Para ver la descripción de los paquetes, por favor consulte la liga: <strong><a href="">paquetes del congreso</a></strong> </p>
+						<p><strong><h3>Habitación</h3></strong> </p>
+						<p>Las habitaciones de hotel son dobles o triples según ocupación.</p>
+						<p><strong><h3>Compra de Paquetes</h3></strong> </p>
+					</div>
+
+
+					<p>        Para todos los atletas de PoleArt & PoleFitness:  </p>
+					<div><h2 data-scroll-reveal class=" greenColor "><span class="purpleColor"><strong> 1era. </strong></span>  COMPETENCIA Y CONGRESO ZONA CENTRO</h2></div>
+						<h3>Categorias:</h3>
+									
+						<div class="paddingLeft">
+							<div><h2> •  INFANTIL</h2></div>
+							<h2> •  TEENS</h2>
+							<h2> •  ESTUDIANTES</h2>
+							<h2> •  PROFESIONALES</h2>
+							<h2> •  POLE ART</h2>
+							<h2> •  POLE ELIT</h2>
+							</br>
+						</div>
+						<h3>Bases:</h3>
+							 1er Competencia Pole Art Pole Fitness Michoacán			
+			
+			</div>
+
+			
+		</section>
+
 		<!-- BEGIN CONTENT -->
 
 		<!-- Our Story -->
 		<section id="our-story">
 			<h1 data-scroll-reveal>Convocatoria</h1>
 			<hr>
-			
-
 			<!-- Couple Info -->
 			<div class="center-container clearfix" data-scroll-reveal>
 				<div class="m-04 mt-40" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
@@ -159,11 +194,7 @@
 							</br>
 						</div>
 						<h3>Bases:</h3>
-							 1er Competencia Pole Art Pole Fitness Michoacán
-
-
-						
-					
+							 1er Competencia Pole Art Pole Fitness Michoacán			
 				</div>
 			</div>
 
