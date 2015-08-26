@@ -146,7 +146,8 @@
 					</div>	
 
 					<p>        Para todos los atletas de PoleArt & PoleFitness:  </p>
-					<div><h2 data-scroll-reveal class="greenColor"><span class="purpleColor"><strong> 1era. </strong></span>  COMPETENCIA Y CONGRESO ZONA CENTRO</h2></div>
+					<div><h2 data-scroll-reveal class=" greenColor "><span class="purpleColor"><strong> 1era. </strong></span>  COMPETENCIA Y CONGRESO ZONA CENTRO</h2></div>
+						<h3>Categorias:</h3>
 									
 						<div class="paddingLeft">
 							<div><h2> •  INFANTIL</h2></div>
@@ -155,7 +156,12 @@
 							<h2> •  PROFESIONALES</h2>
 							<h2> •  POLE ART</h2>
 							<h2> •  POLE ELIT</h2>
+							</br>
 						</div>
+						<h3>Bases:</h3>
+							 1er Competencia Pole Art Pole Fitness Michoacán
+
+
 						
 					
 				</div>
@@ -390,23 +396,23 @@
 
 		<!-- Accommodation -->
 		<section id="accommodation">
-			<h1 data-scroll-reveal>Guests Accommodation</h1>
+			<h1 data-scroll-reveal>Jueces</h1>
 			<hr>
 
 			<div class="center-container clearfix">
 
 				<!-- Hotel 01 -->
 				<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
-					<h2>Magna Hotel</h2>
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/hotel-1.jpg" alt="" class="round-img">
-					<p>Pellentesque convallis, lacus non imperdiet posuere, nibh urna faucibus justo, vel iaculis eros libero quis libero.</p>
+					<h2>Diana Ham</h2>
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana1.jpg" heigh="10" alt="" class="round-img">
+					<p>Se encuentra en el banco de artistas del Cirque Du Soleil, es imagen de importantes marcas de pole nacionales ( Portable Dance, vertical Fashion, leggings 2B).</p>
 					<a class="more-button" href="#">more</a>
 				</div>
 
 				<!-- Hotel 02 -->
 				<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.3s">
-					<h2>Faucibus Hotel</h2>
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/hotel-2.jpg" alt="" class="round-img">
+					<h2>Sergio Chan</h2>
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" alt="" class="round-img">
 					<p>Maecenas vitae rutrum nulla. Quisque sodales tincidunt ut pulvinar. Nunc dui risus, tincidunt vitae arcu lobortis.</p>
 					<a class="more-button" href="#">more</a>
 				</div>
@@ -616,6 +622,19 @@
 	.paddingLeft{
 		padding-left: 10%;
 	}
+
+	.greenColor{
+		background-color: rgba(121, 210, 6, 0.63);;
+		color:white;
+		text-align: center;
+		border: 3%;
+		border-color: white;
+		border-radius: 25%;
+	}
+
+	#accommodation img {
+    width: 40% !important;
+}
 
 
 </style>
