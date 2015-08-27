@@ -84,11 +84,11 @@ $(document).ready(function($) {
 
     // Google Map
     function initialize() {
-        var myLatlng = new google.maps.LatLng(40.711376, -74.010368);
+        var myLatlng = new google.maps.LatLng(19.6725432,-101.2044155);
         var mapOptions = {
-        zoom: 18,
-        scrollwheel: false,
-        draggable: false,
+        zoom: 16,
+        scrollwheel: true,
+        draggable: true,
         center: myLatlng
         }
         var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
@@ -96,7 +96,7 @@ $(document).ready(function($) {
         var marker = new google.maps.Marker({
           position: myLatlng,
           map: map,
-          title: 'Hello World!'
+          title: 'Faylinn Gym'
         });
     }
 
