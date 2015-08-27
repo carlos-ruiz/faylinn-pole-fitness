@@ -140,6 +140,17 @@
 						<p><strong><h3>Habitación</h3></strong> </p>
 						<p>Las habitaciones de hotel son dobles o triples según ocupación.</p>
 						<p><strong><h3>Compra de Paquetes</h3></strong> </p>
+						<p>1. Para reservar un paquete deberá llenarse un formato de inscripción. </br> 2. La reservación de paquetes en línea comenzará el 01 de julio de 2015. </br> 3. Toda persona que adquiera un paquete deberá llenar un formato de inscripción de manera individual, únicamente cuando la persona asista con menores de edad agrefará los datos propios y de sus acompañantes menores de edad. (Ya sea menor congresista o acompañante) en el mismo formato de incripción. </br> 4. En la sección de notas del formato de inscripción, debe poner el tipo de paquete que desea adquirir para usted y los menores, si es el caso, que lo acompañen.
+						</br> 5. Debe especificar en su formato de inscripción los nombres de todas las persnas que se hospedaran en su habitación y cuales huéspedes son congresistas.</p>
+						<p><strong><h3>Pago</h3></strong></p>
+						<p>
+						1. Se requiere de un ANTICIPO de $500.00 por paquete reservado (Por persona).
+						</br> 2. Los pagos deberán realizarse por transferencia bancaria a la cuenta bancaria <strong>Banorte</strong> con clave intervancaria <strong>072470005086306996</strong> 
+							
+						</p>
+
+
+
 					</div>
 
 
