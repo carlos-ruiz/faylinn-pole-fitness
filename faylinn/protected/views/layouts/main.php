@@ -44,11 +44,11 @@
 				<ul class="main-nav">
 					<li><a href="#our-story">Convocatoria</a></li>
 					<li class="sep"></li>
-					<li><a href="#ceremony">Inscripción</a></li>
+					<li><a href="#clasificacion">Clasificación</a></li>
 					<li class="sep"></li>
-					<li><a href="#restaurant">Jueces
+					<li><a href="#jueces">Jueces
 					<li class="sep"></li>
-					<li><a href="#party">Sede</a></li>
+					<li><a href="#paquetes">Paquetes</a></li>
 					<li class="sep"></li>
 					<li><a href="#accommodation">Talleres</a></li>
 					<li class="sep"></li>
@@ -71,7 +71,7 @@
 				<div class="mobile-nav">
 					<ul class="mobile-nav-menu">
 						<li><a href="#our-story">Our Story</a></li>
-						<li><a href="#ceremony">Ceremony</a></li>
+						<li><a href="#ceremony">Clasificación</a></li>
 						<li><a href="#restaurant">Restaurant</a></li>
 						<li><a href="#party">Party</a></li>
 						<li><a href="#accommodation">Accommodation</a></li>
@@ -146,30 +146,20 @@
 						<p>
 						1. Se requiere de un ANTICIPO de $500.00 por paquete reservado (Por persona).
 						</br> 2. Los pagos deberán realizarse por transferencia bancaria a la cuenta bancaria <strong>Banorte</strong> con clave intervancaria <strong>072470005086306996</strong> 
-							
+							a nombre de <strong>Laura Avilés</strong>. </br> 3. El comprobante de pago por concepto de ANTICIPO deberá enviarse al correo electronico <strong>poleartfitness-michoacan@hotmail.com</strong>
+							 ya sea escaneado o foto dentro de las primeras 48 hrs de llenado y enviado el formato de inscripición, de lo contrario el paquete sera cancelado.
+							 </br> 4. Puede adquir su paquete en abonos o en pago de una sola exicibición. </br> •<strong> En una sola exposición </strong>: Puede adquirir su paquete en una sola exposición
+							 en cualquier momento antes del evento. </br> • <strong> Abonos</strong>
 						</p>
-
-
-
-					</div>
-
-
-					<p>        Para todos los atletas de PoleArt & PoleFitness:  </p>
-					<div><h2 data-scroll-reveal class=" greenColor "><span class="purpleColor"><strong> 1era. </strong></span>  COMPETENCIA Y CONGRESO ZONA CENTRO</h2></div>
-						<h3>Categorias:</h3>
-									
-						<div class="paddingLeft">
-							<div><h2> •  INFANTIL</h2></div>
-							<h2> •  TEENS</h2>
-							<h2> •  ESTUDIANTES</h2>
-							<h2> •  PROFESIONALES</h2>
-							<h2> •  POLE ART</h2>
-							<h2> •  POLE ELIT</h2>
-							</br>
+						<div  class="padding-left">
+							 <p>a) Todos los paquetes que se paguen en abonos debrán liquidarse antes del 21 de diciembre del 2015. De lo contrario se cancelaran y no serán reembolsables.
+							 </br> b) Cada que se realice un abono, deberá enviarse el comprobante de pago al correo electrónico <strong>poleartfitness-michoacan@hotmail.com</strong> (escaneado o foto) dentro de las primeras 48 horas de efectuarse el pago.
+							 </br> c) Después del 21 de diciembre de 2015 todos los paquetes se liquidaran en una sola exposición.
+							 </br> d) La fecha límite para realizar cambios es el <strong>16 de diciembre de 2015</strong> y por ningún cambio después de esa fecha.
+							 </br> </br> Todos los congresistas deberán firmar una "Carta de no responsabilidad y una de Derechos de fotagrafía y video al momento del registro en el hotel".
+							</p>
 						</div>
-						<h3>Bases:</h3>
-							 1er Competencia Pole Art Pole Fitness Michoacán			
-			
+					</div>
 			</div>
 
 			
@@ -266,66 +256,152 @@
 
 			<p data-scroll-reveal>Integer turpis odio, vestibulum id adipiscing dictum, tempor sit amet massa. Nam nec mollis augue.</p>
 			
-			<!-- Comments -->
-			<div id="comments" class="center-container clearfix">
-				
-				<div class="m-12 mt-20">
-					
-					<!-- Comment 01 -->
-					<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/comment-1.jpg" alt="" class="comment-avatar">
-						<h3>Maria Schmidt</h3>
-						<p>Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Vestibulum ante ipsum primis luctus et ultrices posuer.</p>
+			<!-- Comments -->			
+		</section>
 
-						<div class="m-12 meta-info clearfix">
-							<span><i class="fa fa-heart fa-mid"></i> Maria</span>
-							<span><i class="fa fa-calendar fa-mid"></i> July 18th, 2015</span>
-						</div>
+		<section id="jueces">
+			<h1 data-scroll-reveal>Jueces</h1>
+			<hr>
 
-					</div>
+			<div class="center-container clearfix">
 
-					<!-- Comment 02 -->
-					<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.3s">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/comment-2.jpg" alt="" class="comment-avatar">
-						<h3>Thomas Edwards</h3>
-						<p>Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Vestibulum ante ipsum primis luctus et ultrices posuer.</p>
+				<!-- Hotel 01 -->
+				<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
+					<h2>Diana Ham</h2>
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana1.jpg" heigh="10" alt="" class=" img-30percent round-img">
+					<p>Se encuentra en el banco de artistas del Cirque Du Soleil, es imagen de importantes marcas de pole nacionales ( Portable Dance, vertical Fashion, leggings 2B).</p>
+					<a class="more-button" href="#">more</a>
+				</div>
 
-						<div class="m-12 meta-info clearfix">
-							<span><i class="fa fa-heart fa-mid"></i> Thomas</span>
-							<span><i class="fa fa-calendar fa-mid"></i> July 18th, 2015</span>
-						</div>
+				<!-- Hotel 02 -->
+				<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.3s">
+					<h2>Sergio Chan</h2>
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" heigh="10" alt="" class=" img-30percent round-img">
+					<p></br>Maecenas vitae rutrum nulla. Quisque sodales tincidunt ut pulvinar. Nunc dui risus, tincidunt vitae arcu lobortis.</p>
+					<a class="more-button" href="#">more</a>
+				</div>
 
-					</div>
+				<!-- Hotel 03 -->
+				<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.6s">
+					<h2>Hotel Bibendum</h2>
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/hotel-3.jpg" alt="" class="round-img">
+					<p>Sed eu sapien id nulla viverra fringilla non a massa. Integer turpis odio, vestibulum id adipiscing dictum, tempor nisl.</p>
+					<a class="more-button" href="#">more</a>
+				</div>
 
-					<!-- Comment 03 -->
-					<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.6s">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/comment-3.jpg" alt="" class="comment-avatar">
-						<h3>Trevor Kaske</h3>
-						<p>Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Vestibulum ante ipsum primis luctus et ultrices posuer.</p>
-
-						<div class="m-12 meta-info clearfix">
-							<span><i class="fa fa-heart fa-mid"></i> Trevor</span>
-							<span><i class="fa fa-calendar fa-mid"></i> July 18th, 2015</span>
-						</div>
-
-					</div>
-
-					<!-- Comment 04 -->
-					<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.9s">
-						<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/comment-4.jpg" alt="" class="comment-avatar">
-						<h3>Rebeca Monde</h3>
-						<p>Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Vestibulum ante ipsum primis luctus et ultrices posuer.</p>
-
-						<div class="m-12 meta-info clearfix">
-							<span><i class="fa fa-heart fa-mid"></i> Rebeca</span>
-							<span><i class="fa fa-calendar fa-mid"></i> July 18th, 2015</span>
-						</div>
-
-					</div>
+				<!-- Hotel 04 -->
+				<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.9s">
+					<h2>Porrtitor Hotel</h2>
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/hotel-4.jpg" alt="" class="round-img">
+					<p>Pellentesque convallis, lacus non imperdiet posuere, nibh urna faucibus justo, vel iaculis eros libero quis libero.</p>
+					<a class="more-button" href="#">more</a>
 				</div>
 
 			</div>
-			
+		</section>
+
+
+
+
+
+		<section id="paquetes">
+		<h1 data-scroll-reveal>Paquetes</h1>
+			<hr>
+			<div class="center-container clearfix">
+				<h3 data-scroll-reveal>Hotel Sede: <strong>Real Inn </strong></h3>
+				<div class="m-12 mt-20">
+					
+					<!-- Comment 01 -->
+					<div class="m-06" data-scroll-reveal="enter bottom, over 1s">
+						<h3 class="darkPinkColor">Congresista</h3>				
+						<div class="m-12 meta-info clearfix">
+							<span><i class="fa fa-calendar fa-mid"></i><strong> 30,31 de enero y 01 de febrero 2015</strong></span>
+						</div>
+						<p>Antes del 21 de diciembre <strong>$5000.00</strong>, después del 21 de diciembre $5500.00</p>
+						<div class="floatLeft paddingLeft">
+							 <h4 >Incluye:</h4>
+							 </br> • 3 días y 2 noches
+							 </br> • Desayunos
+							 </br> • Paquete congreso (Talleres, conferencias y constancias)
+							 </br> • Entrada a la final
+							 </br> • Kit de bienvenida </br>
+						</div>
+					</div>
+					<div class="m-06" data-scroll-reveal="enter bottom, over 1s">
+						<h3 class="lightPinkColor">Congresista</h3>				
+						<div class="m-12 meta-info clearfix">
+							<span><i class="fa fa-calendar fa-mid"></i> <strong>31 de enero y 01 de febrero 2015</strong></span>
+						</div>
+						<p>Antes del 21 de diciembre <strong>$4000.00</strong>, después del 21 de diciembre $4500.00</p>
+						<div class="floatLeft paddingLeft">
+							 <h4 >Incluye:</h4>
+							 </br> • 2 días y 1 noches
+							 </br> • Desayunos
+							 </br> • Paquete congreso (Talleres, conferencias y constancias)
+							 </br> • Entrada a la final
+							 </br> • Kit de bienvenida </br>
+						</div>
+					</div>
+					<div class="m-06" data-scroll-reveal="enter bottom, over 1s">
+						<h3 class="darkPinkColor">Acompañante</h3>
+						<p>Antes del 21 de diciembre <strong>$2900.00</strong>, después del 21 de diciembre $3400.00</p>
+						<div class="floatLeft paddingLeft">
+							 <h4 >Incluye:</h4>
+							 </br> • 3 días y 2 noches
+							 </br> • Desayunos
+							 </br> • Entrada a la final </br>
+						</div>
+					</div>
+					<div class="m-06" data-scroll-reveal="enter bottom, over 1s">
+						<h3 class="lightPinkColor">Acompañante</h3>				
+						<p>Antes del 21 de diciembre <strong>$2000.00</strong>, después del 21 de diciembre $2500.00</p>
+						<div class="floatLeft paddingLeft">
+							 <h4 >Incluye:</h4>
+							 </br> • 2 días y 1 noches
+							 </br> • Desayunos
+							 </br> • Entrada a la final </br>
+						</div>
+					</div>
+					<div class="m-06" data-scroll-reveal="enter bottom, over 1s">
+						<h3 class="darkPinkColor">Menor de Edad Congresista (6 a 11 años)</h3>				
+						<p>Antes del 21 de diciembre <strong>$3000.00</strong>, después del 21 de diciembre $3500.00</p>
+						<div class="floatLeft paddingLeft">
+							 <h4 >Incluye:</h4>
+							 </br> • 3 días y 2 noches
+							 </br> • Desayunos
+							 </br> • Paquete congreso (Talleres, conferencias y constancias)
+							 </br> • Entrada a la final
+							 </br> • Kit de bienvenida </br>
+						</div>
+					</div>
+					<div class="m-06" data-scroll-reveal="enter bottom, over 1s">
+						<h3 class="lightPinkColor">Menor de Edad Congresista (6 a 11 años)</h3>				
+						<p>Antes del 21 de diciembre <strong>$3000.00</strong>, después del 21 de diciembre $3500.00</p>
+						<div class="floatLeft paddingLeft">
+							 <h4 >Incluye:</h4>
+							 </br> • 2 días y 1 noches
+							 </br> • Desayunos
+							 </br> • Paquete congreso (Talleres, conferencias y constancias)
+							 </br> • Entrada a la final
+							 </br> • Kit de bienvenida </br>
+						</div>
+					</div>
+					<div class="m-06" data-scroll-reveal="enter bottom, over 1s">
+						<h3 class="darkPinkColor">Solo congreso  (Adultos)</h3>				
+						<p>Antes del 21 de diciembre <strong>$3000.00</strong>, después del 21 de diciembre $3500.00</p>
+						<div class="floatLeft paddingLeft">
+							 <h4 >Incluye:</h4>
+							 </br> • Talleres
+							 </br> • Conferencias
+							 </br> • Entrada a la final
+							 </br> • Kit de bienvenida </br>
+						</div>
+					</div>
+				</div>
+					<hr>
+				 <h3>Nota:</h3><strong>Menor de edad Acompañante: Niños de hasta 11 años NO pagan su hospedaje.</strong>
+
+			</div>
 		</section>
 
 
@@ -437,46 +513,7 @@
 		</section>
 
 		<!-- Accommodation -->
-		<section id="accommodation">
-			<h1 data-scroll-reveal>Jueces</h1>
-			<hr>
-
-			<div class="center-container clearfix">
-
-				<!-- Hotel 01 -->
-				<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
-					<h2>Diana Ham</h2>
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana1.jpg" heigh="10" alt="" class="round-img">
-					<p>Se encuentra en el banco de artistas del Cirque Du Soleil, es imagen de importantes marcas de pole nacionales ( Portable Dance, vertical Fashion, leggings 2B).</p>
-					<a class="more-button" href="#">more</a>
-				</div>
-
-				<!-- Hotel 02 -->
-				<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.3s">
-					<h2>Sergio Chan</h2>
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" alt="" class="round-img">
-					<p>Maecenas vitae rutrum nulla. Quisque sodales tincidunt ut pulvinar. Nunc dui risus, tincidunt vitae arcu lobortis.</p>
-					<a class="more-button" href="#">more</a>
-				</div>
-
-				<!-- Hotel 03 -->
-				<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.6s">
-					<h2>Hotel Bibendum</h2>
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/hotel-3.jpg" alt="" class="round-img">
-					<p>Sed eu sapien id nulla viverra fringilla non a massa. Integer turpis odio, vestibulum id adipiscing dictum, tempor nisl.</p>
-					<a class="more-button" href="#">more</a>
-				</div>
-
-				<!-- Hotel 04 -->
-				<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.9s">
-					<h2>Porrtitor Hotel</h2>
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/hotel-4.jpg" alt="" class="round-img">
-					<p>Pellentesque convallis, lacus non imperdiet posuere, nibh urna faucibus justo, vel iaculis eros libero quis libero.</p>
-					<a class="more-button" href="#">more</a>
-				</div>
-
-			</div>
-		</section>
+		
 
 		<!-- Gifts -->
 		<section id="gifts">
@@ -657,6 +694,10 @@
 		text-align: left;
 	}
 
+	.padding-left{
+		padding-left: 4% !important;
+	}
+
 	.purpleColor{
 		color:#992e68;
 	}
@@ -673,6 +714,21 @@
 		border-color: white;
 		border-radius: 25%;
 	}
+
+	.lightPinkColor{
+		background: rgba(229, 76, 159, 0.43);
+		font-style: bold;		
+	}
+
+	.darkPinkColor{
+		background: #e54c9f;
+		color: #fff;
+	}
+
+.img-30percent{
+	width: 30%;
+}
+	    
 
 	#accommodation img {
     width: 40% !important;
