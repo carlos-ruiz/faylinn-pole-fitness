@@ -305,8 +305,8 @@ nav {
 .main-images {
 	position: relative;
 	margin-top: 5px !important;
-	width: 910px;
-	height: 360px;
+	width: 80%;
+	height: 100%;
 	background: url(../images/particles.png) center -10px no-repeat;
 	z-index: -99;
 }
@@ -378,7 +378,7 @@ nav {
 
 #map-canvas {
 	width: 100%;
-	height: 280px;
+	height: 350px;
 }
 
 /* --- Gifts --- */

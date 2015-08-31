@@ -49,45 +49,45 @@
 				<ul class="main-nav">
 					<li><a href="#home">Home</a></li>
 					<li class="sep"></li>
-					<li><a href="#our-story">Nosotros</a></li>
+					<li><a href="#nosotros">Nosotros</a></li>
 					<li class="sep"></li>
-					<li><a href="#ceremony">Ubicación</a></li>
+					<li><a href="#ubicacion">Ubicación</a></li>
 					<li class="sep"></li>
-					<li><a href="#restaurant">Dueña</a></li>
+					<li><a href="#dueña">Dueña</a></li>
 					<li class="sep"></li>
-					<li><a href="#party">Horario</a></li>
+					<li><a href="#horario">Horario</a></li>
 					<li class="sep"></li>
-					<li><a href="#accommodation">Eventos</a></li>
+					<li><a href="#eventos">Eventos</a></li>
 					<li class="sep"></li>
-					<li><a href="#gifts">Experiencias</a></li>
+					<li><a href="#experiencias">Experiencias</a></li>
 					<li class="sep"></li>
-					<li><a href="#rsvp">Contacto</a></li>
-				</ul>
+					<li><a href="#contacto">Contacto</a></li>
+					<li class="sep"></li>
+					<li><a href="https://www.facebook.com/faylinn.pole.studio?fref=ts"><i class="fa fa-facebook fa-mid"></i></a></li>
+					<li class="sep"></li>
+					<li><a href="#"><i class="fa fa-twitter fa-mid"></i></a></ul>
+					</ul>
 				
 				<div class="mobile-nav">
 					<ul class="mobile-nav-menu">
-						<li><a href="#our-story">Home</a></li>
-						<li><a href="#our-story">Nosotros</a></li>
-						<li><a href="#ceremony">Ubicación</a></li>
-						<li><a href="#restaurant">Dueña</a></li>
-						<li><a href="#party">Horario</a></li>
-						<li><a href="#accommodation">Eventos</a></li>
-						<li><a href="#gifts">Experiencias</a></li>
-						<li><a href="#rsvp">Contacto</a></li>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#nosotros">Nosotros</a></li>
+						<li><a href="#ubicacion">Ubicación</a></li>
+						<li><a href="#dueña">Dueña</a></li>
+						<li><a href="#horario">Horario</a></li>
+						<li><a href="#eventos">Eventos</a></li>
+						<li><a href="#experiencias">Experiencias</a></li>
+						<li><a href="#contacto">Contacto</a></li>
 					</ul>
 					<span class="show-menu"><i class="fa fa-bars"></i></span>
 				</div>
 			</nav>
 			<div id="home">
-
-			<!-- Names -->
-			<div class="names" data-scroll-reveal>Ven con nosotros!! </div>
-			
+			<div class="names" data-scroll-reveal>Ven con nosotros!! </div>			
 			<!-- Header Images -->
 			<div class="main-images center-content" data-scroll-reveal="enter bottom, after 0.2s">
-
 				<div class="couple">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" width=100%  height=45% alt="" class="">
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" width=100%  height=45% alt="Faylinn Gym" class="img-logo">
 				</div>
 			</div>
 
@@ -97,8 +97,8 @@
 
 		<!-- BEGIN CONTENT -->
 
-		<!-- Our Story -->
-		<section id="our-story">
+		<!-- Nosotros -->
+		<section id="nosotros">
 			<h1 data-scroll-reveal>Nosotros</h1>
 			<hr>
 
@@ -116,45 +116,32 @@
 				<div class="m-06" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
 					<h2>¿Por qué Faylinn fitness & pole dance?</h2>
 					<div class="row">
-						<div class="rightContainer text-right"><i class="fa fa-heart fa-mid"></i> Nuestros instructores están certificados y en capacitación continua con profesionales  industria del pole fitness.</div>
-						</br><div class="rightContainer text-right"><i class="fa fa-heart fa-mid"></i> Somos el primer estudio en Morelia con un equipo de competencia que participar  en una competencia nacional obteniendo el primer lugar en la categoría infantil en noviembre de 2014, primer lugar amateur y tercer lugar profesional en mayo 2015.</div>
-			            </br><div class="rightContainer text-right"><i class="fa fa-heart fa-mid"></i> Somos estudio avalado por la APM</div>
+						<div class="rightContainer text-right">• Nuestros instructores están certificados y en capacitación continua con profesionales  industria del pole fitness.</div>
+						</br><div class="rightContainer text-right">• Somos el primer estudio en Morelia con un equipo de competencia que participar  en una competencia nacional obteniendo el primer lugar en la categoría infantil en noviembre de 2014, primer lugar amateur y tercer lugar profesional en mayo 2015.</div>
+			            </br><div class="rightContainer text-right">• Somos estudio avalado por la APM</div>
 					</div>
 				</div>
 
 				<div class="m-06" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
 					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/apm.jpg" alt="APM" width=40%  height=3% class="round-img">
 				</div>
-			</div>
-
-
-			
-
-			
+			</div>		
 		</section>
 
-		<!-- Ceremony -->
-		<section id="ceremony">
+		<!-- Ubicación -->
+		<section id="ubicacion">
 			<h1 data-scroll-reveal></h1>
 			<hr>
-
 			<div class="center-container">	
-
 				<h1 data-scroll-reveal>Ubicación</h1>
 				<p><strong>Av. Fuentes de Morelia no. 107</strong> Morelia, Michoacán </p>
 			</div>
-
 			<!-- Google Map -->
-			<div id="map-canvas" class="m-12" data-scroll-reveal>
-				
-
-				
-			</div>
-
+			<div id="map-canvas" class="m-12" data-scroll-reveal> </div>
 		</section>
 
-		<!-- Restaurant -->
-		<section id="restaurant">
+		<!-- Dueña -->
+		<section id="dueña">
 			<h1 data-scroll-reveal>Dueña del Estudio: Laura Avilés Rodríguez</h1>
 			<h2 data-scroll-reveal>Mexicana</h2>
 			<hr>
@@ -215,11 +202,12 @@
 		</section>
 
 		<!-- The Party -->
-		<section id="party">
+		<section id="horario">
 			<h1 data-scroll-reveal>Horario</h1>
 			<hr>
 <div data-scroll-reveal="enter bottom, over 1s, after 0.9s" class="center-container clearfix">
-			<table style="width:100%">
+
+			<table class="schedule center-container">
 			  <tr class="letter pink-background">
 			    <td>Hora</td>
 			    <td>Lunes</td>		
@@ -307,7 +295,7 @@
 		</section>
 
 		<!-- Accommodation -->
-		<section id="accommodation">
+		<section id="eventos">
 			<h1 data-scroll-reveal>Eventos</h1>
 			<hr>
 			<h3 data-scroll-reveal>Despedidas de Solteras</h3>
@@ -317,12 +305,54 @@
 
 			<div class="center-container clearfix" data-scroll-reveal>
 				<div class="m-06" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/desp.png" alt="" >
+					</br></br></br></br></br></br></br></br>
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/desp.png" alt="" >		
 				</div>
 
 				<div class="m-06" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">				
 					<p>Ser el estudio líder en Michoacán, con exclusivos e innovadores programas de capacitación continuaque hagan la diferencia, posicionándonos como la mejor opción de nuestros clientes para alcanzar la óptima calidad en sus entrenamientos en un marco de respeto, alegría y cordialidad.</p>
 				</div>
+
+				<div class="m-03" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
+					<h3>Paquete 1</h3>
+					<div class="floatLeft">
+					<p>• <strong>Duración: </strong> una hora y media.</br>
+					   • <strong>Costo $100 por persona</strong>(mínimo 6 personas, máximo 11 personas).</br>
+                 	   • <strong>Descripción:</strong>
+						Se les da una clase en el salón. La instructora les enseñará pasos básicos en el tubo, giros y trabajo de piso para que puedan armar una pequeña coreografía, sin compartir tubo.
+					</p>
+					</div>
+					</br>
+					<h3>Extras</h3>
+					<div class="floatLeft">
+					<p>A todos nuestros paquetes les puedes agregar:
+					   • <strong>Invitaciones para tu Despedida  </strong> desde $30 por invitación.</br>
+					   • <strong>Playera $250 por persona</strong>(en pedidos mayores a 10 el precio baja a $200 cada una).</br>
+                 	   • <strong>Mesa de dulces o postres $80 por persona</strong> (mínimo 20 personas).
+					</p>
+					</div>
+				</div>
+				<div class="m-03" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
+					<h3>Paquete 2</h3>
+					<div class="floatLeft">
+					<p>• <strong>Duración: </strong> una hora y media.</br>
+					   • <strong>Costo $2,000</strong>(sin límite de invitada).</br>
+                 	   • <strong>Descripción:</strong>
+						Una instructora  va a tu casa con un tubo y les da clase, hace dinámicas por grupos para que todas puedan  practicar. 
+						</br>Se requiere una altura de techo de entre 2.24 y 2.74 mts, totalmente recto y sólido, no plafón.</br>Fuera de Morelia. se cobra una cuota extra
+					</p>
+					</div>
+					<h3>Pagos</h3>
+					<div class="floatLeft">
+					<p>
+					   • Para reservar la fecha es necesario pagar el 50% del costo del paquete.</br>
+					   • El 50% restante se pagará a la instructora el día del evento antes de comenzar.</br>
+                 	   • Se cobra un cargo por cancelación del 30% del total del paquete cancelando hasta 1 semana antes, para cancelaciones posteriores el cargo es del 50%.
+					</p>
+					<p><strong>Nota:</strong> No hacemos despedidas mixtas, únicamente para mujeres. </p>
+					</div>
+				</div>
+
 			</div>
 
 			
@@ -334,84 +364,26 @@
 			<h1 data-scroll-reveal>Experiencias</h1>
 			<hr>
 			<h2 data-scroll-reveal>Nosotros compartimos motivación pole</h2>
-			<p> Mi motivación en el pole fitness además de ser un ejercicio muy completo debido a que se trabajan todos los grupos musculares, es un actividad que me reta a diario a mejorar día a día. 
-Otra motivación importante es la satisfacción de ver los logros de cada alumna tanto físicos como emocionales.- Laura Áviles</p>
-
-
+			<div  data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
+				
+				<p> Mi motivación en el pole fitness además de ser un ejercicio muy completo debido a que se trabajan todos los grupos musculares, es un actividad que me reta a diario a mejorar día a día. 
+				Otra motivación importante es la satisfacción de ver los logros de cada alumna tanto físicos como emocionales.-<strong> Laura Áviles</strong></p>
+			
+			</div>
 			<div class="center-container clearfix">
 				<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
 				
 					<video width="300" height="300" controls>
 	 				 <source src="<?php echo Yii::app()->request->baseUrl; ?>/images/video1.mp4">
 					</video>
-
-
+					
 				
 				</div>
 
-				<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.3s">
-
-
-
-				
-
-
 
 				</div>
 
-				<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.6s">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gifts-3.png" alt="" class="center-content">
-				</div>
-
-				<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.9s">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gifts-4.png" alt="" class="center-content">
-				</div>
-			</div>
-
-			<p class="copyright">All trademarks and registered trademarks are the property of their respective owners.</p>
-
-			<hr>
-			<h2 data-scroll-reveal>Buy us a voucher or make a donation</h2>
-			<p data-scroll-reveal>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
-
-			<!-- Vouchers -->
-			<div class="center-container clearfix" data-scroll-reveal>
-				<div class="m-06">
-					<div class="m-04">
-						<span>100</span>
-						<i class="fa fa-gift fa-2x"></i>
-						<a href="#" class="buy-voucher">buy</a>
-					</div>
-					<div class="m-04">
-						<span>200</span>
-						<i class="fa fa-money fa-2x"></i>
-						<a href="#" class="buy-voucher">buy</a>
-					</div>
-					<div class="m-04">
-						<span>400</span>
-						<i class="fa fa-heart-o fa-2x"></i>
-						<a href="#" class="buy-voucher">buy</a>
-					</div>
-				</div>
-
-				<div class="m-06">
-					<div class="m-04">
-						<span>600</span>
-						<i class="fa fa-shopping-cart fa-2x"></i>
-						<a href="#" class="buy-voucher">buy</a>
-					</div>
-					<div class="m-04">
-						<span>800</span>
-						<i class="fa fa-plane fa-2x"></i>
-						<a href="#" class="buy-voucher">buy</a>
-					</div>
-					<div class="m-04">
-						<span>1000</span>
-						<i class="fa fa-sun-o fa-2x"></i>
-						<a href="#" class="buy-voucher">buy</a>
-					</div>
-				</div>
-			</div>
+	
 		</section>
 
 		<!-- RSVP Form -->
@@ -471,11 +443,11 @@ Otra motivación importante es la satisfacción de ver los logros de cada alumna
 		<!-- BEGIN FOOTER -->
 		<footer class="clearfix" data-scroll-reveal>
 			<div class="m-12">
-				<p>Information line • 1-800-9639288, E-mail • info@wedding.tmp</p>
+				<p><a href=""> Faylinn Gym - Facebook</a></p>
 
 				<div class="m-12 soc">
 					<a href="#"><i class="fa fa-twitter fa-mid"></i></a>
-					<a href="#"><i class="fa fa-facebook fa-mid"></i></a>
+					<a href="https://www.facebook.com/faylinn.pole.studio?fref=ts"><i class="fa fa-facebook fa-mid"></i></a>
 					<a href="#"><i class="fa fa-google-plus fa-mid"></i></a>
 					<a href="#"><i class="fa fa-flickr fa-mid"></i></a>
 					<a href="#"><i class="fa fa-foursquare fa-mid"></i></a>
@@ -484,7 +456,7 @@ Otra motivación importante es la satisfacción de ver los logros de cada alumna
 					<a href="#"><i class="fa fa-dribbble fa-mid"></i></a>
 				</div>
 			
-				<span>All Rights Reserved © 2014 | Kevin & Maria Wedding</span>
+				<span>Faylinn Gym © 2015 | Techinc </span>
 			</div>
 		</footer>
 		<!-- END FOOTER -->
@@ -533,49 +505,31 @@ Otra motivación importante es la satisfacción de ver los logros de cada alumna
     border-collapse: collapse;
 }
 
+.img-logo{
+	height: 100%;
+}
+
 .pink-background{
 	 background: rgba(229, 76, 159, 0.3);
 }
 
-a {
-  color:#1185ff;
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+.space{
+	height: 40%;
 }
 
-/* Specific CSS code for the magnifying glass icon */
-a.zoomable {
-  display:block;
-  /* Adjust the width and height properties
-  according to your “zoomable thumbnail”’s dimensions;*/
-  width:320px;
-  height:180px;
-  background:#000;
-  position:relative;
-  -webkit-box-shadow:rgba(0,0,0,0.4) 0 4px 10px;
-  -moz-box-shadow:rgba(0,0,0,0.4) 0 4px 10px;
-  box-shadow:rgba(0,0,0,0.4) 0 4px 10px;
-}
+.schedule{
+	padding-top: 10%;
+	padding-bottom:10%;
+	width: 100%;
+	height:100%;
 
-a.zoomable span.zoom_icon {
-  display:block;
-  width:100%;
-  height:100%;
-  position:absolute;
-  top:0;
-  left:0;
-  /*
-  Important:
-  Upload the icon below to your server and update the path accordingly.
-  Please do not hotlink it!
-  */
-  background:url("http://f.cl.ly/items/3C1V2w2r36360V3c1b3x/sv_zoom_icon.png") no-repeat bottom right;
-  opacity:0.3;
-  -o-transition:opacity 0.25s;
-  -moz-transition:opacity 0.25s;
-  -webkit-transition:opacity 0.25s;
-  transition:opacity 0.25s;
 }
-
-a.zoomable:hover span.zoom_icon {opacity:1}
 
 
 </style>
