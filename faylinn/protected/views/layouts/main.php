@@ -61,7 +61,7 @@
 					<li class="sep"></li>
 					<li><a href="#experiencias">Experiencias</a></li>
 					<li class="sep"></li>
-					<li><a href="#contacto">Contacto</a></li>
+					<li><a href="#rsvp">Contacto</a></li>
 					<li class="sep"></li>
 					<li><a href="https://www.facebook.com/faylinn.pole.studio?fref=ts"><i class="fa fa-facebook fa-mid"></i></a></li>
 					<li class="sep"></li>
@@ -77,20 +77,24 @@
 						<li><a href="#horario">Horario</a></li>
 						<li><a href="#eventos">Eventos</a></li>
 						<li><a href="#experiencias">Experiencias</a></li>
-						<li><a href="#contacto">Contacto</a></li>
+						<li><a href="#rsvp">Contacto</a></li>
 					</ul>
 					<span class="show-menu"><i class="fa fa-bars"></i></span>
 				</div>
 			</nav>
 			<div id="home">
+			
 			<div class="names" data-scroll-reveal>Ven con nosotros!! </div>			
 			<!-- Header Images -->
-			<div class="main-images center-content" data-scroll-reveal="enter bottom, after 0.2s">
-				<div class="couple">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" width=100%  height=35% alt="Faylinn Gym" class="img-logo">
+			<div class="center-content">
+				<div >
+					<div  id="slider" >
+							<figure>
+								<img  class="img-slider" src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" width=60%  height=35% alt="Faylinn Gym" class="img-logo">
+								<img  class="img-slider" src="<?php echo Yii::app()->request->baseUrl; ?>/images/artlogo.png" width=60%  height=35% alt="Faylinn Gym" class="img-logo">
+							</figure>					
+					</div>
 				</div>
-			</div>
-
 			</div>			
 		</header>
 		<!-- END HEADER -->
@@ -273,10 +277,10 @@
 			  </tr>
 			   <tr>
 			    <td><strong>8:00-9:00 pm</strong></td>
-			    <td>Telas Aéreas</td>		
-			    <td>Zumba</td>
+			    <td>Fit-Combat</td>		
 			    <td>Telas Aéreas</td>
-			    <td>Zumba</td>
+			    <td>Fit-Combat</td>
+			    <td>Telas Aéreas</td>
 			    <td>Telas Aéreas</td>
 			    <td>-</td>
 			  </tr>
@@ -360,41 +364,40 @@
 		</section>
 
 		<!-- Gifts -->
-		<section id="gifts">
+		<section id="experiencias">
 			<h1 data-scroll-reveal>Experiencias</h1>
 			<hr>
 			<h2 data-scroll-reveal>Nosotros compartimos motivación pole</h2>
-			<div  data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
+			
+			<div data-scroll-reveal="enter top, over 1s, after 0.3s" class="center-container clearfix">
 				
 				<p> Mi motivación en el pole fitness además de ser un ejercicio muy completo debido a que se trabajan todos los grupos musculares, es un actividad que me reta a diario a mejorar día a día. 
 				Otra motivación importante es la satisfacción de ver los logros de cada alumna tanto físicos como emocionales.-<strong> Laura Áviles</strong></p>
-			
 			</div>
-			<div class="center-container clearfix">
-				<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
+			
+			<div class="center-container clearfix">		
 				
-					<video width="300" height="300" controls>
+					<video width="270" height="500" controls>
 	 				 <source src="<?php echo Yii::app()->request->baseUrl; ?>/images/video1.mp4">
-					</video>
-					
-				
-				</div>
+					</video>				
+			</div>
 
+			<h2 data-scroll-reveal>Algunos de nuestros buenos recuerdos...</h2>
 
-				</div>
+			<!-- Carousel Gallery -->
+			<div id="owl-gallery" class="owl-carousel owl-theme" data-scroll-reveal>
+			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/10.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/10.jpg" alt=""></a></div>
+			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/6.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/6.jpg" alt=""></a></div>	 
+			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/9.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/9.jpg" alt=""></a></div>
+			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/12.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/12.jpg" alt=""></a></div>	
+			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/3.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/3.jpg" alt=""></a></div>
+			   <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/11.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/11.jpg" alt=""></a></div>
+			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/4.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/4.jpg" alt=""></a></div>
+			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/2.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/2.jpg" alt=""></a></div>
+			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/5.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/5.jpg" alt=""></a></div>	
+			</div>
 
-				<div class="row">
-		<div class="col-md-3"></div>
-		<div  id="slider" class=" col-md-6 text-right">
-			<figure>
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/1.jpg" width=20%  height=5% alt="Faylinn Gym" class="img-logo">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/2.jpg" width=20%  height=5% alt="Faylinn Gym" class="img-logo">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/3.jpg" width=20%  height=5% alt="Faylinn Gym" class="img-logo">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/4.jpg" width=20%  height=5% alt="Faylinn Gym" class="img-logo">
-
-			</figure>
-		</div>
-	</div>
+	
 
 	
 		</section>
@@ -405,7 +408,7 @@
 			<hr>
 			<h2 data-scroll-reveal>¿Tienes alguna duda? </h2>
 			
-			<p data-scroll-reveal><i class="fa fa-heart-o fa-1x"></i>&nbsp;Nosotros te contactamos.&nbsp;<i class="fa fa-heart-o fa-1x"></i></p>
+			<p data-scroll-reveal>&nbsp;Nosotros te contactamos.&nbsp;</p>
 
 			<form id="rsvp-form" action="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/inc/rsvp-send.php" method="post" data-scroll-reveal>
 				<div class="center-container">
@@ -461,12 +464,6 @@
 				<div class="m-12 soc">
 					<a href="#"><i class="fa fa-twitter fa-mid"></i></a>
 					<a href="https://www.facebook.com/faylinn.pole.studio?fref=ts"><i class="fa fa-facebook fa-mid"></i></a>
-					<a href="#"><i class="fa fa-google-plus fa-mid"></i></a>
-					<a href="#"><i class="fa fa-flickr fa-mid"></i></a>
-					<a href="#"><i class="fa fa-foursquare fa-mid"></i></a>
-					<a href="#"><i class="fa fa-youtube-play fa-mid"></i></a>
-					<a href="#"><i class="fa fa-vimeo-square fa-mid"></i></a>
-					<a href="#"><i class="fa fa-dribbble fa-mid"></i></a>
 				</div>
 			
 				<span>Faylinn Gym © 2015 | Techinc </span>
@@ -545,28 +542,36 @@
 }
 
 @keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
+0% { left: 18%; }
+20% { left: 10%; }
+40% { left: -75%; }
+55% { left: -88%; }
+100% { left: -200%; }
 }
 
 body { margin: 0; }
 div#slider { overflow: hidden; }
-div#slider figure img { width: 20%; float: left; }
+div#slider figure img { width: 14%; float: left; }
 div#slider figure {
   position: relative;
   width: 500%;
-  margin: 0;
+  margin: -10;
   left: 0;
   text-align: left;
   font-size: 0;
   animation: 30s slidy infinite;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10% !important;
+}
+
+.img-slider{
+	width: 100%;
+	height:80% !important;
+	margin-right: 5%
+
 }
 
 </style>
