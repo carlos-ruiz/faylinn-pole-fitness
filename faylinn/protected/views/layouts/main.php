@@ -63,7 +63,7 @@
 					<li class="sep"></li>
 					<li><a href="#rsvp">Contacto</a></li>
 					<li class="sep"></li>
-					<li><a href="https://www.facebook.com/faylinn.pole.studio?fref=ts"><i class="fa fa-facebook fa-mid"></i></a></li>
+					<li><a href="https://www.facebook.com/faylinn.pole.studio?fref=ts" target="_blank"><i class="fa fa-facebook fa-mid"></i></a></li>
 					<li class="sep"></li>
 					<li><a href="#"><i class="fa fa-twitter fa-mid"></i></a></ul>
 					</ul>

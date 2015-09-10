@@ -37,13 +37,13 @@ class SiteController extends Controller
 	 */
 	public function actionError()
 	{
-		if($error=Yii::app()->errorHandler->error)
-		{
-			if(Yii::app()->request->isAjaxRequest)
-				echo $error['message'];
-			else
-				$this->render('error', $error);
-		}
+	    if($error=Yii::app()->errorHandler->error)
+	    {
+	    	if(Yii::app()->request->isAjaxRequest)
+	    		echo $error['message'];
+	    	else
+	        	$this->render('error', $error);
+	    }
 	}
 
 	/**
@@ -57,15 +57,20 @@ class SiteController extends Controller
 			$model->attributes=$_POST['ContactForm'];
 			if($model->validate())
 			{
-				$name='=?UTF-8?B?'.base64_encode($model->name).'?=';
-				$subject='=?UTF-8?B?'.base64_encode($model->subject).'?=';
-				$headers="From: $name <{$model->email}>\r\n".
-					"Reply-To: {$model->email}\r\n".
-					"MIME-Version: 1.0\r\n".
-					"Content-Type: text/plain; charset=UTF-8";
-
-				mail(Yii::app()->params['adminEmail'],$subject,$model->body,$headers);
-				Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
+				//use 'contact' view from views/mail
+				$mail = new YiiMailer('contact', array('message' => $model->body, 'name' => $model->name, 'description' => 'Contact form'));
+				
+				//set properties
+				$mail->setFrom($model->email, $model->name);
+				$mail->setSubject($model->subject);
+				$mail->setTo(Yii::app()->params['adminEmail']);
+				//send
+				if ($mail->send()) {
+					Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
+				} else {
+					Yii::app()->user->setFlash('error','Error while sending email: '.$mail->getError());
+				}
+				
 				$this->refresh();
 			}
 		}
@@ -106,22 +111,4 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
-
-	public function enviarArchivosPorCorreo(){
-		$mail = new YiiMailer();
-		$mail->setView('enviarFactura');
-		$mail->setFrom('clientes@dcilaboratorio.com', 'DCI Laboratorio');
-		$mail->setTo($facturacionModel->correo_electronico);
-		$mail->setSubject('Envío de Factura Electrónica');
-		$mail->setAttachment(array(dirname(__FILE__).DIRECTORY_SEPARATOR."../../assets/facturas/factura".$facturacionModel->numeroFactura.'.pdf'=>'PDF', dirname(__FILE__).DIRECTORY_SEPARATOR."../extensions/TimbradoCFD/generador_xml_cfdi/xml/cfdi.xml"=>"XML"));
-		if ($mail->send()) {
-			$titulo = 'Correo enviado exitosamente';
-			$mensaje = 'Su factura fue enviada exitosamente al correo electrónico proporcionado.';
-		} else {
-			$titulo = 'Error al enviar correo';
-			$mensaje = 'Hubo un error al enviar el correo electrónico';
-		}
-		return array('titulo'=>$titulo, 'mensaje'=>$mensaje);
-	}
-
 }
