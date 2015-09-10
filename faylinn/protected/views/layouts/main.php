@@ -87,7 +87,7 @@
 			<!-- Header Images -->
 			<div class="main-images center-content" data-scroll-reveal="enter bottom, after 0.2s">
 				<div class="couple">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" width=100%  height=45% alt="Faylinn Gym" class="img-logo">
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" width=100%  height=35% alt="Faylinn Gym" class="img-logo">
 				</div>
 			</div>
 
@@ -383,6 +383,19 @@
 
 				</div>
 
+				<div class="row">
+		<div class="col-md-3"></div>
+		<div  id="slider" class=" col-md-6 text-right">
+			<figure>
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/1.jpg" width=20%  height=5% alt="Faylinn Gym" class="img-logo">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/2.jpg" width=20%  height=5% alt="Faylinn Gym" class="img-logo">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/3.jpg" width=20%  height=5% alt="Faylinn Gym" class="img-logo">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/4.jpg" width=20%  height=5% alt="Faylinn Gym" class="img-logo">
+
+			</figure>
+		</div>
+	</div>
+
 	
 		</section>
 
@@ -531,6 +544,30 @@
 
 }
 
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; }
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
+}
 
 </style>
 
