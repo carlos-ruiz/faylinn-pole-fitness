@@ -109,18 +109,10 @@ class SiteController extends Controller
 
 	public function enviarArchivosPorCorreo(){
 		$mail = new YiiMailer();
-		$mail->setView('enviarFactura');
-		$mail->setFrom('clientes@dcilaboratorio.com', 'DCI Laboratorio');
-		$mail->setTo($facturacionModel->correo_electronico);
-		$mail->setSubject('Envío de Factura Electrónica');
-		$mail->setAttachment(array(dirname(__FILE__).DIRECTORY_SEPARATOR."../../assets/facturas/factura".$facturacionModel->numeroFactura.'.pdf'=>'PDF', dirname(__FILE__).DIRECTORY_SEPARATOR."../extensions/TimbradoCFD/generador_xml_cfdi/xml/cfdi.xml"=>"XML"));
-		if ($mail->send()) {
-			$titulo = 'Correo enviado exitosamente';
-			$mensaje = 'Su factura fue enviada exitosamente al correo electrónico proporcionado.';
-		} else {
-			$titulo = 'Error al enviar correo';
-			$mensaje = 'Hubo un error al enviar el correo electrónico';
-		}
+		$mail->setView('enviarComentario');
+		$mail->setFrom('samy12_14@hotmail.com', 'amour123!');
+		$mail->setTo('urtiz.sam@gmail.com');
+		$mail->setSubject('Nuevo comentario');
 		return array('titulo'=>$titulo, 'mensaje'=>$mensaje);
 	}
 
