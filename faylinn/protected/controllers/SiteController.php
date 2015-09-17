@@ -107,13 +107,37 @@ class SiteController extends Controller
 		$this->redirect(Yii::app()->homeUrl);
 	}
 
-	public function enviarArchivosPorCorreo(){
-		$mail = new YiiMailer();
-		$mail->setView('enviarComentario');
-		$mail->setFrom('samy12_14@hotmail.com', 'amour123!');
-		$mail->setTo('urtiz.sam@gmail.com');
-		$mail->setSubject('Nuevo comentario');
-		return array('titulo'=>$titulo, 'mensaje'=>$mensaje);
+	public function actionEnviarCorreo(){
+		if (isset($_POST)) {
+			$mail = new YiiMailer();
+			$mail->setView('enviarComentario');
+			$mail->setFrom('poleartpolefitness@faylinnpolefitness.com', 'Web FaylinnPoleFitness');
+			$mail->setTo('car.ruiz90@gmail.com');
+			$mail->setData(array('nombre' => $_POST['nombre'], 'tel' => $_POST['tel'], 'email' => $_POST['email'],'comentario'=>$_POST['comentario']));
+			// $mail->setTo('poleartfitness-michoacan@hotmail.com');
+			$mail->setSubject('Nuevo comentario');
+			if ($mail->send()) {
+				echo "<script>alert('Correo enviado');</script>";
+				$this->redirect('index');
+			}
+			else{
+				echo "<script>alert('Correo no enviado');</script>";
+			}
+		}
 	}
 
+	public function actionDianaHam(){
+		$this->layout='//layouts/main1';
+		$this->render('diana');
+	}
+
+	public function actionSergioChan(){
+		$this->layout='//layouts/main1';
+		$this->render('sergio');
+	}
+
+	public function actionIndex2(){
+		$this->layout='//layouts/main1';
+		$this->render('index-competencia');
+	}
 }

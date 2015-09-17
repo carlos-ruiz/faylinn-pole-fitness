@@ -35,6 +35,6 @@ return array(
 	'Port' => 465,
 	'SMTPSecure' => 'ssl',
 	'SMTPAuth' => true,
-	'Username' => '',
-	'Password' => '',
+	'Username' => 'poleartpolefitness@faylinnpolefitness.com',
+	'Password' => 'poleFitness123',
 );
