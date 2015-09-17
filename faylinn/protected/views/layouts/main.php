@@ -1,3 +1,4 @@
+
 <!doctype html>
 
 <html>
@@ -14,11 +15,17 @@
 
 		<!-- Stylesheets -->
 		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/css/style.css">
+		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/css/custom.css">
+		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/css/style.css">
 		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/css/responsive.css">
 		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/css/lightbox.css">
 		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/inc/font-awesome/css/font-awesome.css">
 		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/inc/owl-carousel/owl.carousel.css">
 		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/inc/owl-carousel/owl.theme.css">
+		
+
+		<link href="<?php echo Yii::app()->request->baseUrl; ?>/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<link href="<?php echo Yii::app()->request->baseUrl; ?>/assets/global/plugins/slider-revolution-slider/rs-plugin/css/settings.css" rel="stylesheet">
 
 		<!-- Google Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
@@ -42,161 +49,420 @@
 			<!-- Top Navigation -->
 			<nav data-scroll-reveal>
 				<ul class="main-nav">
-					<li><a href="#our-story">Convocatoria</a></li>
+					<li><a href="#home">Home</a></li>
 					<li class="sep"></li>
-					<li><a href="#clasificacion">Clasificación</a></li>
+					<li><a href="#nosotros">Nosotros</a></li>
 					<li class="sep"></li>
-					<li><a href="#jueces">Jueces
+					<li><a href="#ubicacion">Ubicación</a></li>
 					<li class="sep"></li>
-					<li><a href="#paquetes">Paquetes</a></li>
+					<li><a href="#dueña">Dueña</a></li>
 					<li class="sep"></li>
-					<li><a href="#accommodation">Talleres</a></li>
+					<li><a href="#horario">Horario</a></li>
 					<li class="sep"></li>
-					<li><a href="#gifts">Competidores</a></li>
-					<li class="sep"></li>	
-					<li><a href="#" class="stay">Pages</a>
-						<ul class="dropdown">
-							<li><a href="index.html">Home Page</a></li>
-							<li><a href="uielements.html">UI Elements</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="guestbook.html">Guest Book</a></li>
-							<li><a href="fontawesome.html">Font Awesome</a></li>
-							<li><a href="404.html">Error 404</a></li>
-						</ul>
-					</li>
+					<li><a href="#eventos">Eventos</a></li>
 					<li class="sep"></li>
-					<li><a href="#terminos">Terminos y Condiciones</a></li>
-				</ul>
+					<li><a href="#experiencias">Experiencias</a></li>
+					<li class="sep"></li>
+					<li><a href="#rsvp">Contacto</a></li>
+					<li class="sep"></li>
+					<li><a href="https://www.facebook.com/faylinn.pole.studio?fref=ts" target="_blank"><i class="fa fa-facebook fa-mid"></i></a></li>
+					<li class="sep"></li>
+					<li><a href="#"><i class="fa fa-twitter fa-mid"></i></a></ul>
+					</ul>
 				
 				<div class="mobile-nav">
 					<ul class="mobile-nav-menu">
-						<li><a href="#our-story">Our Story</a></li>
-						<li><a href="#ceremony">Clasificación</a></li>
-						<li><a href="#restaurant">Restaurant</a></li>
-						<li><a href="#party">Party</a></li>
-						<li><a href="#accommodation">Accommodation</a></li>
-						<li><a href="#gifts">Gifts</a></li>
-						<li><a href="#rsvp">RSVP</a></li>
-						<li><div>Pages <i class="fa fa-chevron-right"></i></div>
-							<ul>
-								<li><a href="index.html">Home Page</a></li>
-								<li><a href="uielements.html">UI Elements</a></li>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="guestbook.html">Guest Book</a></li>
-								<li><a href="fontawesome.html">Font Awesome</a></li>
-								<li><a href="404.html">Error 404</a></li>
-							</ul>	
-						</li>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#nosotros">Nosotros</a></li>
+						<li><a href="#ubicacion">Ubicación</a></li>
+						<li><a href="#dueña">Dueña</a></li>
+						<li><a href="#horario">Horario</a></li>
+						<li><a href="#eventos">Eventos</a></li>
+						<li><a href="#experiencias">Experiencias</a></li>
+						<li><a href="#rsvp">Contacto</a></li>
 					</ul>
 					<span class="show-menu"><i class="fa fa-bars"></i></span>
 				</div>
-			</nav>			
+			</nav>
+			<div id="home">
+			
+			<div class="names" data-scroll-reveal>Ven con nosotros!! </div>			
+			<!-- Header Images -->
+			<div class="center-content">
+				<div >
+					<div  id="slider" >
+							<figure>
+								<img  class="img-slider" src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" width=60%  height=35% alt="Faylinn Gym" class="img-logo">
+								<img  class="img-slider" src="<?php echo Yii::app()->request->baseUrl; ?>/images/artlogo.png" width=60%  height=35% alt="Faylinn Gym" class="img-logo">
+							</figure>					
+					</div>
+				</div>
+			</div>			
 		</header>
 		<!-- END HEADER -->
 
-		
 		<!-- BEGIN CONTENT -->
 
-		<!-- Our Story -->
-		
-		<section id="our-story">
-			<h1 data-scroll-reveal>Sergio Chan</h1>
+		<!-- Nosotros -->
+		<section id="nosotros">
+			<h1 data-scroll-reveal>Nosotros</h1>
 			<hr>
+
 			<!-- Couple Info -->
 			<div class="center-container clearfix" data-scroll-reveal>
-				<div class="m-04 mt-40" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio4.png" width="200" height:"200" alt="" >
+				<div class="m-06" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
+					<h2>Misión</h2>
+					<p>Promover y Motivar a personas de todas las edades y capacidades a desarrollar hábitos saludables así como habilidades necesarias para la práctica del pole fitness y pole dance y otras actividades fitness mediante una enseñanza de calidad,teniendo como base el profesionalismo de nuestros instructores.</p>
 				</div>
-				<div class="m-08 floatLeft" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
-					<p> 
-						<strong>Nombre:</strong>Sergio Iván Chan Baños </br>
-						<strong>Fecha de nacimiento:</strong>20 de Agosto 1977 </br>
-						<strong>Nacionalidad:</strong>Mexicano </br>
-						<strong>Estado civil:</strong>Soltero </br>
-						<strong>Dirección:</strong>José María Mendivil 90 Col. Daniel Garza Col. Daniel Garza Del. Miguel Hidalgo</br>
-						<strong>Cel:</strong>(044) 55 34 89 22 71</br>
-						<strong>Email:</strong>sichanba_@hotmail.es</br>
-				    </p>
-					
-						<h3>Estudios:</h3>									
-						<div class="paddingLeft">							
-								•	Escuela profesional de danza Ana Rosas Cáceres de Baqueiro, (maestra Ana Rosa Cáceres)</br>
-								•	Estudio de danza jazzisimo, Mérida Yucatán (Maestra Acacia Buenfil) donde tome clases de jazz, lirico y hip hop.</br>  
-								•	Estudio profesional Ema Pulido donde tomo cursos de hip hop, contemporáneo, ritmos latinos (salsa, merengue, Tropicana etc.) </br>
-								•	Escuela Nacional De Danza Contemporánea, (CENADAC) Querétaro. </br>
-								•	Licenciatura en danza contemporánea como maestro y ejecutante. </br>
-								•	Escuela Nacional De Circo La Habana Cuba, donde me especializo en técnicas aéreas como (telas,  aro, cintas, trapecio, mástil, acrobacia de piso.)</br>
-								</br><strong>Deportes:</strong> gimnasia, tae won do, atletismos, clavados.
-							</br>
-						</div>
-						<h3>Experiencias comerciales:</h3>									
-						<div class="paddingLeft">							
-								•	Comercial para Corona,  Coca Cola,  Mac Donald.</br>
-						    	</br>
-						</div>
-						<h3>Programas de televisión:</h3>									
-						<div class="paddingLeft">							
-								TV Azteca, La Academia 4, 5 Y 6ta.  Generación.  Segunda Oportunidad, Disco De Oro, México baila. Televisa, Tv De Noche,  5 Magníficos, Se Vale, Décadas, premios tv y novelas 2013, México baila 2014; recientemente participe en el programa de televisión BAILA SI PUEDES como coreógrafo.
-							</br>
-						</div>
-						<h3>Conciertos:</h3>									
-						<div class="paddingLeft">							
-								Auditorio Nacional Yuri,  Yuridia, Gloria Trevi,  Fey,  Belinda,  Alejandra Guzman,   Lucero, etc. 
-						    	</br>
-						</div>
-						<h3>Videoclip musical:</h3>									
-						<div class="paddingLeft">							
-								Pantera en libertad (Mónica Naranjo) lentamente (Fey)
-						    	</br>
-						</div>
-						<h3>Eventos y producciones para:</h3>									
-						<div class="paddingLeft">							
-								•	Cirque Du Soleil en Montreal</br> 
-								•	Show Solo Para Mujeres</br> 
-								•	Chevrolet, Jeep</br> 
-								•	Cervecería Cuauhtémoc Moctezuma</br> 
-								•	Nextel,  Telmex,  Club Las Chivas,  Club Cruz Azul</br> 
-								•	Televisa, Bailando Por Un Sueño, premios tv y novelas 2013 etc.</br>
-								•	Tv azteca México baila 2013.</br>
-								•	Centenario y Bicentenario de México df. </br>
-								•	Los Juegos Panamericanos Guadalajara 2011 en el Opening.</br>
-								•	Espectáculo mexicano circense, Mi Raza.</br>
-								•	Espectáculo circense, circo maroma y teatro.</br>
 
+				<div class="m-06" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
+					<h2>Visión</h2>
+					<p>Ser el estudio líder en Michoacán, con exclusivos e innovadores programas de capacitación continuaque hagan la diferencia, posicionándonos como la mejor opción de nuestros clientes para alcanzar la óptima calidad en sus entrenamientos en un marco de respeto, alegría y cordialidad.</p>
+				</div>
+				<div class="m-06" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
+					<h2>¿Por qué Faylinn fitness & pole dance?</h2>
+					<div class="row">
+						<div class="rightContainer text-right">• Nuestros instructores están certificados y en capacitación continua con profesionales  industria del pole fitness.</div>
+						</br><div class="rightContainer text-right">• Somos el primer estudio en Morelia con un equipo de competencia que participar  en una competencia nacional obteniendo el primer lugar en la categoría infantil en noviembre de 2014, primer lugar amateur y tercer lugar profesional en mayo 2015.</div>
+			            </br><div class="rightContainer text-right">• Somos estudio avalado por la APM</div>
+					</div>
+				</div>
 
-						    	</br>
-						</div>
-									
+				<div class="m-06" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/apm.jpg" alt="APM" width=40%  height=3% class="round-img">
+				</div>
+			</div>		
+		</section>
+
+		<!-- Ubicación -->
+		<section id="ubicacion">
+			<h1 data-scroll-reveal></h1>
+			<hr>
+			<div class="center-container">	
+				<h1 data-scroll-reveal>Ubicación</h1>
+				<p><strong>Av. Fuentes de Morelia no. 107</strong> Morelia, Michoacán </p>
+			</div>
+			<!-- Google Map -->
+			<div id="map-canvas" class="m-12" data-scroll-reveal> </div>
+		</section>
+
+		<!-- Dueña -->
+		<section id="dueña">
+			<h1 data-scroll-reveal>Dueña del Estudio: Laura Avilés Rodríguez</h1>
+			<h2 data-scroll-reveal>Mexicana</h2>
+			<hr>
+
+			<div class="center-container clearfix">
+				<div class="m-04 mt-40" data-scroll-reveal="enter left, over 1s">
+					<h2>Un poco de ella...</h2>
+					<div class="floatLeft">
+						<p>Comienza su experiencia en Pole Fitness en 2010 como instructora.</p>
+						<p><strong>Certificaciones: </strong>
+						   • Polerinas 2013 módulos principiante, intermedio y avanzado.
+						   • Diana Ham 2015 módulo intermedio-avanzado.</p>
+					</div>
+					<h2>Cursos y talleres</h2>
+					<div class="floatLeft">
+						<p><strong>2011</strong></br>
+							•Taller de pole fitness con Kris Medsey</br>
+							•Taller de streching con Salvador Muñoz</br>
+							•Taller de pilates con Ceci Avila</br>
+						</p>
+						<p><strong>2013</strong></br>
+							•Taller de introducción al programa de FitCombat</br>
+							•Taller de danza aérea en telas con RuzenaLiskova</br>
+						</p>
+					</div>
+				</div>
+
+				<div class="m-04" data-scroll-reveal>
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/lau.png" alt="Restaurant" class="round-img">
+				</div>
+
+				<div class="m-04 mt-40" data-scroll-reveal="enter right, over 1s">
+					<h2>Cursos y talleres</h2>
+					<div class="floatLeft">
+						<p><strong>2014</strong></br>
+							•Taller de estiramiento con RuzenaLiskova</br>
+							•Taller de pole coreográfico con Mark Buhanstov</br>
+							•Taller de pole signaturetricks con Mark Buhanstov</br>
+							•Taller de pole Acrobacias con Mark Buhanstov</br>
+							•Taller de Aro circense con Estefany Giron</br>
+							•Taller pole HelloFonji con Diana Pardo</br>
+							•Taller de pole con Sergio Chan</br>
+							•Taller de contemporáneo con Mario Hernández</br>
+						</p>
+						<p><strong>2015</strong></br>
+							•Seminario de Sensualidad con Andrea Macías</br>
+							•Taller de pole perfección con Mónica Ochoa</br>
+							•Taller de power pole con Mónica Ochoa</br>
+							•Taller de SignatureTricks con Mónica Ochoa</br>
+							•Taller de escapes con Andrea Vélez</br>
+							•Taller de Handspring con Andrea Vélez</br>
+							•Taller de Saltos y Caídas con Andrea Vélez</br>
+						</p>
+					</div>
 				</div>
 			</div>
-			<div id="owl-gallery" class="owl-carousel owl-theme " data-scroll-reveal>
-			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" alt=""></a></div>
-			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/sergio2.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio2.jpg" alt=""></a></div>
-			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio3.png" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio3.png" alt=""></a></div>
-			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/sergio5.png" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio5.png" alt=""></a></div>
-			 
 
 		</section>
 
-		
+		<!-- The Party -->
+		<section id="horario">
+			<h1 data-scroll-reveal>Horario</h1>
+			<hr>
+<div data-scroll-reveal="enter bottom, over 1s, after 0.9s" class="center-container clearfix">
+
+			<table class="schedule center-container">
+			  <tr class="letter pink-background">
+			    <td>Hora</td>
+			    <td>Lunes</td>		
+			    <td>Martes</td>
+			    <td>Miércoles</td>		
+			    <td>Jueves</td>
+			    <td>Viernes</td>		
+			    <td>Sábado</td>
+			  </tr>
+			  <tr>
+			    <td><strong>8:00-9:00 am</strong></td>
+			    <td>Pole</td>		
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>-</td>
+			  </tr>
+			  <tr>
+			    <td><strong>9:00-10:00 am</strong></td>
+			    <td>Entrenamiento Funcional</td>		
+			    <td>Entrenamiento Funcional</td>
+			    <td>Entrenamiento Funcional</td>
+			    <td>Entrenamiento Funcional</td>
+			    <td>Entrenamiento Funcional</td>
+			    <td>-</td>
+			  </tr>
+			  <tr>
+			    <td><strong>10:00-11:00 am</strong></td>
+			    <td>Pole</td>		
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			  </tr>
+			  <tr>
+			    <td><strong>5:00-6:00 pm</strong></td>
+			    <td>Pole</td>		
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>-</td>
+			  </tr>
+			   <tr>
+			    <td><strong>6:00-7:00 pm</strong></td>
+			    <td>Entrenamiento Funcional</td>		
+			    <td>Fit-Combat</td>
+			    <td>Entrenamiento Funcional</td>
+			    <td>Fit-Combat</td>
+			    <td>Entrenamiento Funcional</td>
+			    <td>-</td>
+			  </tr>
+			   <tr>
+			    <td><strong>7:00-8:00 pm</strong></td>
+			    <td>Pole</td>		
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>-</td>
+			  </tr>
+			   <tr>
+			    <td><strong>8:00-9:00 pm</strong></td>
+			    <td>Fit-Combat</td>		
+			    <td>Telas Aéreas</td>
+			    <td>Fit-Combat</td>
+			    <td>Telas Aéreas</td>
+			    <td>Telas Aéreas</td>
+			    <td>-</td>
+			  </tr>
+			   <tr>
+			    <td><strong>9:00-10:00 pm</strong></td>
+			    <td>Pole</td>		
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>Pole</td>
+			    <td>-</td>
+			  </tr>
+			</table>
+</div>
+			
+		</section>
+
+		<!-- Accommodation -->
+		<section id="eventos">
+			<h1 data-scroll-reveal>Eventos</h1>
+			<hr>
+			<h3 data-scroll-reveal>Despedidas de Solteras</h3>
+
+			<div class="center-container clearfix">
+
+
+			<div class="center-container clearfix" data-scroll-reveal>
+				<div class="m-06" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
+					</br></br></br></br></br></br></br></br>
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/desp.png" alt="" >		
+				</div>
+
+				<div class="m-06" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">				
+					<p>Ser el estudio líder en Michoacán, con exclusivos e innovadores programas de capacitación continuaque hagan la diferencia, posicionándonos como la mejor opción de nuestros clientes para alcanzar la óptima calidad en sus entrenamientos en un marco de respeto, alegría y cordialidad.</p>
+				</div>
+
+				<div class="m-03" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
+					<h3>Paquete 1</h3>
+					<div class="floatLeft">
+					<p>• <strong>Duración: </strong> una hora y media.</br>
+					   • <strong>Costo $100 por persona</strong>(mínimo 6 personas, máximo 11 personas).</br>
+                 	   • <strong>Descripción:</strong>
+						Se les da una clase en el salón. La instructora les enseñará pasos básicos en el tubo, giros y trabajo de piso para que puedan armar una pequeña coreografía, sin compartir tubo.
+					</p>
+					</div>
+					</br>
+					<h3>Extras</h3>
+					<div class="floatLeft">
+					<p>A todos nuestros paquetes les puedes agregar:
+					   • <strong>Invitaciones para tu Despedida  </strong> desde $30 por invitación.</br>
+					   • <strong>Playera $250 por persona</strong>(en pedidos mayores a 10 el precio baja a $200 cada una).</br>
+                 	   • <strong>Mesa de dulces o postres $80 por persona</strong> (mínimo 20 personas).
+					</p>
+					</div>
+				</div>
+				<div class="m-03" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
+					<h3>Paquete 2</h3>
+					<div class="floatLeft">
+					<p>• <strong>Duración: </strong> una hora y media.</br>
+					   • <strong>Costo $2,000</strong>(sin límite de invitada).</br>
+                 	   • <strong>Descripción:</strong>
+						Una instructora  va a tu casa con un tubo y les da clase, hace dinámicas por grupos para que todas puedan  practicar. 
+						</br>Se requiere una altura de techo de entre 2.24 y 2.74 mts, totalmente recto y sólido, no plafón.</br>Fuera de Morelia. se cobra una cuota extra
+					</p>
+					</div>
+					<h3>Pagos</h3>
+					<div class="floatLeft">
+					<p>
+					   • Para reservar la fecha es necesario pagar el 50% del costo del paquete.</br>
+					   • El 50% restante se pagará a la instructora el día del evento antes de comenzar.</br>
+                 	   • Se cobra un cargo por cancelación del 30% del total del paquete cancelando hasta 1 semana antes, para cancelaciones posteriores el cargo es del 50%.
+					</p>
+					<p><strong>Nota:</strong> No hacemos despedidas mixtas, únicamente para mujeres. </p>
+					</div>
+				</div>
+
+			</div>
+
+			
+			</div>
+		</section>
+
+		<!-- Gifts -->
+		<section id="experiencias">
+			<h1 data-scroll-reveal>Experiencias</h1>
+			<hr>
+			<h2 data-scroll-reveal>Nosotros compartimos motivación pole</h2>
+			
+			<div data-scroll-reveal="enter top, over 1s, after 0.3s" class="center-container clearfix">
+				
+				<p> Mi motivación en el pole fitness además de ser un ejercicio muy completo debido a que se trabajan todos los grupos musculares, es un actividad que me reta a diario a mejorar día a día. 
+				Otra motivación importante es la satisfacción de ver los logros de cada alumna tanto físicos como emocionales.-<strong> Laura Áviles</strong></p>
+			</div>
+			
+			<div class="center-container clearfix">		
+				
+					<video width="270" height="500" controls>
+	 				 <source src="<?php echo Yii::app()->request->baseUrl; ?>/images/video1.mp4">
+					</video>				
+			</div>
+
+			<h2 data-scroll-reveal>Algunos de nuestros buenos recuerdos...</h2>
+
+			<!-- Carousel Gallery -->
+			<div id="owl-gallery" class="owl-carousel owl-theme" data-scroll-reveal>
+			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/10.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/10.jpg" alt=""></a></div>
+			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/6.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/6.jpg" alt=""></a></div>	 
+			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/9.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/9.jpg" alt=""></a></div>
+			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/12.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/12.jpg" alt=""></a></div>	
+			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/3.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/3.jpg" alt=""></a></div>
+			   <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/11.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/11.jpg" alt=""></a></div>
+			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/4.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/4.jpg" alt=""></a></div>
+			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/2.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/2.jpg" alt=""></a></div>
+			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/5.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/5.jpg" alt=""></a></div>	
+			</div>
+
+	
+
+	
+		</section>
+
+		<!-- RSVP Form -->
+		<section id="rsvp">
+			<h1 data-scroll-reveal>Escribenos</h1>
+			<hr>
+			<h2 data-scroll-reveal>¿Tienes alguna duda? </h2>
+			
+			<p data-scroll-reveal>&nbsp;Nosotros te contactamos.&nbsp;</p>
+
+			<?php $form=$this->beginWidget('CActiveForm', array(
+				'id'=>'comentarios-form',
+				// Please note: When you enable ajax validation, make sure the corresponding
+				// controller action is handling ajax validation correctly.
+				// There is a call to performAjaxValidation() commented in generated controller code.
+				// See class documentation of CActiveForm for details on this.
+				'enableAjaxValidation'=>false,
+			)); ?>
+
+			<form id="form" action="enviarArchivosPorCorreo()"  method="post" data-scroll-reveal>
+				<div class="center-container">
+					<div class="m-12 floatLeft">
+						<div class="m-06 ">							
+								<input class="text-box text-box-2 pl-fix custom-options" type="text" placeholder="Nombre Completo" name="nombre" id="nombre" >							
+						</div>					
+						<div class="m-06 floatLeft">
+							<div class="m-06">
+								<input class="text-box pl-fix phone" type="text" placeholder="Telefono / Celular" name="tel" id="tel">
+							</div>							
+							<div class="m-06 ">
+								<input class="text-box pl-fix email" type="text" placeholder="E-mail" name="email" id="email">
+							</div>
+						</div>
+						<div class=" floatLeft">
+							<input class="text-box text-box-2 pl-fix custom-options" type="text" placeholder="Dudas / Comentarios" name="custom-options" id="comentarios">
+						</div>
+					</div>
+
+					<div class="m-12">
+
+						<div id="success" class="alert-success" style="display:none;"><strong>Success!</strong> The message has been sent. <a href="#" class="close"><i class="fa fa-times fa-1x"></i></a></div>
+						<div id="emailerr" class="alert-error" style="display:none;"><strong>Required fields!</strong> Please, fill all required fields! <a href="#" class="close"><i class="fa fa-times fa-1x"></i></a></div>
+						<div id="servererr"class="alert-error" style="display:none;"><strong>Server Error!</strong> Please, try again later! <a href="#" class="close"><i class="fa fa-times fa-1x"></i></a></div>
+
+						<?php echo CHtml::submitButton( 'Enviar' , array('class'=>'submit send-button')); ?>						
+					</div>
+				</div>
+			</form>
+		<?php $this->endWidget(); ?>
+		</section>
+		<!-- END CONTENT -->
 
 		<!-- BEGIN FOOTER -->
 		<footer class="clearfix" data-scroll-reveal>
 			<div class="m-12">
-				<p>Information line • 1-800-9639288, E-mail • info@wedding.tmp</p>
-
+				<p><a href=""> Faylinn Gym - Facebook</a></p>
 				<div class="m-12 soc">
+					<a href="https://www.facebook.com/faylinn.pole.studio?fref=ts"><i class="fa fa-facebook fa-mid"></i></a>
 					<a href="#"><i class="fa fa-twitter fa-mid"></i></a>
-					<a href="#"><i class="fa fa-facebook fa-mid"></i></a>
-					<a href="#"><i class="fa fa-google-plus fa-mid"></i></a>
-					<a href="#"><i class="fa fa-flickr fa-mid"></i></a>
-					<a href="#"><i class="fa fa-foursquare fa-mid"></i></a>
-					<a href="#"><i class="fa fa-youtube-play fa-mid"></i></a>
-					<a href="#"><i class="fa fa-vimeo-square fa-mid"></i></a>
-					<a href="#"><i class="fa fa-dribbble fa-mid"></i></a>
-				</div>
-			
-				<span>All Rights Reserved © 2014 | Kevin & Maria Wedding</span>
+				</div>			
+				<span>Faylinn Gym © 2015 | Techinc </span>
 			</div>
 		</footer>
 		<!-- END FOOTER -->
@@ -214,62 +480,5 @@
 	</body>
 </html>
 
-<style type="text/css">
-	.logo{
-		width: 20%;
-		height: 10%;
-	}
-	.logo-img{
-	    width: 200%;
-  		padding-left: 150%;
-   		padding-top: 40%;
-	}
-	.greenColor{
-		color:#80EC2B;
-	}
-	.floatLeft{
-		text-align: left;
-	}
-
-	.padding-left{
-		padding-left: 4% !important;
-	}
-
-	.purpleColor{
-		color:#992e68;
-	}
-
-	.paddingLeft{
-		padding-left: 10%;
-	}
-
-	.greenColor{
-		background-color: rgba(121, 210, 6, 0.63);;
-		color:white;
-		text-align: center;
-		border: 3%;
-		border-color: white;
-		border-radius: 25%;
-	}
-
-	.lightPinkColor{
-		background: rgba(229, 76, 159, 0.43);
-		font-style: bold;		
-	}
-
-	.darkPinkColor{
-		background: #e54c9f;
-		color: #fff;
-	}
-
-.img-30percent{
-	width: 30%;
-}
-	    
-
-	#accommodation img {
-    width: 40% !important;
-}
 
 
-</style>
