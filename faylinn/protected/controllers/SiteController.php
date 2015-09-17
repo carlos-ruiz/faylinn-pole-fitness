@@ -136,7 +136,7 @@ class SiteController extends Controller
 		$this->render('sergio');
 	}
 
-	public function actionIndex2(){
+	public function actionPoleArt(){
 		$this->layout='//layouts/main1';
 		$this->render('index-competencia');
 	}

@@ -2,15 +2,15 @@
   "use strict";
 
 // Preloader
-$(window).load(function() { 
-    $('#status').fadeOut(); 
-    $('#preloader').delay(550).fadeOut('slow'); 
+$(window).load(function() {
+    $('#status').fadeOut();
+    $('#preloader').delay(550).fadeOut('slow');
     $('body').delay(550).css({'overflow':'visible'});
 })
 
 $(document).ready(function($) {
 
-    //Prevent empty links scroll to top default functionality 
+    //Prevent empty links scroll to top default functionality
     /* <![CDATA[ */
     ( function( $ ) {
        $( 'a[href="#"]' ).click( function(e) {
@@ -87,7 +87,7 @@ $(document).ready(function($) {
         var myLatlng = new google.maps.LatLng(19.6725432,-101.2044155);
         var mapOptions = {
         zoom: 16,
-        scrollwheel: true,
+        scrollwheel: false,
         draggable: true,
         center: myLatlng
         }
@@ -123,9 +123,9 @@ $(document).ready(function($) {
 
     // Image Gallery
     var owl = $("#owl-gallery");
- 
+
         owl.owlCarousel({
-         
+
           itemsCustom : [
             [0, 2],
             [400, 3],

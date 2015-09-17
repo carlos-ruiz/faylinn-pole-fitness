@@ -112,7 +112,7 @@
 			<div class="m-12">
 				<p><a href=""> Faylinn Gym - Facebook</a></p>
 				<div class="m-12 soc">
-					<a href="https://www.facebook.com/faylinn.pole.studio?fref=ts"><i class="fa fa-facebook fa-mid"></i></a>
+					<a href="https://www.facebook.com/faylinn.pole.studio?fref=ts" target="_blank"><i class="fa fa-facebook fa-mid"></i></a>
 					<a href="#"><i class="fa fa-twitter fa-mid"></i></a>
 				</div>
 				<span>Faylinn Gym © 2015 | Techinc </span>

@@ -71,81 +71,6 @@
 	</div>
 </section>
 
-<section id="our-story">
-	<h1 data-scroll-reveal>Sergio Chan</h1>
-	<hr>
-	<!-- Couple Info -->
-	<div class="center-container clearfix" data-scroll-reveal>
-		<div class="m-04 mt-40" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio4.png" width="200" height:"200" alt="" >
-		</div>
-		<div class="m-08 floatLeft" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
-			<p>
-				<strong>Nombre:</strong>Sergio Iván Chan Baños <br/>
-				<strong>Fecha de nacimiento:</strong>20 de Agosto 1977 <br/>
-				<strong>Nacionalidad:</strong>Mexicano <br/>
-				<strong>Estado civil:</strong>Soltero <br/>
-				<strong>Dirección:</strong>José María Mendivil 90 Col. Daniel Garza Col. Daniel Garza Del. Miguel Hidalgo<br/>
-				<strong>Cel:</strong>(044) 55 34 89 22 71<br/>
-				<strong>Email:</strong>sichanba_@hotmail.es<br/>
-			</p>
-
-			<h3>Estudios:</h3>
-			<div class="paddingLeft">
-				•	Escuela profesional de danza Ana Rosas Cáceres de Baqueiro, (maestra Ana Rosa Cáceres)<br/>
-				•	Estudio de danza jazzisimo, Mérida Yucatán (Maestra Acacia Buenfil) donde tome clases de jazz, lirico y hip hop.<br/>
-				•	Estudio profesional Ema Pulido donde tomo cursos de hip hop, contemporáneo, ritmos latinos (salsa, merengue, Tropicana etc.) <br/>
-				•	Escuela Nacional De Danza Contemporánea, (CENADAC) Querétaro. <br/>
-				•	Licenciatura en danza contemporánea como maestro y ejecutante. <br/>
-				•	Escuela Nacional De Circo La Habana Cuba, donde me especializo en técnicas aéreas como (telas,  aro, cintas, trapecio, mástil, acrobacia de piso.)<br/>
-				<br/><strong>Deportes:</strong> gimnasia, tae won do, atletismos, clavados.
-				<br/>
-			</div>
-			<h3>Experiencias comerciales:</h3>
-			<div class="paddingLeft">
-				•	Comercial para Corona,  Coca Cola,  Mac Donald.<br/>
-				<br/>
-			</div>
-			<h3>Programas de televisión:</h3>
-			<div class="paddingLeft">
-				TV Azteca, La Academia 4, 5 Y 6ta.  Generación.  Segunda Oportunidad, Disco De Oro, México baila. Televisa, Tv De Noche,  5 Magníficos, Se Vale, Décadas, premios tv y novelas 2013, México baila 2014; recientemente participe en el programa de televisión BAILA SI PUEDES como coreógrafo.
-				<br/>
-			</div>
-			<h3>Conciertos:</h3>
-			<div class="paddingLeft">
-				Auditorio Nacional Yuri,  Yuridia, Gloria Trevi,  Fey,  Belinda,  Alejandra Guzman,   Lucero, etc.
-				<br/>
-			</div>
-			<h3>Videoclip musical:</h3>
-			<div class="paddingLeft">
-				Pantera en libertad (Mónica Naranjo) lentamente (Fey)
-				<br/>
-			</div>
-			<h3>Eventos y producciones para:</h3>
-			<div class="paddingLeft">
-				•	Cirque Du Soleil en Montreal<br/>
-				•	Show Solo Para Mujeres<br/>
-				•	Chevrolet, Jeep<br/>
-				•	Cervecería Cuauhtémoc Moctezuma<br/>
-				•	Nextel,  Telmex,  Club Las Chivas,  Club Cruz Azul<br/>
-				•	Televisa, Bailando Por Un Sueño, premios tv y novelas 2013 etc.<br/>
-				•	Tv azteca México baila 2013.<br/>
-				•	Centenario y Bicentenario de México df. <br/>
-				•	Los Juegos Panamericanos Guadalajara 2011 en el Opening.<br/>
-				•	Espectáculo mexicano circense, Mi Raza.<br/>
-				•	Espectáculo circense, circo maroma y teatro.<br/>
-				<br/>
-			</div>
-		</div>
-	</div>
-	<div id="owl-gallery" class="owl-carousel owl-theme " data-scroll-reveal>
-		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" alt=""></a></div>
-		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/sergio2.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio2.jpg" alt=""></a></div>
-		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio3.png" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio3.png" alt=""></a></div>
-		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/sergio5.png" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio5.png" alt=""></a></div>
-	</div>
-</section>
-
 <section id="clasificacion">
 	<h1 data-scroll-reveal>Clasificación</h1>
 	<hr>
@@ -178,29 +103,6 @@
 			</div>
 		</div>
 	</div>
-
-	<hr>
-	<h2 data-scroll-reveal>Class aptent taciti sociosqu ad litora torquent per conubia nostra</h2>
-
-	<!-- Carousel Gallery -->
-	<div id="owl-gallery" class="owl-carousel owl-theme" data-scroll-reveal>
-		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-01.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-01.jpg" alt=""></a></div>
-		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-02.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-02.jpg" alt=""></a></div>
-		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-03.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-03.jpg" alt=""></a></div>
-		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-04.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-04.jpg" alt=""></a></div>
-		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-05.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-05.jpg" alt=""></a></div>
-		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-06.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-06.jpg" alt=""></a></div>
-		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-07.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-07.jpg" alt=""></a></div>
-		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-08.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-08.jpg" alt=""></a></div>
-		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-09.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-09.jpg" alt=""></a></div>
-		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/gallery-10.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/gallery/thumbs/gthumb-10.jpg" alt=""></a></div>
-	</div>
-
-	<h2 data-scroll-reveal>Vestibulum ante ipsum primis luctus et ultrices</h2>
-
-	<p data-scroll-reveal>Integer turpis odio, vestibulum id adipiscing dictum, tempor sit amet massa. Nam nec mollis augue.</p>
-
-	<!-- Comments -->
 </section>
 
 <section id="jueces">
@@ -214,7 +116,7 @@
 			<h2>Diana Ham</h2>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana1.jpg" heigh="10" alt="" class=" img-30percent round-img">
 			<p>Se encuentra en el banco de artistas del Cirque Du Soleil, es imagen de importantes marcas de pole nacionales ( Portable Dance, vertical Fashion, leggings 2B).</p>
-			<a class="more-button" href="<?php echo Yii::app()->request->baseUrl; ?>/site/dianaHam">more</a>
+			<a class="more-button" href="<?php echo Yii::app()->request->baseUrl; ?>/site/dianaHam">Más información</a>
 		</div>
 
 		<!-- Hotel 02 -->
@@ -222,7 +124,7 @@
 			<h2>Sergio Chan</h2>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" heigh="10" alt="" class=" img-30percent round-img">
 			<p><br/>Maecenas vitae rutrum nulla. Quisque sodales tincidunt ut pulvinar. Nunc dui risus, tincidunt vitae arcu lobortis.</p>
-			<a class="more-button" href="<?php echo Yii::app()->request->baseUrl; ?>/site/sergioChan">more</a>
+			<a class="more-button" href="<?php echo Yii::app()->request->baseUrl; ?>/site/sergioChan">Más información</a>
 		</div>
 
 		<!-- Hotel 03 -->
@@ -230,7 +132,7 @@
 			<h2>Hotel Bibendum</h2>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/hotel-3.jpg" alt="" class="round-img">
 			<p>Sed eu sapien id nulla viverra fringilla non a massa. Integer turpis odio, vestibulum id adipiscing dictum, tempor nisl.</p>
-			<a class="more-button" href="#">more</a>
+			<a class="more-button" href="#">Más información</a>
 		</div>
 
 		<!-- Hotel 04 -->
@@ -238,7 +140,7 @@
 			<h2>Porrtitor Hotel</h2>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/hotel-4.jpg" alt="" class="round-img">
 			<p>Pellentesque convallis, lacus non imperdiet posuere, nibh urna faucibus justo, vel iaculis eros libero quis libero.</p>
-			<a class="more-button" href="#">more</a>
+			<a class="more-button" href="#">Más información</a>
 		</div>
 
 	</div>
@@ -580,4 +482,39 @@
 		</div>
 	</form>
 
+</section>
+
+<section id="terminos">
+	<h1 data-scroll-reveal>Términos y Condiciones para la Compra de paquetes</h1>
+	<hr>
+	<!-- Couple Info -->
+	<div class="center-container clearfix" data-scroll-reveal>
+		<div class="floatLeft">
+			<p><strong><h3>Paquetes</h3></strong> </p>
+			<p>Se ofreceran los siguientes paquetes:</p>
+			<p>a) Congresista <br/> b) Congresista menor de edad <br/> c)Acompañante <br/> d) Acompañante menor de edad <br/> e) Solo congreso</p>
+			<p>Para ver la descripción de los paquetes, por favor consulte la liga: <strong><a href="">paquetes del congreso</a></strong> </p>
+			<p><strong><h3>Habitación</h3></strong> </p>
+			<p>Las habitaciones de hotel son dobles o triples según ocupación.</p>
+			<p><strong><h3>Compra de Paquetes</h3></strong> </p>
+			<p>1. Para reservar un paquete deberá llenarse un formato de inscripción. <br/> 2. La reservación de paquetes en línea comenzará el 01 de julio de 2015. <br/> 3. Toda persona que adquiera un paquete deberá llenar un formato de inscripción de manera individual, únicamente cuando la persona asista con menores de edad agrefará los datos propios y de sus acompañantes menores de edad. (Ya sea menor congresista o acompañante) en el mismo formato de incripción. <br/> 4. En la sección de notas del formato de inscripción, debe poner el tipo de paquete que desea adquirir para usted y los menores, si es el caso, que lo acompañen.<br/> 5. Debe especificar en su formato de inscripción los nombres de todas las persnas que se hospedaran en su habitación y cuales huéspedes son congresistas.</p>
+			<p><strong><h3>Pago</h3></strong></p>
+			<p>
+				1. Se requiere de un ANTICIPO de $500.00 por paquete reservado (Por persona).
+				<br/> 2. Los pagos deberán realizarse por transferencia bancaria a la cuenta bancaria <strong>Banorte</strong> con clave intervancaria <strong>072470005086306996</strong>
+				a nombre de <strong>Laura Avilés</strong>. <br/> 3. El comprobante de pago por concepto de ANTICIPO deberá enviarse al correo electronico <strong>poleartfitness-michoacan@hotmail.com</strong>
+				ya sea escaneado o foto dentro de las primeras 48 hrs de llenado y enviado el formato de inscripición, de lo contrario el paquete sera cancelado.
+				<br/> 4. Puede adquir su paquete en abonos o en pago de una sola exicibición. <br/> •<strong> En una sola exposición </strong>: Puede adquirir su paquete en una sola exposición
+				en cualquier momento antes del evento. <br/> • <strong> Abonos</strong>
+			</p>
+			<div  class="padding-left">
+				<p>a) Todos los paquetes que se paguen en abonos debrán liquidarse antes del 21 de diciembre del 2015. De lo contrario se cancelaran y no serán reembolsables.
+					<br/> b) Cada que se realice un abono, deberá enviarse el comprobante de pago al correo electrónico <strong>poleartfitness-michoacan@hotmail.com</strong> (escaneado o foto) dentro de las primeras 48 horas de efectuarse el pago.
+					<br/> c) Después del 21 de diciembre de 2015 todos los paquetes se liquidaran en una sola exposición.
+					<br/> d) La fecha límite para realizar cambios es el <strong>16 de diciembre de 2015</strong> y por ningún cambio después de esa fecha.
+					<br/> <br/> Todos los congresistas deberán firmar una "Carta de no responsabilidad y una de Derechos de fotagrafía y video al momento del registro en el hotel".
+				</p>
+			</div>
+		</div>
+	</div>
 </section>
