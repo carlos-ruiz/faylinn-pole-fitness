@@ -112,9 +112,9 @@ class SiteController extends Controller
 			$mail = new YiiMailer();
 			$mail->setView('enviarComentario');
 			$mail->setFrom('poleartpolefitness@faylinnpolefitness.com', 'Web FaylinnPoleFitness');
-			$mail->setTo('car.ruiz90@gmail.com');
+			// $mail->setTo('car.ruiz90@gmail.com');
 			$mail->setData(array('nombre' => $_POST['nombre'], 'tel' => $_POST['tel'], 'email' => $_POST['email'],'comentario'=>$_POST['comentario']));
-			// $mail->setTo('poleartfitness-michoacan@hotmail.com');
+			$mail->setTo('poleartfitness-michoacan@hotmail.com');
 			$mail->setSubject('Nuevo comentario');
 			if ($mail->send()) {
 				echo "<script>alert('Correo enviado');</script>";
