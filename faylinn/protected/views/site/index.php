@@ -13,18 +13,18 @@ $this->pageTitle=Yii::app()->name;
 			<div class="center-container clearfix" data-scroll-reveal>
 				<div class="m-06" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
 					<h2>Misión</h2>
-					<p>Promover y Motivar a personas de todas las edades y capacidades a desarrollar hábitos saludables así como habilidades necesarias para la práctica del pole fitness y pole dance y otras actividades fitness mediante una enseñanza de calidad,teniendo como base el profesionalismo de nuestros instructores.</p>
+					<p>Promover y Motivar a personas de todas las edades y capacidades a desarrollar hábitos saludables así como habilidades necesarias para la práctica del pole fitness, pole dance y otras actividades fitness mediante una enseñanza de calidad, teniendo como base el profesionalismo de nuestros instructores.</p>
 				</div>
 
 				<div class="m-06" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
 					<h2>Visión</h2>
-					<p>Ser el estudio líder en Michoacán, con exclusivos e innovadores programas de capacitación continuaque hagan la diferencia, posicionándonos como la mejor opción de nuestros clientes para alcanzar la óptima calidad en sus entrenamientos en un marco de respeto, alegría y cordialidad.</p>
+					<p>Ser el estudio líder en Michoacán, con exclusivos e innovadores programas de capacitación continua que hagan la diferencia, posicionándonos como la mejor opción de nuestros clientes para alcanzar la óptima calidad en sus entrenamientos en un marco de respeto, alegría y cordialidad.</p>
 				</div>
 				<div class="m-06" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
 					<h2>¿Por qué Faylinn fitness & pole dance?</h2>
 					<div class="row">
 						<div class="rightContainer text-right">• Nuestros instructores están certificados y en capacitación continua con profesionales  industria del pole fitness.</div>
-						</br><div class="rightContainer text-right">• Somos el primer estudio en Morelia con un equipo de competencia que participar  en una competencia nacional obteniendo el primer lugar en la categoría infantil en noviembre de 2014, primer lugar amateur y tercer lugar profesional en mayo 2015.</div>
+						</br><div class="rightContainer text-right">• Somos el primer estudio en Morelia con un equipo de competencia que participa en una competencia nacional obteniendo el primer lugar en la categoría infantil en noviembre de 2014, primer lugar amateur y tercer lugar profesional en mayo 2015.</div>
 			            </br><div class="rightContainer text-right">• Somos estudio avalado por la APM</div>
 					</div>
 				</div>
@@ -77,7 +77,7 @@ $this->pageTitle=Yii::app()->name;
 				</div>
 
 				<div class="m-04" data-scroll-reveal>
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/lau.png" alt="Restaurant" class="round-img">
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/lau.jpg" height="300" alt="Lau" class="round-img">
 				</div>
 
 				<div class="m-04 mt-40" data-scroll-reveal="enter right, over 1s">
@@ -298,6 +298,9 @@ $this->pageTitle=Yii::app()->name;
 			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/4.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/4.jpg" alt=""></a></div>
 			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/2.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/2.jpg" alt=""></a></div>
 			  <div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/5.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/estudio/5.jpg" alt=""></a></div>
+			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/certificacion1.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/certificacion1.jpg" alt="Certificación"></a></div>
+			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/c2.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/c2.jpg" alt="Certificación"></a></div>
+
 			</div>
 
 

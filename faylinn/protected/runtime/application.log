@@ -242,3 +242,48 @@ Stack trace:
 REQUEST_URI=/faylinngym/faylinn/images/ivonne1.jpg
 HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
 ---
+2015/09/18 17:57:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lau.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/lau.jpg')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/lau.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/
+---
+2015/09/18 17:58:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lau.jpeg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/lau.jpeg')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/lau.jpeg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/
+---
+2015/09/18 17:59:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lau.jpeg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/lau.jpeg')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/lau.jpeg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/
+---
+2015/09/18 17:59:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lau.jpeg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/lau.jpeg')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/lau.jpeg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/
+---
+2015/09/18 18:04:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/certificacion.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/certific...')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/certificacion.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/
+---
