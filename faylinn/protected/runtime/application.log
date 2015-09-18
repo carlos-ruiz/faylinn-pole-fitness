@@ -195,3 +195,50 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/faylinnpole/faylinn/site/index2
 ---
+2015/09/18 13:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "poleart".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('poleart')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/poleart
+---
+2015/09/18 13:26:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "diana".' in C:\xampp\htdocs\faylinngym\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CController.php(270): CController->missingAction('diana')
+#1 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(282): CController->run('diana')
+#2 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('site/diana')
+#3 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/faylinngym/faylinn/site/diana
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/
+---
+2015/09/18 13:26:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "diana".' in C:\xampp\htdocs\faylinngym\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CController.php(270): CController->missingAction('diana')
+#1 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(282): CController->run('diana')
+#2 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('site/diana')
+#3 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/faylinngym/faylinn/site/diana
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/diana
+---
+2015/09/18 13:26:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "poleart".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('poleart')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/poleart
+---
+2015/09/18 14:02:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne1.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne1....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne1.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---

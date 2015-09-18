@@ -114,7 +114,7 @@
 		<!-- Hotel 01 -->
 		<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
 			<h2>Diana Ham</h2>
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana1.jpg" heigh="10" alt="" class=" img-30percent round-img">
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana1.jpg" heigh="10" alt="Diana Ham" class=" img-30percent round-img">
 			<p>Se encuentra en el banco de artistas del Cirque Du Soleil, es imagen de importantes marcas de pole nacionales ( Portable Dance, vertical Fashion, leggings 2B).</p>
 			<a class="more-button" href="<?php echo Yii::app()->request->baseUrl; ?>/site/dianaHam">Más información</a>
 		</div>
@@ -122,15 +122,15 @@
 		<!-- Hotel 02 -->
 		<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.3s">
 			<h2>Sergio Chan</h2>
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" heigh="10" alt="" class=" img-30percent round-img">
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" heigh="10" alt="Sergio Chan" class=" img-30percent round-img">
 			<p><br/>Maecenas vitae rutrum nulla. Quisque sodales tincidunt ut pulvinar. Nunc dui risus, tincidunt vitae arcu lobortis.</p>
 			<a class="more-button" href="<?php echo Yii::app()->request->baseUrl; ?>/site/sergioChan">Más información</a>
 		</div>
 
 		<!-- Hotel 03 -->
 		<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.6s">
-			<h2>Hotel Bibendum</h2>
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/hotel-3.jpg" alt="" class="round-img">
+			<h2>Ivonne Quintero Tinoco</h2>
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne1.png" heigh="10" alt="Ivonne Quintero" class="round-img">
 			<p>Sed eu sapien id nulla viverra fringilla non a massa. Integer turpis odio, vestibulum id adipiscing dictum, tempor nisl.</p>
 			<a class="more-button" href="#">Más información</a>
 		</div>
