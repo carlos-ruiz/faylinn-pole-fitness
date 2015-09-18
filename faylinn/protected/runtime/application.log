@@ -195,3 +195,14 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/faylinnpole/faylinn/site/index2
 ---
+2015/09/18 16:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\faylinnpole\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpole\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\faylinnpole\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\faylinnpole\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/index')
+#3 C:\xampp\htdocs\faylinnpole\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\faylinnpole\faylinn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/faylinnpole/faylinn/site/site/index
+HTTP_REFERER=http://localhost/faylinnpole/faylinn/
+---

@@ -117,7 +117,7 @@ class SiteController extends Controller
 			$mail->setTo('poleartfitness-michoacan@hotmail.com');
 			$mail->setSubject('Nuevo comentario');
 			if ($mail->send()) {
-				echo "<script>alert('Correo enviado');</script>";
+				// echo "<script>alert('Correo enviado');</script>";
 				$this->redirect('index');
 			}
 			else{
