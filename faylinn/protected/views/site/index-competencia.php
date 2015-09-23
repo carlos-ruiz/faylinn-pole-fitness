@@ -18,16 +18,16 @@
 
 		<div class="images">
 			<div class="image-01">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio2.jpg" width="100" height:"100" alt="" class="round-img round-img">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio2.jpg" width="150" height:"100" alt="" class="round-img round-img">
 			</div>
 			<div class="image-02">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" width="100"  alt="" class="round-img">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" width="150"  alt="" class="round-img">
 			</div>
 			<div class="image-04">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/main-04.jpg" alt="" class="round-img">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne1.png"  width="200" alt="" class="round-img">
 			</div>
 			<div class="image-05">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/main-05.jpg" alt="" class="round-img">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne2.jpg" alt="" class="round-img">
 			</div>
 		</div>
 	</div>
@@ -130,7 +130,7 @@
 		<!-- Hotel 03 -->
 		<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.6s">
 			<h2>Ivonne Quintero Tinoco</h2>
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne1.png" heigh="10" alt="Ivonne Quintero" class="round-img">
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne1.png" heigh="5"  alt="Ivonne Quintero" class="round-img heigh150">
 			<p>Sed eu sapien id nulla viverra fringilla non a massa. Integer turpis odio, vestibulum id adipiscing dictum, tempor nisl.</p>
 			<a class="more-button" href="#">Más información</a>
 		</div>
