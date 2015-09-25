@@ -5,7 +5,7 @@
 	<!-- Couple Info -->
 	<div class="center-container clearfix" data-scroll-reveal>
 		<div class="m-04 mt-40" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio4.png" width="200" height:"200" alt="" >
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio6.jpg" width="200" height:"200" alt="" >
 		</div>
 		<div class="m-08 floatLeft" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
 			<p>
@@ -71,5 +71,9 @@
 		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/sergio2.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio2.jpg" alt=""></a></div>
 		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio3.png" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio3.png" alt=""></a></div>
 		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/sergio5.png" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio5.png" alt=""></a></div>
+		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/sergio9.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio9.jpg" alt=""></a></div>
+		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/sergio8.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio8.jpg" alt=""></a></div>
+		<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/sergio7.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio7.jpg" alt=""></a></div>
+
 	</div>
 </section>

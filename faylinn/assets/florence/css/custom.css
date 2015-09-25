@@ -8,6 +8,7 @@
 
 .heigh150{
   height: 150px;
+  border-radius: 10% !important;
 }
 
   .rightContainer{
@@ -96,7 +97,6 @@ div#slider figure {
   margin-right: 5%
 
 }
-
 
 
 </style>

@@ -9,69 +9,40 @@
 			<!-- Couple Info -->
 			<div class="center-container clearfix" data-scroll-reveal>
 				<div class="m-04 mt-40" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana2.jpg" width="200" height:"200" alt="" >
+					<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne5.jpg" width="200" height:"200" alt="" >
 				</div>
 				<div class="m-08 floatLeft" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
 					<p> 
-						<strong>Nombre:</strong>Ivonne Quintero </br>
-						<strong>Originaria:</strong>México, D.F. </br>
+						<strong>Nombre:</strong> Ivonne Quintero Tinoco </br>
 				    </p>
-					<div class="m-04">
-						<h3>En su niñez:</h3>									
+					<div class="m-08">
+						<h3>Ella:</h3>									
 						<div class="paddingLeft">							
-								•	Gimnasia rítmica</br>
-								•	Danza</br>  
-								•	Canto </br>
-								•	Música </br>								
+								</br>
+								•	Practica pole fitness desde hace 6 años</br>  
+								•	Ha tomado talleres con los mejores pole dancers del mundo.</br>
+								•	Es entrenadora nacional e internacional certificada</br>	
+								•	Es miembro activo de AFFEJ Asociación de Fisicoculturismo y Fitness del estado de Jalisco</br>								
+								•	Ponente de la Certificación: Básica, Intermedia y Avanzada de Pole Fitness AFFEJ</br>							
 							</br>
 						</div>
-						<h3>A sus 20 años:</h3>									
+						<h3>Creadora:</h3>									
 						<div class="paddingLeft">							
-								•	Danza Aérea</br>
-								•	Artes circenses</br>
-								<div class="paddingLeft">							
-									•	Contorsión</br> 
-									•	Aro</br> 
-									•	Trapecio fijo y volante</br> 
-									•	Telas</br> 
-									•	Cuerda española</br> 
-									•	Mástil chino</br>
-									•	Arnés</br>
-							    	</br>
-								</div>								
-						    </div>
-
-						 </div>
-						 <div class="m-08">
-						<h3>Hace 7 años:</h3>									
-						<div class="paddingLeft">							
-								Se involucra en el pole dance hace 7 años, siendo Pionera de este arte en Mexico, la primer mexicana en competir a nivel internacional.(Zurich 2010, Berna 2012, Brasil 2014)
-								</br>
-								Primer mexicana en lograr un solo de pole dance en comedia musical  y teatro, así como en opera en el Palacio de Bellas Artes.
-								</br></br>
-						</div>
-						<h3>Además:</h3>									
-						<div class="paddingLeft">							
-								Ha participado en diversos vídeos musicales, programas internacionales de tv( Sábado Gigante y Cristina USA) y fue orgullosa finalista en Got Talent Mexico (Finalista de mas de 42000 artistas).
-						    	</br>
-						</div>
-											
-						<div class="paddingLeft">							
-								Actualmente Diana Ham se  prepara día a día para reinventarse, se encuentra en el banco de artistas del Cirque Du Soleil, es imagen de importantes marcas de pole nacionales (Portable Dance, vertical Fashion, leggings 2B.
-						    	</br>
-						</div>
-
-						</div>
-														
+								•	Competencia  nacional Miss/Mr Pole Fitness Jalisco desde el 2012 </br>
+								•	Campeonato Nacional de Trucos de Pole Jalisco 2015</br>
+					  </div>
+					</div>
+										
 				</div>
 			</div>
 			<div id="owl-gallery" class="owl-carousel owl-theme " data-scroll-reveal>
-			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/diana1.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana1.jpg" alt=""></a></div>
-			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/diana2.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana2.jpg" alt=""></a></div>
-			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/diana3.png" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana3.png" alt=""></a></div>
-			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/diana4.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana4.jpg" alt=""></a></div>
-			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/patrocinador4.png" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador4.png" alt=""></a></div>
-
+			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne1.png" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne1.png" alt=""></a></div>
+			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/ivonne2.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne2.jpg" alt=""></a></div>
+			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne3.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne3.jpg" alt=""></a></div>
+			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/ivonne4.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne4.jpg" alt=""></a></div>
+			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/ivonne6.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne6.jpg" alt=""></a></div>
+			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/ivonne8.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne8.jpg" alt=""></a></div>
+			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/ivonne9.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne9.jpg" alt=""></a></div>
 		</section>
 
 		

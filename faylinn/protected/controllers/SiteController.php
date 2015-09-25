@@ -136,6 +136,17 @@ class SiteController extends Controller
 		$this->render('sergio');
 	}
 
+	public function actionIvonneQuintero(){
+		$this->layout='//layouts/main1';
+		$this->render('ivonne');
+	}
+
+	public function actionMarioGonzalez(){
+		$this->layout='//layouts/main1';
+		$this->render('mario');
+	}
+
+
 	public function actionPoleArt(){
 		$this->layout='//layouts/main1';
 		$this->render('index-competencia');

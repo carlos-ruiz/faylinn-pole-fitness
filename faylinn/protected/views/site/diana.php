@@ -70,6 +70,7 @@
 			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/diana2.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana2.jpg" alt=""></a></div>
 			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/diana3.png" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana3.png" alt=""></a></div>
 			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/diana4.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana4.jpg" alt=""></a></div>
+			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/diana6.jpg" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana6.jpg" alt=""></a></div>
 			<div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>//images/patrocinador4.png" data-lightbox="demo-gallery"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador4.png" alt=""></a></div>
 
 		</section>

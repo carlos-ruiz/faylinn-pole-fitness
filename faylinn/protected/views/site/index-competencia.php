@@ -109,38 +109,38 @@
 	<h1 data-scroll-reveal>Jueces</h1>
 	<hr>
 
-	<div class="center-container clearfix">
+	<div class="center-container clearfix heigh150" >
 
 		<!-- Hotel 01 -->
 		<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
 			<h2>Diana Ham</h2>
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana1.jpg" heigh="10" alt="Diana Ham" class=" img-30percent round-img">
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana1.jpg" heigh="10" alt="Diana Ham" class=" heigh150 round-img radius">
 			<p>Se encuentra en el banco de artistas del Cirque Du Soleil, es imagen de importantes marcas de pole nacionales ( Portable Dance, vertical Fashion, leggings 2B).</p>
-			<a class="more-button" href="<?php echo Yii::app()->request->baseUrl; ?>/site/dianaHam">Más información</a>
+			<br/><a class="more-button" href="<?php echo Yii::app()->request->baseUrl; ?>/site/dianaHam">Más información</a>
 		</div>
 
 		<!-- Hotel 02 -->
 		<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.3s">
 			<h2>Sergio Chan</h2>
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" heigh="10" alt="Sergio Chan" class=" img-30percent round-img">
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" heigh="10" alt="Sergio Chan" class="  heigh150 round-img">
 			<p><br/>Maecenas vitae rutrum nulla. Quisque sodales tincidunt ut pulvinar. Nunc dui risus, tincidunt vitae arcu lobortis.</p>
-			<a class="more-button" href="<?php echo Yii::app()->request->baseUrl; ?>/site/sergioChan">Más información</a>
+			<br/><a class="more-button" href="<?php echo Yii::app()->request->baseUrl; ?>/site/sergioChan">Más información</a>
 		</div>
 
 		<!-- Hotel 03 -->
 		<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.6s">
 			<h2>Ivonne Quintero Tinoco</h2>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne1.png" heigh="5"  alt="Ivonne Quintero" class="round-img heigh150">
-			<p>Sed eu sapien id nulla viverra fringilla non a massa. Integer turpis odio, vestibulum id adipiscing dictum, tempor nisl.</p>
-			<a class="more-button" href="#">Más información</a>
+			<p>Bailarina Profesional de salsa, merengue, flamenco, bachata, cumbia, jazz y contemporáneo, instructora fitness desde hace 12 años y nutrióloga del equipo de natación de alto rendimiento Chivas.</p>
+			<a class="more-button"  href="<?php echo Yii::app()->request->baseUrl; ?>/site/ivonneQuintero">Más información</a>
 		</div>
 
 		<!-- Hotel 04 -->
 		<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.9s">
-			<h2>Porrtitor Hotel</h2>
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/hotel-4.jpg" alt="" class="round-img">
-			<p>Pellentesque convallis, lacus non imperdiet posuere, nibh urna faucibus justo, vel iaculis eros libero quis libero.</p>
-			<a class="more-button" href="#">Más información</a>
+			<h2>Mario González</h2>
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/mario1.jpg" alt="" class="round-img heigh150">
+			<p>El bailarín y coreógrafo Mario González es poseedor de una larga y variada trayectoria dentro del mundo de las artes escénicas y disciplinas tales como ballet, jazz, danza contemporánea, danza aérea y coreografía.</p>
+			<a class="more-button" href="<?php echo Yii::app()->request->baseUrl; ?>/site/marioGonzalez">Más información</a>
 		</div>
 
 	</div>

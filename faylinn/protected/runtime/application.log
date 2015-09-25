@@ -340,3 +340,318 @@ Stack trace:
 REQUEST_URI=/faylinnpolefitness/faylinn/images/ivonne2.jpg
 HTTP_REFERER=http://localhost/faylinnpolefitness/faylinn/site/poleart
 ---
+2015/09/24 13:51:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 10:23:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 13:41:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:01:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:02:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:03:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:03:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:04:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:04:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:11:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:13:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:14:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:15:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:16:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:18:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:19:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:19:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:21:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:22:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:28:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 14:29:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 17:05:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 17:06:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 17:06:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 17:07:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 17:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sergio9.png".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sergio9....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/sergio9.png
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/sergioChan
+---
+2015/09/25 17:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sergio8.png".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sergio8....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/sergio8.png
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/sergioChan
+---
+2015/09/25 17:15:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 17:16:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne2.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne2....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne2.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/09/25 17:20:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/diana3.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/diana3.j...')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/diana3.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/ivonneQuintero
+---
+2015/09/25 18:00:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ivonne1.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/ivonne1....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/ivonne1.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/ivonneQuintero
+---
+2015/09/25 18:26:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sergio6.png".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sergio6....')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/sergio6.png
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/sergioChan
+---
+2015/09/25 18:43:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/mario1.png".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/mario1.p...')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/mario1.png
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/marioGonzalez
+---
+2015/09/25 18:45:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/mario7.jpg".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/mario7.j...')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/mario7.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/marioGonzalez
+---

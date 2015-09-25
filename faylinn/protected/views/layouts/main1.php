@@ -58,17 +58,6 @@
 					<li class="sep"></li>
 					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#gifts">Patrocinadores</a></li>
 					<li class="sep"></li>
-					<li><a href="#" class="stay">Pages</a>
-						<ul class="dropdown">
-							<li><a href="index.html">Home Page</a></li>
-							<li><a href="uielements.html">UI Elements</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="guestbook.html">Guest Book</a></li>
-							<li><a href="fontawesome.html">Font Awesome</a></li>
-							<li><a href="404.html">Error 404</a></li>
-						</ul>
-					</li>
-					<li class="sep"></li>
 					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#terminos">Terminos y Condiciones</a></li>
 				</ul>
 
