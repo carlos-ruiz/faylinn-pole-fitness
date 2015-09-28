@@ -5,29 +5,29 @@
 
 <!-- Countdown -->
 <div class="row text-center" style="text-align:center;">
-	<div class="countdown countdown-white text-center" data-countdown="2015/12/25"></div>
+	<div class="countdown countdown-white text-center" data-countdown="2016/01/31"></div>
 
 	<!-- Countdown Mobile -->
-	<div class="countdown-mobile countdown-white" data-countdown-mobile="2015/12/25"></div>
+	<div class="countdown-mobile countdown-white" data-countdown-mobile="2016/01/31"></div>
 	<!-- Header Images -->
 	<div class="main-images center-content" data-scroll-reveal="enter bottom, after 0.2s">
 
 		<div class="couple">
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana1.jpg" width="150" alt="" class="round-img round-img-lgb">
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana1.jpg" width="200" alt="" class="round-img round-img-lgb">
 		</div>
 
 		<div class="images">
 			<div class="image-01">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio2.jpg" width="150" height:"100" alt="" class="round-img round-img">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne2.jpg" width="250" height:"100" alt="" class="round-img round-img">
 			</div>
 			<div class="image-02">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" width="150"  alt="" class="round-img">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio2.jpg" width="200"  alt="" class="round-img">
 			</div>
 			<div class="image-04">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne1.png"  width="200" alt="" class="round-img">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg"  width="200" alt="" class="round-img">
 			</div>
 			<div class="image-05">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne2.jpg" alt="" class="round-img">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne1.png"  width="250" alt="" class="round-img">
 			</div>
 		</div>
 	</div>
@@ -233,113 +233,70 @@
 				<p>Antes del 21 de diciembre <strong>$3000.00</strong>, después del 21 de diciembre $3500.00</p>
 				<div class="floatLeft paddingLeft">
 					<h4 >Incluye:</h4>
-					<br/> • Talleres
+					floatLeft
 					<br/> • Conferencias
 					<br/> • Entrada a la final
 					<br/> • Kit de bienvenida <br/>
 				</div>
 			</div>
-		</div>
-		<hr>
-		<h3>Nota:</h3><strong>Menor de edad Acompañante: Niños de hasta 11 años NO pagan su hospedaje.</strong>
-
-	</div>
-</section>
-
-
-<!-- Ceremony -->
-<section id="ceremony">
-	<h1 data-scroll-reveal>Ceremony</h1>
-	<hr>
-
-	<div class="center-container">
-		<h2 data-scroll-reveal>Proin lacinia fermentum diam at dictum</h2>
-		<p data-scroll-reveal>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales lacus ultricies mauris rhoncus, ut tristique quam malesuada. Sed eu sapien id nulla viverra fringilla non a massa. Integer turpis odio, vestibulum id adipiscing dictum, tempor sit amet massa. Nam nec mollis augue.</p>
-		<p data-scroll-reveal><strong>Duis dapibus purus ac metus ullamcorper, vel consequat nibh consectetur. Nam eu euismod libero. Praesent nec odio sed urna sagittis condimentum. Integer ut viverra odio. Integer sed tincidunt tellus. Quisque urna, eu rhoncus lorem tempus in.</strong></p>
-
-		<div class="m-12 ceremony-images">
-			<div class="m-04 remove-2">
-				<div class="m-06 mt-40 remove" data-scroll-reveal="enter left, over 2s, after 0.5s">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/ceremony-01.jpg" alt="Ceremony" class="round-img">
-				</div>
-
-				<div class="m-06 mt-40" data-scroll-reveal="enter left, over 2s">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/ceremony-02.jpg" alt="Ceremony" class="round-img">
-				</div>
-			</div>
-
-			<div class="m-04" data-scroll-reveal>
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/ceremony-03.jpg" alt="Ceremony" class="round-img round-img-lgb">
-			</div>
-
-			<div class="m-04 remove-2">
-				<div class="m-06 mt-40" data-scroll-reveal="enter right, over 2s">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/ceremony-04.jpg" alt="Ceremony" class="round-img">
-				</div>
-
-				<div class="m-06 mt-40 remove" data-scroll-reveal="enter right, over 2s, after 0.5s">
-					<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/ceremony-05.jpg" alt="Ceremony" class="round-img">
-				</div>
+			<div class="m-06" data-scroll-reveal="enter bottom, over 1s">
+			<br/><br/><br/><br/><h3>Nota:</h3><strong>Menor de edad Acompañante: Niños de hasta 11 años NO pagan su hospedaje.</strong>
 			</div>
 		</div>
-
-		<p data-scroll-reveal>Aliquam erat volutpat. Vestibulum hendrerit leo id rutrum porttitor. Praesent id tellus tellus. Pellentesque convallis, lacus non imperdiet posuere, nibh urna faucibus justo, vel iaculis eros libero quis libero. Proin est augue, cursus ut euismod eu, consequat non urna.</p>
-
-		<hr>
-
-		<h2>Location</h2>
+		<hr>	
+		<h3>Ubicate, puntos importantes</h3>
 		<p><strong>Millenium Hilton</strong> / 55 Church St / New York, NY 10007</p>
-	</div>
-
-	<!-- Google Map -->
-	<div id="map-canvas" class="m-12" data-scroll-reveal></div>
-
+		<div id="map-canvas" class="m-12" data-scroll-reveal></div>
+</div>
 </section>
 
-<!-- Restaurant -->
-<section id="restaurant">
-	<h1 data-scroll-reveal>Restaurant</h1>
-	<hr>
-
-	<div class="center-container clearfix">
-		<div class="m-04 mt-40" data-scroll-reveal="enter left, over 1s">
-			<h2>Interdum et malesuada fames</h2>
-			<p><strong>Tellus pellentesque convallis, lacus non imperdiet posuere, nibh urna faucibus justo, vel iaculis eros libero quis libero. Proin est augue, cursus ut euismod eu, consequat non urna.</strong></p>
-			<p>Suspendisse porttitor enim orci, eget aliquam urna fermentum sed. In et ante ac turpis consequat euismod ac et massa.</p>
-		</div>
-
-		<div class="m-04" data-scroll-reveal>
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/restaurant.jpg" alt="Restaurant" class="round-img">
-		</div>
-
-		<div class="m-04 mt-40" data-scroll-reveal="enter right, over 1s">
-			<h2>Phasellus feugiat vehicula</h2>
-			<p><strong>Proin est augue, cursus ut euismod eu, consequat non urna. Pellentesque convallis, lacus non imperdiet posuere, nibh urna faucibus justo, vel iaculis eros  quis libero eu non fata.</strong></p>
-			<p>Mauris et justo vitae libero rutrum mattis quis eu felis. Curabitur purus dolor, iaculis eget fermentum vitae.</p>
-		</div>
-	</div>
-
-</section>
 
 <!-- The Party -->
-<section id="party">
-	<h1 data-scroll-reveal>Party</h1>
+<section id="talleres">
+	<h1 data-scroll-reveal>Talleres / Conferencias</h1>
 	<hr>
 
 	<div class="center-container clearfix">
 		<div class="m-04" data-scroll-reveal="enter left, over 1s">
 			<div class="m-06 remove">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/party-01.jpg" alt="Party" class="round-img">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio2.jpg"  alt="Parado de manos" class="round-img heigh150">
+				<h2 data-scroll-reveal>Sergio Chan</h2>
+				<div class="floatLeft"> 
+							Taller: <strong>Parados de Manos</strong>
+					<br/> 	Hora: Pendiente	
+					<br/> 	Lugar: Pendiente
+					<hr>
+					Taller: <strong>Shoulder Mount</strong>
+					<br/> 	Hora: Pendiente	
+					<br/> 	Lugar: Pendiente
+				</div>		
+			</div>
+			<div class="m-06 remove">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/mario1.jpg"  alt="Parado de manos" class="round-img heigh150 width100">
+				<h2 data-scroll-reveal>Mario Hernández</h2>
+				<div class="floatLeft"> 
+							Taller: <strong>Power Chair Training</strong>
+					<br/> 	Hora: Pendiente	
+					<br/> 	Lugar: Pendiente
+				</div>		
 			</div>
 
-			<div class="m-06">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/party-02.jpg" alt="Party" class="round-img">
+			<div class="m-12 remove">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/mario1.jpg"  alt="Parado de manos" class="round-img heigh150 width100">
+				<h2 data-scroll-reveal>Mario Hernández</h2>
+				 
+				
+							Taller: <strong>Power Chair Training</strong>
+					<br/> 	Hora: Pendiente	
+					<br/> 	Lugar: Pendiente
+					
 			</div>
+			
 		</div>
 
 		<div class="m-04 mt-40" data-scroll-reveal>
-			<h2>Nunc faucibus vulputate tempor quis</h2>
-			<p>Pellentesque convallis, lacus non imperdiet posuere, nibh urna faucibus justo, vel iaculis eros libero quis libero.</p>
+			<h2>¡Lo mejor de lo mejor!, No te quedes fuera..</h2> 
+			<p>Excelentes instrucotres impartiran las capacitaciones y dejaran en tí una experiencia única llena de emociones y conocimmientos.</p>
 		</div>
 
 		<div class="m-04" data-scroll-reveal="enter right, over 1s">
@@ -361,8 +318,6 @@
 <section id="gifts">
 	<h1 data-scroll-reveal>Patrocinadores</h1>
 	<hr>
-	<h2 data-scroll-reveal>Tempor quis nunc faucibus vulputate</h2>
-
 	<div class="center-container clearfix">
 		<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador1.png" alt="" class="center-content">
@@ -434,55 +389,6 @@
 	</div>
 </section>
 
-<!-- RSVP Form -->
-<section id="rsvp">
-	<h1 data-scroll-reveal>Event Attending</h1>
-	<hr>
-	<h2 data-scroll-reveal>Ellentesque sapien justo, auctor ut neque quis, dignissim facilisis sem</h2>
-
-	<p data-scroll-reveal><i class="fa fa-heart-o fa-1x"></i>&nbsp;Yes, I will gladly attend your wedding ceremony.&nbsp;<i class="fa fa-heart-o fa-1x"></i></p>
-
-	<form id="rsvp-form" action="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/inc/rsvp-send.php" method="post" data-scroll-reveal>
-		<div class="center-container">
-			<div class="m-12">
-				<div class="m-06">
-					<div class="m-06">
-						<input class="text-box pl-fix firstname" type="text" placeholder="First Name" name="firstname" value="">
-					</div>
-
-					<div class="m-06">
-						<input class="text-box pl-fix lastname" type="text" placeholder="Last Name" name="lastname" value="">
-					</div>
-				</div>
-				<div class="m-06">
-					<div class="m-06">
-						<input class="text-box pl-fix phone" type="text" placeholder="Telephone Number" name="phone" value="">
-					</div>
-
-					<div class="m-06">
-						<input class="text-box pl-fix email" type="text" placeholder="Your E-mail Address" name="email" value="">
-					</div>
-				</div>
-				<div class="m-06">
-					<input class="text-box text-box-2 pl-fix custom-options" type="text" placeholder="Custom Options (vegetarian, diabetic etc)" name="custom-options" value="">
-				</div>
-				<div class="m-06">
-					<input class="text-box text-box-2 pl-fix comments" type="text" placeholder="Please write few words to us..." name="comments" value="">
-				</div>
-			</div>
-
-			<div class="m-12">
-
-				<div id="success" class="alert-success" style="display:none;"><strong>Success!</strong> The message has been sent. <a href="#" class="close"><i class="fa fa-times fa-1x"></i></a></div>
-				<div id="emailerr" class="alert-error" style="display:none;"><strong>Required fields!</strong> Please, fill all required fields! <a href="#" class="close"><i class="fa fa-times fa-1x"></i></a></div>
-				<div id="servererr"class="alert-error" style="display:none;"><strong>Server Error!</strong> Please, try again later! <a href="#" class="close"><i class="fa fa-times fa-1x"></i></a></div>
-
-				<input id="submitinput" name="submit" class="submit send-button" type="submit" value="SEND">
-			</div>
-		</div>
-	</form>
-
-</section>
 
 <section id="terminos">
 	<h1 data-scroll-reveal>Términos y Condiciones para la Compra de paquetes</h1>

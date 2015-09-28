@@ -98,5 +98,16 @@ div#slider figure {
 
 }
 
+.paddingLeft{
+  padding-left: 200px;
+}
+
+.colorPink{
+   color: #992e68;
+}
+
+.width100{
+  width: 100px !important;
+}
 
 </style>

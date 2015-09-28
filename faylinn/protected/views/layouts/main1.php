@@ -54,7 +54,7 @@
 					<li class="sep"></li>
 					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#paquetes">Paquetes</a></li>
 					<li class="sep"></li>
-					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#accommodation">Talleres</a></li>
+					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#talleres">Talleres</a></li>
 					<li class="sep"></li>
 					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#gifts">Patrocinadores</a></li>
 					<li class="sep"></li>
