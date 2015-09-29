@@ -67,7 +67,7 @@ $(document).ready(function($) {
         var $this = $(this), finalDate = $(this).data('countdown');
         $this.countdown(finalDate, function(event) {
             $this.html(event.strftime(
-              '<div><p>%w</p><span>Weeks</span></div><div><p>%D</p><span>Days</span></div><div><p>%H</p><span>Hours</span></div><div><p>%M</p><span>Minutes</span></div><div><p>%S</p><span>Seconds</span></div>'
+              '<div><p>%D</p><span>Días</span></div><div><p>%H</p><span>Horas</span></div><div><p>%M</p><span>Minutos</span></div><div><p>%S</p><span>Segundos</span></div>'
             ));
         });
     });
@@ -77,7 +77,7 @@ $(document).ready(function($) {
         var $this = $(this), finalDate = $(this).data('countdown-mobile');
         $this.countdown(finalDate, function(event) {
             $this.html(event.strftime(
-              '<div><p>%D</p><span>Days</span></div><div><p>%H</p><span>Hours</span></div><div><p>%M</p><span>Minutes</span></div>'
+              '<div><p>%D</p><span>Días</span></div><div><p>%H</p><span>Horas</span></div><div><p>%M</p><span>Minutos</span></div>'
             ));
         });
     });
