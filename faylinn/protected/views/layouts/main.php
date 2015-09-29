@@ -91,7 +91,7 @@
 						<div  id="slider" >
 							<figure>
 								<img  class="img-slider" src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" width=60%  height=35% alt="Faylinn Gym" class="img-logo">
-								<img  class="img-slider" src="<?php echo Yii::app()->request->baseUrl; ?>/images/artlogo.png" width=60%  height=35% alt="Faylinn Gym" class="img-logo">
+								<a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#home" target="_blank"><img  class="img-slider" src="<?php echo Yii::app()->request->baseUrl; ?>/images/artlogo.png" width=60%  height=35% alt="Faylinn Gym" class="img-logo"></a>
 							</figure>
 						</div>
 					</div>

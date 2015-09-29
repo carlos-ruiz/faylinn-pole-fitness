@@ -110,4 +110,67 @@ div#slider figure {
   width: 100px !important;
 }
 
+
+
+  .logo{
+    width: 20%;
+    height: 10%;
+  }
+  .logo-img{
+      width: 200%;
+      padding-left: 150%;
+      padding-top: 40%;
+  }
+  .greenColor{
+    color:#80EC2B;
+  }
+  .floatLeft{
+    text-align: left;
+  }
+
+  .padding-left{
+    padding-left: 4% !important;
+  }
+
+  .purpleColor{
+    color:#992e68;
+  }
+
+  .paddingLeft{
+    padding-left: 10%;
+  }
+
+  .greenColor{
+    background-color: rgba(121, 210, 6, 0.63);;
+    color:white;
+    text-align: center;
+    border: 3%;
+    border-color: white;
+    border-radius: 25%;
+  }
+
+  .lightPinkColor{
+    background: rgba(229, 76, 159, 0.43);
+    font-style: bold;
+  }
+
+  .darkPinkColor{
+    background: #e54c9f;
+    color: #fff;
+  }
+
+.img-30percent{
+  width: 30%;
+}
+
+
+  #accommodation img {
+    width: 40% !important;
+}
+
+.imglog{
+  width:100px;
+  height: 50px;
+}
+
 </style>

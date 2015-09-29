@@ -1,4 +1,5 @@
 <!-- Names -->
+<div id="home"
 <div class="logo">
 	<img class="logo-img" src="<?php echo Yii::app()->request->baseUrl; ?>/images/artlogo.png" alt="" />
 </div>
@@ -31,6 +32,7 @@
 			</div>
 		</div>
 	</div>
+</div>
 </div>
 
 <!-- END HEADER -->
@@ -67,6 +69,7 @@
 			</div>
 			<h3>Bases:</h3>
 			1er Competencia Pole Art Pole Fitness Michoacán
+			<br/><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/talleres/movimientos.pdf" target="_blank" >Descarga Movimientos Obligatorios</a>
 		</div>
 	</div>
 </section>
@@ -89,7 +92,9 @@
 				<h2>CATEGORÍA ELITE</h2>
 				<p>Podrán participar atletas de pole fitness que hayan competido en el extranjero o competencias nacionales (mayores de edad).</p>
 				<h3>Bases:</h3>
-				<p> 1er Competencia Pole Art Pole Fitness Michoacán</p>
+				<p> 1er Competencia Pole Art Pole Fitness Michoacán
+				<br/><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/talleres/movimientos.pdf" target="_blank" >Descarga Movimientos Obligatorios</a>
+				</p>
 			</div>
 			<div class="m-06">
 				<h2>CATEGORÍA TEENS</h2>
@@ -111,32 +116,33 @@
 
 	<div class="center-container clearfix heigh150" >
 
-		<!-- Hotel 01 -->
+		<!-- 
 		<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
 			<h2>Diana Ham</h2>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana1.jpg" heigh="10" alt="Diana Ham" class=" heigh150 round-img radius">
 			<p>Se encuentra en el banco de artistas del Cirque Du Soleil, es imagen de importantes marcas de pole nacionales ( Portable Dance, vertical Fashion, leggings 2B).</p>
 			<br/><a class="more-button" href="<?php echo Yii::app()->request->baseUrl; ?>/site/dianaHam">Más información</a>
 		</div>
+		-->
 
-		<!-- Hotel 02 -->
-		<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.3s">
+		
+		<div class="m-04" data-scroll-reveal="enter bottom, over 1s, after 0.3s">
 			<h2>Sergio Chan</h2>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" heigh="10" alt="Sergio Chan" class="  heigh150 round-img">
 			<p><br/>Maecenas vitae rutrum nulla. Quisque sodales tincidunt ut pulvinar. Nunc dui risus, tincidunt vitae arcu lobortis.</p>
 			<br/><a class="more-button" href="<?php echo Yii::app()->request->baseUrl; ?>/site/sergioChan">Más información</a>
 		</div>
 
-		<!-- Hotel 03 -->
-		<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.6s">
+		
+		<div class="m-04" data-scroll-reveal="enter bottom, over 1s, after 0.6s">
 			<h2>Ivonne Quintero Tinoco</h2>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne1.png" heigh="5"  alt="Ivonne Quintero" class="round-img heigh150">
 			<p>Bailarina Profesional de salsa, merengue, flamenco, bachata, cumbia, jazz y contemporáneo, instructora fitness desde hace 12 años y nutrióloga del equipo de natación de alto rendimiento Chivas.</p>
 			<a class="more-button"  href="<?php echo Yii::app()->request->baseUrl; ?>/site/ivonneQuintero">Más información</a>
 		</div>
 
-		<!-- Hotel 04 -->
-		<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.9s">
+		
+		<div class="m-04" data-scroll-reveal="enter bottom, over 1s, after 0.9s">
 			<h2>Mario González</h2>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/mario1.jpg" alt="" class="round-img heigh150">
 			<p>El bailarín y coreógrafo Mario González es poseedor de una larga y variada trayectoria dentro del mundo de las artes escénicas y disciplinas tales como ballet, jazz, danza contemporánea, danza aérea y coreografía.</p>
@@ -245,7 +251,7 @@
 		</div>
 		<hr>	
 		<h3>Ubicate, puntos importantes</h3>
-		<p><strong>Millenium Hilton</strong> / 55 Church St / New York, NY 10007</p>
+		<p><strong>Gimnasio: Av. Fuentes de Morelia no. 107</strong> Morelia, Michoacán </p>
 		<div id="map-canvas" class="m-12" data-scroll-reveal></div>
 </div>
 </section>
@@ -279,34 +285,40 @@
 					<br/> 	Hora: Pendiente	
 					<br/> 	Lugar: Pendiente
 				</div>		
-			</div>
-
-			<div class="m-12 remove">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/mario1.jpg"  alt="Parado de manos" class="round-img heigh150 width100">
-				<h2 data-scroll-reveal>Mario Hernández</h2>
-				 
-				
-							Taller: <strong>Power Chair Training</strong>
-					<br/> 	Hora: Pendiente	
-					<br/> 	Lugar: Pendiente
-					
-			</div>
-			
+			</div>		
 		</div>
 
 		<div class="m-04 mt-40" data-scroll-reveal>
-			<h2>¡Lo mejor de lo mejor!, No te quedes fuera..</h2> 
+			<h2>¡Lo mejor de lo mejor, No te quedes fuera!</h2> 
 			<p>Excelentes instrucotres impartiran las capacitaciones y dejaran en tí una experiencia única llena de emociones y conocimmientos.</p>
 		</div>
 
 		<div class="m-04" data-scroll-reveal="enter right, over 1s">
-			<div class="m-06">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/party-03.jpg" alt="Party" class="round-img">
+			<div class="m-06 remove">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/comida.jpg"  alt="Parado de manos" class="round-img heigh150 width100">
+				<h2 data-scroll-reveal>Valeria Vaez (Nutriologa)</h2>
+				<div class="floatLeft"> 
+							Conferencia: <strong>Nutricion en el deporte</strong>
+					<br/> 	Hora: Pendiente	
+					<br/> 	Lugar: Pendiente
+				</div>		
 			</div>
 
 			<div class="m-06 remove">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/images/party-04.jpg" alt="Party" class="round-img">
+				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne2.jpg"  alt="Parado de manos" class="round-img heigh150">
+				<h2 data-scroll-reveal>Ivonne Quintero</h2>
+				<div class="floatLeft"> 
+							Conferencia: <strong> Historia del pole, kinestesia y biomecánica aplicadas al pole, mecanismos de lesión y planos sagitales</strong>
+					<br/> 	Hora: Pendiente	
+					<br/> 	Lugar: Pendiente
+					<hr>
+					Conferencia / Taller: <strong>Progresión de movimientos con la técnica adecuada y por último técnica de hanspring</strong>
+					<br/> 	Hora: Pendiente	
+					<br/> 	Lugar: Pendiente
+				</div>		
 			</div>
+
+			
 		</div>
 	</div>
 </section>
@@ -318,6 +330,7 @@
 <section id="gifts">
 	<h1 data-scroll-reveal>Patrocinadores</h1>
 	<hr>
+	<br/><br/>
 	<div class="center-container clearfix">
 		<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador1.png" alt="" class="center-content">
@@ -342,51 +355,7 @@
 		</div>
 
 	</div>
-
-	<p class="copyright">All trademarks and registered trademarks are the property of their respective owners.</p>
-
-	<hr>
-	<h2 data-scroll-reveal>Buy us a voucher or make a donation</h2>
-	<p data-scroll-reveal>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
-
-	<!-- Vouchers -->
-	<div class="center-container clearfix" data-scroll-reveal>
-		<div class="m-06">
-			<div class="m-04">
-				<span>100</span>
-				<i class="fa fa-gift fa-2x"></i>
-				<a href="#" class="buy-voucher">buy</a>
-			</div>
-			<div class="m-04">
-				<span>200</span>
-				<i class="fa fa-money fa-2x"></i>
-				<a href="#" class="buy-voucher">buy</a>
-			</div>
-			<div class="m-04">
-				<span>400</span>
-				<i class="fa fa-heart-o fa-2x"></i>
-				<a href="#" class="buy-voucher">buy</a>
-			</div>
-		</div>
-
-		<div class="m-06">
-			<div class="m-04">
-				<span>600</span>
-				<i class="fa fa-shopping-cart fa-2x"></i>
-				<a href="#" class="buy-voucher">buy</a>
-			</div>
-			<div class="m-04">
-				<span>800</span>
-				<i class="fa fa-plane fa-2x"></i>
-				<a href="#" class="buy-voucher">buy</a>
-			</div>
-			<div class="m-04">
-				<span>1000</span>
-				<i class="fa fa-sun-o fa-2x"></i>
-				<a href="#" class="buy-voucher">buy</a>
-			</div>
-		</div>
-	</div>
+	<br/><br/><br/><br/>
 </section>
 
 

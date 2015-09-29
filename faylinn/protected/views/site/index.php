@@ -206,7 +206,7 @@ $this->pageTitle=Yii::app()->name;
 			<h1 data-scroll-reveal>Eventos</h1>
 			<hr>
 			<h3 data-scroll-reveal>Talleres</h3>
-			<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/talleres/inscripcion.pdf" target="_blank" >Descarga Formato de inscripción</a>
+			<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/talleres/inscripcion.docx" target="_blank" >Descarga Formato de inscripción</a>
 			
 
 			<div class="center-container clearfix">				

@@ -673,3 +673,30 @@ Stack trace:
 REQUEST_URI=/faylinngym/faylinn/images/sergio1.png
 HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
 ---
+2015/09/28 18:36:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/talleres/inscripcion..docx".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/talleres...')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/talleres/inscripcion..docx
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/
+---
+2015/09/28 18:36:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/talleres/inscripcion..docx".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/talleres...')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/talleres/inscripcion..docx
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/
+---
+2015/09/28 18:37:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/talleres/inscripcion.docx".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/talleres...')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/talleres/inscripcion.docx
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/
+---

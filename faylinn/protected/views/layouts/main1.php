@@ -46,6 +46,11 @@
 			<!-- Top Navigation -->
 			<nav data-scroll-reveal>
 				<ul class="main-nav">
+
+					<li><a  class="imglog" href="<?php echo Yii::app()->request->baseUrl; ?>" target="_blank"><img   src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" width=100%  height=80% alt="Faylinn Gym" ></a></li>
+					<li class="sep"></li>
+					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#home">Home</a></li>
+					<li class="sep"></li>
 					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#our-story">Convocatoria</a></li>
 					<li class="sep"></li>
 					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#clasificacion">Clasificación</a></li>
@@ -59,27 +64,24 @@
 					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#gifts">Patrocinadores</a></li>
 					<li class="sep"></li>
 					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#terminos">Terminos y Condiciones</a></li>
+					<li class="sep"></li>
+					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>#rsvp" target="_blank">Contacto</a></li>
+					<li class="sep"></li>
+					<li><a href="https://www.facebook.com/1er-Competencia-Pole-Art-Pole-Fitness-Michoac%C3%A1n-846447012090702/timeline/" target="_blank"><i class="fa fa-facebook fa-mid"></i></a></li>
 				</ul>
 
 				<div class="mobile-nav">
 					<ul class="mobile-nav-menu">
-						<li><a href="#our-story">Our Story</a></li>
-						<li><a href="#ceremony">Clasificación</a></li>
-						<li><a href="#restaurant">Restaurant</a></li>
-						<li><a href="#party">Party</a></li>
-						<li><a href="#accommodation">Accommodation</a></li>
-						<li><a href="#gifts">Gifts</a></li>
-						<li><a href="#rsvp">RSVP</a></li>
-						<li><div>Pages <i class="fa fa-chevron-right"></i></div>
-							<ul>
-								<li><a href="index.html">Home Page</a></li>
-								<li><a href="uielements.html">UI Elements</a></li>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="guestbook.html">Guest Book</a></li>
-								<li><a href="fontawesome.html">Font Awesome</a></li>
-								<li><a href="404.html">Error 404</a></li>
-							</ul>
-						</li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>" target="_blank">Faylinn</a></li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#home">Home</a></li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#our-story">Convocatoria</a></li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#clasificacion">Clasificación</a></li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#jueces">Jueces</a></li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#paquetes">Paquetes</a></li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#talleres">Talleres</a></li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#gifts">Patrocinadores</a></li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#terminos">Terminos y Condiciones</a></li>
+						<li><a href="https://www.facebook.com/1er-Competencia-Pole-Art-Pole-Fitness-Michoac%C3%A1n-846447012090702/timeline/" target="_blank"><i class="fa fa-facebook fa-mid"></i></a></li>
 					</ul>
 					<span class="show-menu"><i class="fa fa-bars"></i></span>
 				</div>
@@ -116,61 +118,7 @@
 </html>
 
 <style type="text/css">
-	.logo{
-		width: 20%;
-		height: 10%;
-	}
-	.logo-img{
-	    width: 200%;
-  		padding-left: 150%;
-   		padding-top: 40%;
-	}
-	.greenColor{
-		color:#80EC2B;
-	}
-	.floatLeft{
-		text-align: left;
-	}
 
-	.padding-left{
-		padding-left: 4% !important;
-	}
-
-	.purpleColor{
-		color:#992e68;
-	}
-
-	.paddingLeft{
-		padding-left: 10%;
-	}
-
-	.greenColor{
-		background-color: rgba(121, 210, 6, 0.63);;
-		color:white;
-		text-align: center;
-		border: 3%;
-		border-color: white;
-		border-radius: 25%;
-	}
-
-	.lightPinkColor{
-		background: rgba(229, 76, 159, 0.43);
-		font-style: bold;
-	}
-
-	.darkPinkColor{
-		background: #e54c9f;
-		color: #fff;
-	}
-
-.img-30percent{
-	width: 30%;
-}
-
-
-	#accommodation img {
-    width: 40% !important;
-}
 
 
 </style>
