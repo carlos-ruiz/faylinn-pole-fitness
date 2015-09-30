@@ -129,7 +129,7 @@
 		<div class="m-04" data-scroll-reveal="enter bottom, over 1s, after 0.3s">
 			<h2>Sergio Chan</h2>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" heigh="10" alt="Sergio Chan" class="  heigh150 round-img">
-			<p><br/>Maecenas vitae rutrum nulla. Quisque sodales tincidunt ut pulvinar. Nunc dui risus, tincidunt vitae arcu lobortis.</p>
+			<p><br/>Famoso bailarín y deportista, dedicado a diferentes ramas de arte como ballet clásico, jazz, lirico y hip hop. Estudio Danza Contemporánea y se especializó en técnicas aéreas.</p>
 			<br/><a class="more-button" href="<?php echo Yii::app()->request->baseUrl; ?>/site/sergioChan">Más información</a>
 		</div>
 
@@ -326,32 +326,40 @@
 <!-- Accommodation -->
 
 
-<!-- Gifts -->
+<!-- Patrocinaddores -->
 <section id="gifts">
 	<h1 data-scroll-reveal>Patrocinadores</h1>
 	<hr>
 	<br/><br/>
 	<div class="center-container clearfix">
 		<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador1.png" alt="" class="center-content">
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador11.png" alt="" class="center-content">
+			
 			<br/>
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador6.png" alt="" class="center-content">
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador8.png" alt="" class="center-content">
+			<br/>
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador12.png" alt="" class="center-content">
 		</div>
 
 		<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.3s">
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador2.png" alt="" class="center-content">
+			<br/>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador7.png" alt="" class="center-content">
+			<br/>
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador10.png" alt="" class="center-content">
 		</div>
 
 		<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.6s">
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador3.png" alt="" class="center-content">
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador9.png" alt="" class="center-content">
 		</div>
 
 		<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.9s">
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador4.png" alt="" class="center-content">
-		</div>
-		<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.9s">
+			<br/>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador5.png" alt="" class="center-content">
+			<br/>
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador1.png" alt="" class="center-content">
 		</div>
 
 	</div>
