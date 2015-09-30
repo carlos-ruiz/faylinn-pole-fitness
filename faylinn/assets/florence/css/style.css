@@ -327,19 +327,19 @@ nav {
 .image-02 {
 	position: absolute;
 	top: 20px;
-	left: 200px;
+	left: 20%;
 	z-index: -49;
 }
 .image-04 {
 	position: absolute;
 	top: 20px;
-	left: 800px;
+	left: 60%;
 	z-index: -49;
 }
 .image-05 {
 	position: absolute;
 	top: -50px;
-	left: 940px;
+	left: 75%;
 	z-index: -99;
 }
 
@@ -491,7 +491,7 @@ nav {
 	background: #ecffd3;
 	color: #6c8052;
 	margin: 20px auto;
-} 
+}
 .alert-success a {
 	font-size: 17px;
 	float: right;
@@ -511,7 +511,7 @@ nav {
 	background: #fff7d3;
 	color: #b39923;
 	margin: 20px auto;
-} 
+}
 .alert-warning a {
 	font-size: 17px;
 	float: right;
@@ -531,7 +531,7 @@ nav {
 	background: #fee8e8;
 	color: #e25c5c;
 	margin: 20px auto;
-} 
+}
 .alert-error a {
 	font-size: 17px;
 	float: right;
@@ -551,7 +551,7 @@ nav {
 	background: #e4f1ff;
 	color: #4572a3;
 	margin: 20px auto;
-} 
+}
 .alert-info a {
 	font-size: 17px;
 	float: right;
@@ -686,7 +686,7 @@ nav {
 	margin: 15px 0;
 }
 .ulist li {
-	margin-top: 10px; 
+	margin-top: 10px;
 	color: #7d7d7d;
 }
 .ulist li i {
@@ -721,7 +721,7 @@ blockquote {
 }
 .fontawesome-preview .fa {
 	display: block;
-} 
+}
 
 /* --- Gallery Page --- */
 
@@ -901,7 +901,7 @@ footer .soc i {
     position:absolute;
     left:50%;
     top:50%;
-    background-image:url(../images/status.gif); 
+    background-image:url(../images/status.gif);
     background-repeat:no-repeat;
     background-position:center;
     margin:-100px 0 0 -100px;

@@ -48,6 +48,8 @@
 			<!-- Top Navigation -->
 			<nav data-scroll-reveal>
 				<ul class="main-nav">
+					<li><a  class="imglog" href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart" target="_blank"><img   src="<?php echo Yii::app()->request->baseUrl; ?>/images/artlogo.png" width=100%  height=80% alt="Faylinn Gym" ></a></li>
+					<li class="sep"></li>
 					<li><a href="#home">Home</a></li>
 					<li class="sep"></li>
 					<li><a href="#nosotros">Nosotros</a></li>
@@ -71,6 +73,7 @@
 
 				<div class="mobile-nav">
 					<ul class="mobile-nav-menu">
+						<li><a  class="imglog" href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart" target="_blank">Pole Art</a></li>
 						<li><a href="#home">Home</a></li>
 						<li><a href="#nosotros">Nosotros</a></li>
 						<li><a href="#ubicacion">Ubicación</a></li>

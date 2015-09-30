@@ -14,7 +14,7 @@
 	<div class="main-images center-content" data-scroll-reveal="enter bottom, after 0.2s">
 
 		<div class="couple">
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana1.jpg" width="200" alt="" class="round-img round-img-lgb">
+			<img id="image-central" src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana1.jpg" width="200" alt="" class="round-img round-img-lgb">
 		</div>
 
 		<div class="images">
@@ -116,7 +116,7 @@
 
 	<div class="center-container clearfix heigh150" >
 
-		<!-- 
+		<!--
 		<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
 			<h2>Diana Ham</h2>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana1.jpg" heigh="10" alt="Diana Ham" class=" heigh150 round-img radius">
@@ -125,7 +125,7 @@
 		</div>
 		-->
 
-		
+
 		<div class="m-04" data-scroll-reveal="enter bottom, over 1s, after 0.3s">
 			<h2>Sergio Chan</h2>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" heigh="10" alt="Sergio Chan" class="  heigh150 round-img">
@@ -133,7 +133,7 @@
 			<br/><a class="more-button" href="<?php echo Yii::app()->request->baseUrl; ?>/site/sergioChan">Más información</a>
 		</div>
 
-		
+
 		<div class="m-04" data-scroll-reveal="enter bottom, over 1s, after 0.6s">
 			<h2>Ivonne Quintero Tinoco</h2>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne1.png" heigh="5"  alt="Ivonne Quintero" class="round-img heigh150">
@@ -141,7 +141,7 @@
 			<a class="more-button"  href="<?php echo Yii::app()->request->baseUrl; ?>/site/ivonneQuintero">Más información</a>
 		</div>
 
-		
+
 		<div class="m-04" data-scroll-reveal="enter bottom, over 1s, after 0.9s">
 			<h2>Mario González</h2>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/mario1.jpg" alt="" class="round-img heigh150">
@@ -249,7 +249,7 @@
 			<br/><br/><br/><br/><h3>Nota:</h3><strong>Menor de edad Acompañante: Niños de hasta 11 años NO pagan su hospedaje.</strong>
 			</div>
 		</div>
-		<hr>	
+		<hr>
 		<h3>Ubicate, puntos importantes</h3>
 		<p><strong>Gimnasio: Av. Fuentes de Morelia no. 107</strong> Morelia, Michoacán </p>
 		<div id="map-canvas" class="m-12" data-scroll-reveal></div>
@@ -267,29 +267,29 @@
 			<div class="m-06 remove">
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio2.jpg"  alt="Parado de manos" class="round-img heigh150">
 				<h2 data-scroll-reveal>Sergio Chan</h2>
-				<div class="floatLeft"> 
+				<div class="floatLeft">
 							Taller: <strong>Parados de Manos</strong>
-					<br/> 	Hora: Pendiente	
+					<br/> 	Hora: Pendiente
 					<br/> 	Lugar: Pendiente
 					<hr>
 					Taller: <strong>Shoulder Mount</strong>
-					<br/> 	Hora: Pendiente	
+					<br/> 	Hora: Pendiente
 					<br/> 	Lugar: Pendiente
-				</div>		
+				</div>
 			</div>
 			<div class="m-06 remove">
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/mario1.jpg"  alt="Parado de manos" class="round-img heigh150 width100">
 				<h2 data-scroll-reveal>Mario Hernández</h2>
-				<div class="floatLeft"> 
+				<div class="floatLeft">
 							Taller: <strong>Power Chair Training</strong>
-					<br/> 	Hora: Pendiente	
+					<br/> 	Hora: Pendiente
 					<br/> 	Lugar: Pendiente
-				</div>		
-			</div>		
+				</div>
+			</div>
 		</div>
 
 		<div class="m-04 mt-40" data-scroll-reveal>
-			<h2>¡Lo mejor de lo mejor, No te quedes fuera!</h2> 
+			<h2>¡Lo mejor de lo mejor, No te quedes fuera!</h2>
 			<p>Excelentes instrucotres impartiran las capacitaciones y dejaran en tí una experiencia única llena de emociones y conocimmientos.</p>
 		</div>
 
@@ -297,28 +297,28 @@
 			<div class="m-06 remove">
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/comida.jpg"  alt="Parado de manos" class="round-img heigh150 width100">
 				<h2 data-scroll-reveal>Valeria Vaez (Nutriologa)</h2>
-				<div class="floatLeft"> 
+				<div class="floatLeft">
 							Conferencia: <strong>Nutricion en el deporte</strong>
-					<br/> 	Hora: Pendiente	
+					<br/> 	Hora: Pendiente
 					<br/> 	Lugar: Pendiente
-				</div>		
+				</div>
 			</div>
 
 			<div class="m-06 remove">
 				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne2.jpg"  alt="Parado de manos" class="round-img heigh150">
 				<h2 data-scroll-reveal>Ivonne Quintero</h2>
-				<div class="floatLeft"> 
+				<div class="floatLeft">
 							Conferencia: <strong> Historia del pole, kinestesia y biomecánica aplicadas al pole, mecanismos de lesión y planos sagitales</strong>
-					<br/> 	Hora: Pendiente	
+					<br/> 	Hora: Pendiente
 					<br/> 	Lugar: Pendiente
 					<hr>
 					Conferencia / Taller: <strong>Progresión de movimientos con la técnica adecuada y por último técnica de hanspring</strong>
-					<br/> 	Hora: Pendiente	
+					<br/> 	Hora: Pendiente
 					<br/> 	Lugar: Pendiente
-				</div>		
+				</div>
 			</div>
 
-			
+
 		</div>
 	</div>
 </section>
@@ -334,7 +334,7 @@
 	<div class="center-container clearfix">
 		<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador11.png" alt="" class="center-content">
-			
+
 			<br/>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/patrocinador8.png" alt="" class="center-content">
 			<br/>
