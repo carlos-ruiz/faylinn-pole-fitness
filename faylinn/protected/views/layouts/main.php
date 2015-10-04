@@ -50,21 +50,23 @@
 				<ul class="main-nav">
 					<li><a  class="imglog" href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart" target="_blank"><img   src="<?php echo Yii::app()->request->baseUrl; ?>/images/artlogo.png" width=100%  height=80% alt="Faylinn Gym" ></a></li>
 					<li class="sep"></li>
-					<li><a href="#home">Home</a></li>
+					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/index#home">Home</a></li>
 					<li class="sep"></li>
-					<li><a href="#nosotros">Nosotros</a></li>
+					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/index#nosotros">Nosotros</a></li>
 					<li class="sep"></li>
-					<li><a href="#ubicacion">Ubicación</a></li>
+					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/index#ubicacion">Ubicación</a></li>
 					<li class="sep"></li>
-					<li><a href="#dueña">Dueña</a></li>
+					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/index#dueña">Dueña</a></li>
 					<li class="sep"></li>
-					<li><a href="#horario">Horario</a></li>
+					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/index#horario">Horario</a></li>
 					<li class="sep"></li>
-					<li><a href="#eventos">Eventos</a></li>
+					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/index#eventos">Eventos</a></li>
 					<li class="sep"></li>
-					<li><a href="#experiencias">Experiencias</a></li>
+					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/index#experiencias">Experiencias</a></li>
 					<li class="sep"></li>
-					<li><a href="#rsvp">Contacto</a></li>
+					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/index#rsvp">Contacto</a></li>
+					<li class="sep"></li>
+					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/products/index">Catálogo</a></li>
 					<li class="sep"></li>
 					<li><a href="https://www.facebook.com/faylinn.pole.studio?fref=ts" target="_blank"><i class="fa fa-facebook fa-mid"></i></a></li>
 					<li class="sep"></li>
@@ -86,20 +88,6 @@
 					<span class="show-menu"><i class="fa fa-bars"></i></span>
 				</div>
 			</nav>
-			<div id="home">
-				<div class="names" data-scroll-reveal>Ven con nosotros!! </div>
-				<!-- Header Images -->
-				<div class="center-content">
-					<div >
-						<div  id="slider" >
-							<figure>
-								<img  class="img-slider" src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" width=60%  height=35% alt="Faylinn Gym" class="img-logo">
-								<a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#home" target="_blank"><img  class="img-slider" src="<?php echo Yii::app()->request->baseUrl; ?>/images/artlogo.png" width=60%  height=35% alt="Faylinn Gym" class="img-logo"></a>
-							</figure>
-						</div>
-					</div>
-				</div>
-			</div>
 		</header>
 		<!-- END HEADER -->
 

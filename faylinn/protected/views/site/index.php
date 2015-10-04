@@ -3,7 +3,20 @@
 
 $this->pageTitle=Yii::app()->name;
 ?>
-
+<div id="home">
+	<div class="names" data-scroll-reveal>Ven con nosotros!! </div>
+	<!-- Header Images -->
+	<div class="center-content">
+		<div >
+			<div  id="slider" >
+				<figure>
+					<img  class="img-slider" src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" width=60%  height=35% alt="Faylinn Gym" class="img-logo">
+					<a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#home" target="_blank"><img  class="img-slider" src="<?php echo Yii::app()->request->baseUrl; ?>/images/artlogo.png" width=60%  height=35% alt="Faylinn Gym" class="img-logo"></a>
+				</figure>
+			</div>
+		</div>
+	</div>
+</div>
 <!-- Nosotros -->
 		<section id="nosotros">
 			<h1 data-scroll-reveal>Nosotros</h1>
@@ -207,24 +220,24 @@ $this->pageTitle=Yii::app()->name;
 			<hr>
 			<h3 data-scroll-reveal>Talleres</h3>
 			<a href="<?php echo Yii::app()->request->baseUrl; ?>/images/talleres/inscripcion.docx" target="_blank" >Descarga Formato de inscripción</a>
-			
 
-			<div class="center-container clearfix">				
+
+			<div class="center-container clearfix">
 				<div class="center-container clearfix" data-scroll-reveal>
 					<div class="m-06" data-scroll-reveal="enter left, move 60px, over 1.2s, after 0.3s">
 							<br/><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/talleres/spider.jpg"  width="350" alt="" >
 					</div>
 					<div class="m-04" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
 						<br/><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/talleres/andrea.jpg"  width="500" alt="" >
-					</div>	
-				</div>			
+					</div>
+				</div>
 			</div>
 			<div class="m-12" data-scroll-reveal="enter right, move 60px, over 1.2s, after 0.3s">
 				<div class="floatLeft">
 					<div class="paddingLeft">
 						<p><span class="colorPink"> <strong>Pago: </strong></span>Depósito bancario en <strong>Banorte</strong> con clave intervancaria <strong>072470005086306996</strong> a nombre de Laura Avilés del <strong>50% del costo</strong> para cualquiera de los dos talleres y el resto se paga el dia del evento.<br/><span class="colorPink"> <strong>Cancelación: </strong></span> Serán con un mes de anticipación para devolucion del dinero después de esa fecha no habrá devoluciones.
 						<br/> Enviar formato de inscripción y foto o escaner del pago a <span class="colorPink"> <strong> poleartfitness-michoacan@hotmail.com </strong></span>
-						</p>	
+						</p>
 					</div>
 				</div>
 			</div>
