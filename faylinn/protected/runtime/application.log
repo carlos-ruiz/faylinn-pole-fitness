@@ -725,3 +725,48 @@ Stack trace:
 #11 {main}
 REQUEST_URI=/faylinnpole/faylinn/products/admin
 ---
+2015/10/06 11:16:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/pardo3.png".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/pardo3.p...')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/pardo3.png
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/dianaPardo
+---
+2015/10/06 11:16:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/pardo3.png".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/pardo3.p...')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/pardo3.png
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/dianaPardo
+---
+2015/10/06 11:17:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/pardo3.png".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/pardo3.p...')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/pardo3.png
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/dianaPardo
+---
+2015/10/06 11:17:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/pardo3.png".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/pardo3.p...')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/pardo3.png
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/dianaPardo
+---
+2015/10/06 11:17:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/pardo3.png".' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/pardo3.p...')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/pardo3.png
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/dianaPardo
+---

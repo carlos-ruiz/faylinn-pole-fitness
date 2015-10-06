@@ -116,7 +116,7 @@
 
 	<div class="center-container clearfix heigh150" >
 
-		<!--
+		<!-- 
 		<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
 			<h2>Diana Ham</h2>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/diana1.jpg" heigh="10" alt="Diana Ham" class=" heigh150 round-img radius">
@@ -125,16 +125,25 @@
 		</div>
 		-->
 
+		
+		<div class="m-03" data-scroll-reveal="enter bottom, over 1s">
+			<h2>Diana Pardo</h2>
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pardo3.jpg" heigh="10" alt="Diana Pardo" class=" heigh150 round-img radius">
+			<p>Master trainer de Pole Moves Los Angeles, certificada por ACE, AFAA, PFA Y Pole Fitness Alliance, ella ha impartido mas de 30 certificaciones. </p>
+			<br/><a class="more-button" href="<?php echo Yii::app()->request->baseUrl; ?>/site/dianaPardo">Más información</a>
+		</div>
+		
 
-		<div class="m-04" data-scroll-reveal="enter bottom, over 1s, after 0.3s">
+
+		<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.3s">
 			<h2>Sergio Chan</h2>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/sergio1.jpg" heigh="10" alt="Sergio Chan" class="  heigh150 round-img">
-			<p><br/>Famoso bailarín y deportista, dedicado a diferentes ramas de arte como ballet clásico, jazz, lirico y hip hop. Estudio Danza Contemporánea y se especializó en técnicas aéreas.</p>
-			<br/><a class="more-button" href="<?php echo Yii::app()->request->baseUrl; ?>/site/sergioChan">Más información</a>
+			<p>Famoso bailarín y deportista, dedicado a diferentes ramas de arte como ballet clásico, jazz, lirico y hip hop. Estudio Danza Contemporánea y se especializó en técnicas aéreas.</p>
+			<a class="more-button" href="<?php echo Yii::app()->request->baseUrl; ?>/site/sergioChan">Más información</a>
 		</div>
 
 
-		<div class="m-04" data-scroll-reveal="enter bottom, over 1s, after 0.6s">
+		<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.6s">
 			<h2>Ivonne Quintero Tinoco</h2>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/ivonne1.png" heigh="5"  alt="Ivonne Quintero" class="round-img heigh150">
 			<p>Bailarina Profesional de salsa, merengue, flamenco, bachata, cumbia, jazz y contemporáneo, instructora fitness desde hace 12 años y nutrióloga del equipo de natación de alto rendimiento Chivas.</p>
@@ -142,7 +151,7 @@
 		</div>
 
 
-		<div class="m-04" data-scroll-reveal="enter bottom, over 1s, after 0.9s">
+		<div class="m-03" data-scroll-reveal="enter bottom, over 1s, after 0.9s">
 			<h2>Mario González</h2>
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/mario1.jpg" alt="" class="round-img heigh150">
 			<p>El bailarín y coreógrafo Mario González es poseedor de una larga y variada trayectoria dentro del mundo de las artes escénicas y disciplinas tales como ballet, jazz, danza contemporánea, danza aérea y coreografía.</p>

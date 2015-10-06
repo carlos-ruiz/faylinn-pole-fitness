@@ -145,6 +145,10 @@ class SiteController extends Controller
 		$this->layout='//layouts/main1';
 		$this->render('mario');
 	}
+	public function actionDianaPardo(){
+		$this->layout='//layouts/main1';
+		$this->render('pardo');
+	}
 
 
 	public function actionPoleArt(){
