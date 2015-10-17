@@ -62,11 +62,11 @@ class Products extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'name' => 'Name',
-			'description' => 'Description',
-			'price' => 'Price',
-			'size' => 'Size',
-			'status' => 'Status',
+			'name' => 'Nombre',
+			'description' => 'Descripción',
+			'price' => 'Precio',
+			'size' => 'Talla',
+			'status' => 'Estatus',
 		);
 	}
 

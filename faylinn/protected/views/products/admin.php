@@ -4,7 +4,6 @@
 
 ?>
 	<!-- <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap/css/bootstrap.min.css"> -->
-	<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/custom/customStyle.css">
 <?php
 	if(Yii::app()->user->isGuest){
 		$form=$this->beginWidget('CActiveForm', array(
@@ -51,8 +50,11 @@
 	}
 	else{
 ?>
-		<div id="home">
+		<div id="home" class="container">
 			<div class="names" data-scroll-reveal>Administrar Productos</div>
+			<div class="text-right">
+				<?php echo CHtml::link('<i class="icon-plus"></i> Agregar producto', array('products/create'), array('class'=>'button pink')); ?>
+			</div>
 
 			<div class="center-content">
 

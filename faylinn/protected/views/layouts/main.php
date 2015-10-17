@@ -23,6 +23,7 @@
 		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/inc/owl-carousel/owl.theme.css">
 		<link href="<?php echo Yii::app()->request->baseUrl; ?>/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 		<link href="<?php echo Yii::app()->request->baseUrl; ?>/assets/global/plugins/slider-revolution-slider/rs-plugin/css/settings.css" rel="stylesheet">
+		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/custom/customStyle.css">
 
 		<!-- Google Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>

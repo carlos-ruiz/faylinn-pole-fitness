@@ -15,42 +15,39 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
-
-	<?php echo $form->errorSummary($model); ?>
-
-	<div class="row">
+	<div class="row col-md-4">
 		<?php echo $form->labelEx($model,'name'); ?>
-		<?php echo $form->textField($model,'name',array('size'=>45,'maxlength'=>45)); ?>
+		<?php echo $form->textField($model,'name',array('size'=>45,'maxlength'=>45, 'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'name'); ?>
 	</div>
 
-	<div class="row">
+	<div class="row col-md-4">
 		<?php echo $form->labelEx($model,'description'); ?>
-		<?php echo $form->textField($model,'description',array('size'=>60,'maxlength'=>256)); ?>
+		<?php echo $form->textField($model,'description',array('size'=>60,'maxlength'=>256, 'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'description'); ?>
 	</div>
 
-	<div class="row">
+	<div class="row col-md-4">
 		<?php echo $form->labelEx($model,'price'); ?>
-		<?php echo $form->textField($model,'price',array('size'=>7,'maxlength'=>7)); ?>
+		<?php echo $form->textField($model,'price',array('size'=>7,'maxlength'=>7, 'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'price'); ?>
 	</div>
 
-	<div class="row">
+	<div class="row col-md-4">
 		<?php echo $form->labelEx($model,'size'); ?>
-		<?php echo $form->textField($model,'size',array('size'=>45,'maxlength'=>45)); ?>
+		<?php echo $form->textField($model,'size',array('size'=>45,'maxlength'=>45, 'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'size'); ?>
 	</div>
 
-	<div class="row">
+	<div class="row col-md-4">
 		<?php echo $form->labelEx($model,'status'); ?>
-		<?php echo $form->textField($model,'status'); ?>
+		<?php // echo $form->textField($model,'status', array('class'=>'form-control')); ?>
+		<?php echo $form->dropDownList($model, 'status', array('1'=>'Activo', '0'=>'Inactivo'), array('class'=>'form-control')); ?>
 		<?php echo $form->error($model,'status'); ?>
 	</div>
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+	<div class="row col-md-4 buttons text-right">
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Guardar' : 'Actualizar', array('class'=>'button pink')); ?>
 	</div>
 
 <?php $this->endWidget(); ?>
