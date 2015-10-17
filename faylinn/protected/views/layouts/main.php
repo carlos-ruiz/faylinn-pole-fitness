@@ -21,8 +21,6 @@
 		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/inc/font-awesome/css/font-awesome.css">
 		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/inc/owl-carousel/owl.carousel.css">
 		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/inc/owl-carousel/owl.theme.css">
-
-
 		<link href="<?php echo Yii::app()->request->baseUrl; ?>/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 		<link href="<?php echo Yii::app()->request->baseUrl; ?>/assets/global/plugins/slider-revolution-slider/rs-plugin/css/settings.css" rel="stylesheet">
 
@@ -68,6 +66,14 @@
 					<li class="sep"></li>
 					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/products/index">Catálogo</a></li>
 					<li class="sep"></li>
+					<?php
+						if(!Yii::app()->user->isGuest){
+					?>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/logout">Logout</a></li>
+						<li class="sep"></li>
+					<?php
+						}
+					?>
 					<li><a href="https://www.facebook.com/faylinn.pole.studio?fref=ts" target="_blank"><i class="fa fa-facebook fa-mid"></i></a></li>
 					<li class="sep"></li>
 					<li><a href="#"><i class="fa fa-twitter fa-mid"></i></a></ul>

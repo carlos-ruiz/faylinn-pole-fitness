@@ -27,6 +27,8 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
+		//Inicializar el sistema
+		$this->init();
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
@@ -154,5 +156,14 @@ class SiteController extends Controller
 	public function actionPoleArt(){
 		$this->layout='//layouts/main1';
 		$this->render('index-competencia');
+	}
+
+	public function init(){
+		if(Users::model()->count()==0){
+			$admin = new Users;
+			$admin->username = "admin";
+			$admin->password = base64_encode("admin");
+			$admin->save();
+		}
 	}
 }

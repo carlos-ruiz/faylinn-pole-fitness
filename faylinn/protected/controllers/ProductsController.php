@@ -28,7 +28,7 @@ class ProductsController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view', 'admin'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -36,7 +36,7 @@ class ProductsController extends Controller
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
+				'actions'=>array('delete'),
 				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
@@ -133,10 +133,32 @@ class ProductsController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Products('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Products']))
-			$model->attributes=$_GET['Products'];
+		if(Yii::app()->user->isGuest){
+			$this->layout='//layouts/main';
+			$model=new LoginForm;
+
+			// if it is ajax validation request
+			if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
+			{
+				echo CActiveForm::validate($model);
+				Yii::app()->end();
+			}
+
+			// collect user input data
+			if(isset($_POST['LoginForm']))
+			{
+				$model->attributes=$_POST['LoginForm'];
+				// validate user input and redirect to the previous page if valid
+				if($model->validate() && $model->login())
+					$this->redirect('admin');
+			}
+		}
+		else{
+			$model=new Products('search');
+			$model->unsetAttributes();  // clear any default values
+			if(isset($_GET['Products']))
+				$model->attributes=$_GET['Products'];
+		}
 
 		$this->render('admin',array(
 			'model'=>$model,
