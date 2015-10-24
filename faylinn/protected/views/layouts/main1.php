@@ -63,6 +63,8 @@
 					<li class="sep"></li>
 					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#gifts">Patrocinadores</a></li>
 					<li class="sep"></li>
+					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#competidores">Competidores</a></li>
+					<li class="sep"></li>
 					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#terminos">Terminos y Condiciones</a></li>
 					<li class="sep"></li>
 					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/index#rsvp" target="_blank">Contacto</a></li>
@@ -80,6 +82,7 @@
 						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#paquetes">Paquetes</a></li>
 						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#talleres">Talleres</a></li>
 						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#gifts">Patrocinadores</a></li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#competidores">Competidores</a></li>
 						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart#terminos">Terminos y Condiciones</a></li>
 						<li><a href="https://www.facebook.com/1er-Competencia-Pole-Art-Pole-Fitness-Michoac%C3%A1n-846447012090702/timeline/" target="_blank"><i class="fa fa-facebook fa-mid"></i></a></li>
 					</ul>
