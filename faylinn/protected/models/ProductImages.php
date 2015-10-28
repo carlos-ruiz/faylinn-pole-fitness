@@ -32,6 +32,7 @@ class ProductImages extends CActiveRecord
 			array('image_url, products_id', 'required'),
 			array('products_id', 'numerical', 'integerOnly'=>true),
 			array('image_url', 'length', 'max'=>400),
+			 array('image_url', 'file', 'types'=>'jpg, gif, png'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, image_url, products_id', 'safe', 'on'=>'search'),
@@ -99,4 +100,18 @@ class ProductImages extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+	//images
+	public function beforeSave()
+    {
+        if($file=CUploadedFile::getInstance($this,'uploadedFile'))
+        {
+            $this->file_name=$file->name;
+            $this->file_type=$file->type;
+            $this->file_size=$file->size;
+            $this->file_content=file_get_contents($file->tempName);
+        }
+ 
+    return parent::beforeSave();
+    }
 }

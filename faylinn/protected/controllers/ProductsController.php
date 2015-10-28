@@ -63,19 +63,36 @@ class ProductsController extends Controller
 	public function actionCreate()
 	{
 		$model=new Products;
-
+		$producto_imagen= new ProductImages;
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Products']))
 		{
 			$model->attributes=$_POST['Products'];
+			$producto_imagen->attributes=$_POST['ProductImages'];
+			$uploadedFile=CUploadedFile::getInstance($producto_imagen,'image_url');
+			print_r($uploadedFileup);
+			//return;
+            $fileName = "test";  // random number + file name
+            if($model->save())
+	            {
+				$uploadedFile->saveAs(Yii::app()->request->baseUrl."/images/catalogo/".$fileName);
+				$producto_imagen->image_url=Yii::app()->request->baseUrl."/images/catalogo/".$fileName;
+				$producto_imagen->products_id=$model->id;
+				if($producto_imagen->save()){ 
+	                $this->redirect(array('admin'));
+		         }
+	         }
+
+			
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
 
 		$this->render('create',array(
 			'model'=>$model,
+			'producto_imagen'=>$producto_imagen,
 		));
 	}
 
@@ -192,4 +209,5 @@ class ProductsController extends Controller
 			Yii::app()->end();
 		}
 	}
+
 }

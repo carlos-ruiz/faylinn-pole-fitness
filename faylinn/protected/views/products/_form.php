@@ -13,7 +13,13 @@
 	// There is a call to performAjaxValidation() commented in generated controller code.
 	// See class documentation of CActiveForm for details on this.
 	'enableAjaxValidation'=>false,
-)); ?>
+	'htmlOptions' => array(
+        'enctype' => 'multipart/form-data',
+    ),
+)); 
+
+print_r($producto_imagen);
+?>
 
 	<div class="row col-md-4">
 		<?php echo $form->labelEx($model,'name'); ?>
@@ -38,6 +44,15 @@
 		<?php echo $form->textField($model,'size',array('size'=>45,'maxlength'=>45, 'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'size'); ?>
 	</div>
+
+	<div class="row col-md-4">
+		<?php echo $form->labelEx($producto_imagen,'image_url'); ?>
+		<?php echo $form->fileField($producto_imagen,'image_url'); ?>
+		<?php echo $form->error($producto_imagen,'image_url'); ?>
+		
+	</div>
+
+	
 
 	<div class="row col-md-4">
 		<?php echo $form->labelEx($model,'status'); ?>

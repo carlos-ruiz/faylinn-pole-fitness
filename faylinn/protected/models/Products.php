@@ -67,6 +67,7 @@ class Products extends CActiveRecord
 			'price' => 'Precio',
 			'size' => 'Talla',
 			'status' => 'Estatus',
+			
 		);
 	}
 
