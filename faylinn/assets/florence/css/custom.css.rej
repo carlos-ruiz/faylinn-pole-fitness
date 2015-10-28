@@ -1,0 +1,9 @@
+diff a/faylinn/assets/florence/css/custom.css b/faylinn/assets/florence/css/custom.css	(rejected hunks)
+@@ -8,6 +8,7 @@
+ 
+ .heigh150{
+   height: 150px;
++  border-radius: 10% !important;
+ }
+ 
+   .rightContainer{

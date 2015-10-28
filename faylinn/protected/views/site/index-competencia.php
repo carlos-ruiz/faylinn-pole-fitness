@@ -375,6 +375,157 @@
 	<br/><br/><br/><br/>
 </section>
 
+<section id="competidores">
+			<h1 data-scroll-reveal>Competidores</h1>
+			<hr>
+<div data-scroll-reveal="enter bottom, over 1s, after 0.9s" class="center-container clearfix">
+
+			<table class="schedule center-container">
+			  <tr class=" pink-background">
+			    <td><strong>POLE ART</strong></td>
+			    <td><strong>PROFESIONAL ELITE</strong></td>
+			   	<td><strong>AVANZADO VARONIL</strong></td>
+			    <td><strong>AVANZADA FEMENIL</strong></td>
+			 	<td><strong>POLE COREGRAPHY </strong></td>
+			  </tr>
+			  <tr>
+			    <td>JARED RIVERA</td>
+			    <td>ANDREA VELEZ </td>
+			    <td>JESUS EMANUEL FERREYRA GONZALEZ </td>
+			    <td>LUPITA SACARIAS PEREZ</td>
+			    <td>JUDITH OCAMPO ROJAS </td>
+			  </tr>
+			  <tr>
+			    <td>SANDRA ELENA SANCHEZ HERRERA</td>
+			    <td>KARLA DURAN</td>
+			    <td>FELIPE RANGEL PEREZ</td>
+			    <td>ADRIANA ARACELI SALAZAR PEREZ </td>
+			    <td>MONICA ELIZABETH VALLE ESCAMILLA</td>
+			  </tr>
+			  <tr>
+			    <td>AURORA BELEN MORA FERNANDEZ </td>
+			    <td>IMELDA CABELLO LARIOS</td>
+			    <td>LUIS EDMUNDO TEOS SUAREZ </td>
+			    <td>CITLALLI LEON MARTINEZ </td>
+			    <td>MARIA FERNANDA GONZALEZ TORRES</td>
+			  </tr>
+			  <tr>
+			     <td>SILVIA MORA FERNANDEZ </td>
+			    <td>LARIOS NATHALY GOMEZ DEL VALLE</td>
+			    <td>CUANUHTEMOC LEMUS AGUILAR </td>
+			    <td>DAFNE VALERIA BRIONES PEÑA</td>
+			    <td>REBECA SANDRA SANDOVAL </td>
+			  </tr>
+			   <tr>
+			   <td>ANDREA ARELI MACIAS TORRES</td>
+			    <td></td>
+			    <td>ALEJANDRO DE LA PEÑA </td>
+			    <td>ALICIA IVETTH RAYA SANTOYO </td>
+			    <td>PAZ BRENDA TAPIA CABRERA </td>
+			  </tr>
+			   <tr>
+			     <td>YAZMIN GARCIA MENDOZA </td>
+			    <td></td>
+			    <td>SERGIO JOSUE CRUZ GARCIA </td>
+			    <td>LUZ YOLANDA CARDENAS RIVERA</td>
+			    <td>CLAUDIA SAMANTHA GALINDO MOTO </td>
+			  </tr>
+			   <tr>
+			     <td>KARLA BERENICE CARRADA MURILLO</td>
+			    <td></td>
+			    <td>IVAN CONTRERAS </td>
+			    <td>GALDIS YADIRA GUEVARA CEJA </td>
+			    <td>ROCIO CASTILLO TORRES</td>
+			  </tr>
+			   <tr>
+			    <td></td>
+			    <td></td>
+			    <td>GILBERTO OLGUIN MONTES </td>
+			    <td>MARIA DEL PILAR CARDENAS ORTIZ</td>
+			    <td>LORELEIN BENITEZ LOPEZ</td>
+			  </tr>
+			  <tr>
+			    <td></td>
+			    <td></td>
+			    <td>DANIEL PALACIOS</td>
+			    <td>KARLA HERNANDEZ GRACIA </td>
+			    <td>JANETH VERONICA AVILA NAVA</td>
+			  </tr>
+			  <tr>
+			    <td></td>
+			    <td></td>
+			    <td></td>
+			    <td>IVONNE DENISSE VERA ALFARO</td>
+			    <td>SAMANTHA URTIZ RIVERA </td>
+			  </tr>
+			  <tr>
+			    <td></td>
+			    <td></td>
+			    <td></td>
+			    <td>TAMARA MENDEZ LARA</td>
+			    <td>CINDY ARREGOITIA LOR SADETT ARROYO</td>
+			  </tr>
+		</table>
+		<br/>
+			<table class="schedule center-container">
+			  <tr class=" pink-background">
+			    <td><strong>BASICO - INTERMEDIO </strong></td>
+			    <td><strong>INFANTIL "C"</strong> </td>
+			   	<td><strong>INFANTIL "B" </strong></td>
+			    <td><strong>INFANTIL "A" </strong></td>
+			  </tr>
+			  <tr>
+			    <td>BRENDA LETICIA MORA HURTADO </td>
+			    <td>MARIA JOSE METINEZ HERNADEZ  </td>
+			    <td>DANNA MICHEL GARCIA AYALA  </td>
+			    <td>LUCIA IBIZA TENTORY CAMARENA </td>
+			  </tr>
+			  <tr>
+			    <td>LAURA COVARRUBIAS MAGAÑA </td>
+			    <td>GRECIA FERNANDA TORRES PACHECO</td>
+			    <td>SOFIA MARTINEZ HERNANDEZ</td>
+			    <td>CAMILA HERNANDEZ MELLADO </td>
+			  </tr>
+			  <tr>
+			    <td>NANCY MUZQUIZ MEDINA</td>
+			    <td>BRENDA LILIANA VAZQUEZ GARCIA </td>
+			    <td>LESLI VAZQUEZ GARCIA  </td>
+			    <td>ESTEFANIA SALAS MARTINEZ </td>
+			  </tr>
+			  <tr>
+			     <td>MACARENA GARRIDO SUAREZ </td>
+			    <td>DANIELA AMARANTA MEDINA GARCIA </td>
+			    <td>DAYAN VALENTINEZ RODRIGUEZ  </td>
+			    <td></td>
+			  </tr>
+			   <tr>
+			   <td>KARLA PEDROSA MOLINA </td>
+			    <td>DULCE MELANIE HERNANDEZ MELLADO</td>
+			    <td>NICOLE GOMEZ DEL VALLE </td>
+			    <td></td>
+			  </tr>
+			   <tr>
+			    <td>MARICELA GRAJEDA FERNANDEZ</td>
+			    <td>FRIDA GUARNEROS COVARRUBIAS </td>
+			    <td></td>
+			    <td></td>
+			  </tr>
+			   <tr>
+			     <td></td>
+			    <td>PAOLA LIZBETH TENA</td>
+			    <td> </td>
+			    <td></td>
+			  </tr>
+			</table>
+	
+		</div>
+
+</section>
+
+
+
+
+
 
 <section id="terminos">
 	<h1 data-scroll-reveal>Términos y Condiciones para la Compra de paquetes</h1>
