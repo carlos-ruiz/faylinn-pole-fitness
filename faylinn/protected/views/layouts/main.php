@@ -28,7 +28,10 @@
 		<!-- Google Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
-
+		<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/js/jquery-1.11.0.js" type="text/javascript"></script>
+		
+    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/assets/global/plugins/jssor/js/jssor.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/assets/global/plugins/jssor/js/jssor.slider.js"></script>
 		<!--[if IE]>
 	    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	  	<![endif]-->
@@ -117,7 +120,7 @@
 		<!-- END FOOTER -->
 
 		<!-- Javascript -->
-		<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/js/jquery-1.11.0.js" type="text/javascript"></script>
+		
 		<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/js/countdown.js" type="text/javascript"></script>
 		<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/js/scrollReveal.js" type="text/javascript"></script>
 		<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/js/lightbox.js" type="text/javascript"></script>

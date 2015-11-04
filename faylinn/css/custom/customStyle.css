@@ -150,3 +150,13 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 	display: table;
 	padding: 15px 0;
 }
+
+tr.odd {
+    background: rgba(229, 76, 147, 0.62) !important;
+}
+tr.even.selected{
+    background: #F8F8F8 !important;
+}
+tr.even:hover{
+    background: #F8F8F8 !important;
+}

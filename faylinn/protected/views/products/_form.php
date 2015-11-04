@@ -13,12 +13,9 @@
 	// There is a call to performAjaxValidation() commented in generated controller code.
 	// See class documentation of CActiveForm for details on this.
 	'enableAjaxValidation'=>false,
-	'htmlOptions' => array(
-        'enctype' => 'multipart/form-data',
-    ),
+	'htmlOptions' => array('enctype' => 'multipart/form-data'),
 )); 
 
-print_r($producto_imagen);
 ?>
 
 	<div class="row col-md-4">

@@ -69,25 +69,24 @@ class ProductsController extends Controller
 
 		if(isset($_POST['Products']))
 		{
+			$url = Yii::app()->basePath."/../images/catalogo/";
 			$model->attributes=$_POST['Products'];
 			$producto_imagen->attributes=$_POST['ProductImages'];
 			$uploadedFile=CUploadedFile::getInstance($producto_imagen,'image_url');
-			print_r($uploadedFileup);
-			//return;
-            $fileName = "test";  // random number + file name
+			$tempNameArray = explode('.',$uploadedFile->name);
+			$ext = ".".$tempNameArray[sizeof($tempNameArray)-1];
+			
+            $fileName = time().$ext;
             if($model->save())
-	            {
-				$uploadedFile->saveAs(Yii::app()->request->baseUrl."/images/catalogo/".$fileName);
+	        {
+				$uploadedFile->saveAs($url.$fileName);
 				$producto_imagen->image_url=Yii::app()->request->baseUrl."/images/catalogo/".$fileName;
 				$producto_imagen->products_id=$model->id;
 				if($producto_imagen->save()){ 
 	                $this->redirect(array('admin'));
-		         }
-	         }
+		        }
+	        }
 
-			
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
 		}
 
 		$this->render('create',array(
