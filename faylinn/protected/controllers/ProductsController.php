@@ -6,7 +6,7 @@ class ProductsController extends Controller
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $layout='//layouts/column2';
+	//public $layout='//layouts/column1';
 
 	/**
 	 * @return array action filters
@@ -27,17 +27,9 @@ class ProductsController extends Controller
 	public function accessRules()
 	{
 		return array(
-			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view', 'admin'),
-				'users'=>array('*'),
-			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','index','view','admin','delete','deleteImage'),
 				'users'=>array('@'),
-			),
-			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('delete'),
-				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -51,8 +43,25 @@ class ProductsController extends Controller
 	 */
 	public function actionView($id)
 	{
+		$producto_imagen = new ProductImages;
+		
+		if(isset($_POST['ProductImages'])){
+			$url = Yii::app()->basePath."/../images/catalogo/";
+			$producto_imagen->attributes=$_POST['ProductImages'];
+			$uploadedFile=CUploadedFile::getInstance($producto_imagen,'image_url');
+			$tempNameArray = explode('.',$uploadedFile->name);
+			$ext = ".".$tempNameArray[sizeof($tempNameArray)-1];
+			$fileName = time().$ext;
+
+			if($uploadedFile->saveAs($url.$fileName)){
+				$producto_imagen->image_url=Yii::app()->request->baseUrl."/images/catalogo/".$fileName;
+				$producto_imagen->products_id=$id;
+				$producto_imagen->save();
+            }
+		}
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
+			'producto_imagen'=>$producto_imagen
 		));
 	}
 
@@ -103,7 +112,7 @@ class ProductsController extends Controller
 	public function actionUpdate($id)
 	{
 		$model=$this->loadModel($id);
-
+		$producto_imagen = new ProductImages;
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
@@ -116,6 +125,7 @@ class ProductsController extends Controller
 
 		$this->render('update',array(
 			'model'=>$model,
+			'producto_imagen'=>$producto_imagen,
 		));
 	}
 
@@ -179,6 +189,16 @@ class ProductsController extends Controller
 		$this->render('admin',array(
 			'model'=>$model,
 		));
+	}
+
+	public function actionDeleteImage()
+	{
+		if(isset($_POST['id'])){
+			if(ProductImages::model()->find("id=?",array($_POST['id']))->delete())
+				echo 0; //SI NO HAY ERROR REGRESAMOS 0
+			else 
+				echo 1; //SI HAY ERROR REGRESAMOS 1
+		}
 	}
 
 	/**

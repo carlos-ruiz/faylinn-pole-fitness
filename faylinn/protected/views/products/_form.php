@@ -3,8 +3,7 @@
 /* @var $model Products */
 /* @var $form CActiveForm */
 ?>
-
-<div class="form">
+<div class="form m-08 mt-80">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'products-form',
@@ -35,20 +34,21 @@
 		<?php echo $form->textField($model,'price',array('size'=>7,'maxlength'=>7, 'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'price'); ?>
 	</div>
-
+	
 	<div class="row col-md-4">
 		<?php echo $form->labelEx($model,'size'); ?>
 		<?php echo $form->textField($model,'size',array('size'=>45,'maxlength'=>45, 'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'size'); ?>
 	</div>
 
-	<div class="row col-md-4">
-		<?php echo $form->labelEx($producto_imagen,'image_url'); ?>
-		<?php echo $form->fileField($producto_imagen,'image_url'); ?>
-		<?php echo $form->error($producto_imagen,'image_url'); ?>
-		
-	</div>
-
+	<?php if($model->isNewRecord) { ?>
+		<div class="row col-md-4">
+			<?php echo $form->labelEx($producto_imagen,'image_url'); ?>
+			<?php echo $form->fileField($producto_imagen,'image_url'); ?>
+			<?php echo $form->error($producto_imagen,'image_url'); ?>
+			
+		</div>
+	<?php } ?>
 	
 
 	<div class="row col-md-4">
@@ -65,3 +65,37 @@
 <?php $this->endWidget(); ?>
 
 </div><!-- form -->
+<div class="m-04 mt-40">
+	<?php if(!$model->isNewRecord){ ?>
+		 <?php foreach ($model->productImages as $image) { ?>
+		 <div id="image_<?php echo $image->id;?>">
+			 <div class="m-12 center-container">
+			    <img class="m-05" src="<?php echo $image->image_url;?>" />
+			 </div>
+			 <div class="m-12 center-container">
+		    	<span class="button pink eliminarImagen" data-id="<?php echo $image->id;?>">Eliminar Imagen</span>
+		    </div>
+		    <hr class="m-05"/>
+		   </div>
+		  <?php } ?>
+	<?php } ?>
+</div>
+
+<script type="text/javascript">
+	$(".eliminarImagen").click(function(){
+		var id=$(this).data('id');
+		$.post(
+			"<?php echo Yii::app()->request->baseUrl;?>/products/deleteImage",
+			{
+				id:id
+			},
+			function(error){
+				if(error=="1")
+					alert("Ocurrió un error, inténtalo de nuevo");
+				else{
+					$("#image_"+id).hide(400);
+					$("#image_"+id).html("");
+				}
+			});
+		});
+</script>
