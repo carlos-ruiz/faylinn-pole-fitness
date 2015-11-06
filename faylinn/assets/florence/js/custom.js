@@ -122,7 +122,7 @@ $(document).ready(function($) {
 
 
     // Image Gallery
-    var owl = $("#owl-gallery");
+    var owl = $(".owl-gallery, #owl-gallery");
 
         owl.owlCarousel({
 
@@ -139,6 +139,8 @@ $(document).ready(function($) {
           pagination : true
 
     });
+
+
 
     // Scroll Reveal
     // The starting defaults.

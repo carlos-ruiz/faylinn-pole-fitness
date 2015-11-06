@@ -44,7 +44,7 @@ class ProductsController extends Controller
 	public function actionView($id)
 	{
 		$producto_imagen = new ProductImages;
-		
+
 		if(isset($_POST['ProductImages'])){
 			$url = Yii::app()->basePath."/../images/catalogo/";
 			$producto_imagen->attributes=$_POST['ProductImages'];
@@ -84,14 +84,14 @@ class ProductsController extends Controller
 			$uploadedFile=CUploadedFile::getInstance($producto_imagen,'image_url');
 			$tempNameArray = explode('.',$uploadedFile->name);
 			$ext = ".".$tempNameArray[sizeof($tempNameArray)-1];
-			
+
             $fileName = time().$ext;
             if($model->save())
 	        {
 				$uploadedFile->saveAs($url.$fileName);
 				$producto_imagen->image_url=Yii::app()->request->baseUrl."/images/catalogo/".$fileName;
 				$producto_imagen->products_id=$model->id;
-				if($producto_imagen->save()){ 
+				if($producto_imagen->save()){
 	                $this->redirect(array('admin'));
 		        }
 	        }
@@ -148,9 +148,9 @@ class ProductsController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Products');
+		$products = Products::model()->findAll('status=?', array(1));
 		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
+			'products'=>$products,
 		));
 	}
 
@@ -196,7 +196,7 @@ class ProductsController extends Controller
 		if(isset($_POST['id'])){
 			if(ProductImages::model()->find("id=?",array($_POST['id']))->delete())
 				echo 0; //SI NO HAY ERROR REGRESAMOS 0
-			else 
+			else
 				echo 1; //SI HAY ERROR REGRESAMOS 1
 		}
 	}
