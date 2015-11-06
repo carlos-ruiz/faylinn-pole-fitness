@@ -12,7 +12,7 @@ $this->breadcrumbs=array(
 
 
 
-<section id="nosotros">
+<section id="login">
 	<div class="center-container clearfix" data-scroll-reveal>
 		<br /><br />
 			<h1>Login</h1>
