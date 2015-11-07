@@ -59,6 +59,7 @@
 	</div>
 
 	<div class="row col-md-4 buttons text-right">
+		<a href="<?= Yii::app()->request->baseUrl; ?>/products/admin" class="button-o pink-o"><?= $model->isNewRecord ? 'Cancelar' : 'Volver'; ?></a>
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Guardar' : 'Actualizar', array('class'=>'button pink')); ?>
 	</div>
 
@@ -80,6 +81,7 @@
 		  <?php } ?>
 	<?php } ?>
 </div>
+<hr/>
 
 <script type="text/javascript">
 	$(".eliminarImagen").click(function(){

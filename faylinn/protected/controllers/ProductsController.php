@@ -31,6 +31,10 @@ class ProductsController extends Controller
 				'actions'=>array('create','update','index','view','admin','delete','deleteImage'),
 				'users'=>array('@'),
 			),
+			array('allow', // allow all users
+				'actions'=>array('index','view'),
+				'users'=>array('*'),
+			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
 			),
@@ -136,7 +140,18 @@ class ProductsController extends Controller
 	 */
 	public function actionDelete($id)
 	{
-		$this->loadModel($id)->delete();
+		$product = $this->loadModel($id);
+		foreach ($product->productImages as $image) {
+			$filePath = str_replace('/faylinnpolefitness/faylinn/', '', $image->image_url);
+			if (file_exists($filePath)) {
+				unlink($filePath);
+				$image->delete();
+			}else{
+				echo "<br/>Ocurrio un error al eliminar";
+				return;
+			}
+		}
+		$product->delete();
 
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 		if(!isset($_GET['ajax']))
@@ -227,6 +242,12 @@ class ProductsController extends Controller
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}
+	}
+
+	public function getStatus($data, $row)
+	{
+		$status = $data->status==1?'Activo':'Inactivo';
+		return $status;
 	}
 
 }

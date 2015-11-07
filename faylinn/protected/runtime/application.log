@@ -79,3 +79,429 @@ Stack trace:
 REQUEST_URI=/faylinnpole/faylinn/css/images/jssor/img/a11.png
 HTTP_REFERER=http://localhost/faylinnpole/faylinn/css/custom/customStyle.css
 ---
+2015/11/06 20:10:25 [error] [php] Undefined offset: 0 (C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\views\products\index.php:28)
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(869): ProductsController->renderFile()
+#1 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(782): ProductsController->renderPartial()
+#2 C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php(154): ProductsController->render()
+#3 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CInlineAction.php(49): ProductsController->actionIndex()
+#4 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(133): ProductsController->runAction()
+#6 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CInlineFilter.php(58): ProductsController->filterAccessControl()
+#9 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(265): ProductsController->runActionWithFilters()
+#12 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): ProductsController->run()
+#13 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CWebApplication->run()
+REQUEST_URI=/faylinnpolefitness/faylinn/products/index
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\views\products\index.php (28)
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php (154)
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php (13)
+2015/11/06 20:10:44 [error] [php] Undefined offset: 0 (C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\views\products\index.php:28)
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(869): ProductsController->renderFile()
+#1 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(782): ProductsController->renderPartial()
+#2 C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php(154): ProductsController->render()
+#3 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CInlineAction.php(49): ProductsController->actionIndex()
+#4 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(133): ProductsController->runAction()
+#6 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CInlineFilter.php(58): ProductsController->filterAccessControl()
+#9 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(265): ProductsController->runActionWithFilters()
+#12 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): ProductsController->run()
+#13 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CWebApplication->run()
+REQUEST_URI=/faylinnpolefitness/faylinn/products/index
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\views\products\index.php (28)
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php (154)
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php (13)
+2015/11/06 20:37:44 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\xampp\htdocs\faylinnpolefitness\framework\web\helpers\CHtml.php:108)
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\framework\utils\CFormatter.php(128): CFormatter->formatText()
+#1 C:\xampp\htdocs\faylinnpolefitness\framework\zii\widgets\CDetailView.php(220): CFormatter->format()
+#2 C:\xampp\htdocs\faylinnpolefitness\framework\web\CBaseController.php(181): CDetailView->run()
+#3 C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\views\products\view.php(49): ProductsController->widget()
+#4 C:\xampp\htdocs\faylinnpolefitness\framework\web\CBaseController.php(126): require()
+#5 C:\xampp\htdocs\faylinnpolefitness\framework\web\CBaseController.php(95): ProductsController->renderInternal()
+#6 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(869): ProductsController->renderFile()
+#7 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(782): ProductsController->renderPartial()
+#8 C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php(65): ProductsController->render()
+#9 unknown(0): ProductsController->actionView()
+#10 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#11 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#12 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(133): ProductsController->runAction()
+#14 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#16 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CInlineFilter.php(58): ProductsController->filterAccessControl()
+#17 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#18 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(265): ProductsController->runActionWithFilters()
+#20 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): ProductsController->run()
+#21 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#22 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CWebApplication->run()
+REQUEST_URI=/faylinnpolefitness/faylinn/products/2
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\views\products\view.php (49)
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php (65)
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php (13)
+2015/11/06 23:29:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "admin; " solicitada.' in C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(270): CController->missingAction('admin; ')
+#1 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): CController->run('admin; ')
+#2 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController('products/admin;...')
+#3 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/faylinnpolefitness/faylinn/products/admin;%20?%3E
+HTTP_REFERER=http://localhost/faylinnpolefitness/faylinn/products/update/2
+---
+2015/11/06 23:38:49 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`faylinn`.`product_images`, CONSTRAINT `fk_product_images_products` FOREIGN KEY (`products_id`) REFERENCES `products` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). La sentencia SQL ejecutada fue: DELETE FROM `products` WHERE `products`.`id`=2.
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php (149)
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php (13)
+2015/11/06 23:38:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`faylinn`.`product_images`, CONSTRAINT `fk_product_images_products` FOREIGN KEY (`products_id`) REFERENCES `products` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `products` WHERE `products`.`id`=2' in C:\xampp\htdocs\faylinnpolefitness\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\framework\db\ar\CActiveRecord.php(1807): CDbCommand->execute()
+#1 C:\xampp\htdocs\faylinnpolefitness\framework\db\ar\CActiveRecord.php(1227): CActiveRecord->deleteByPk('2')
+#2 C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php(149): CActiveRecord->delete()
+#3 [internal function]: ProductsController->actionDelete('2')
+#4 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#5 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): CController->run('delete')
+#15 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController('products/delete')
+#16 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/faylinnpolefitness/faylinn/products/delete/2
+HTTP_REFERER=http://localhost/faylinnpolefitness/faylinn/products/2
+---
+2015/11/06 23:40:08 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`faylinn`.`product_images`, CONSTRAINT `fk_product_images_products` FOREIGN KEY (`products_id`) REFERENCES `products` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). La sentencia SQL ejecutada fue: DELETE FROM `products` WHERE `products`.`id`=2.
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php (150)
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php (13)
+2015/11/06 23:40:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`faylinn`.`product_images`, CONSTRAINT `fk_product_images_products` FOREIGN KEY (`products_id`) REFERENCES `products` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `products` WHERE `products`.`id`=2' in C:\xampp\htdocs\faylinnpolefitness\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\framework\db\ar\CActiveRecord.php(1807): CDbCommand->execute()
+#1 C:\xampp\htdocs\faylinnpolefitness\framework\db\ar\CActiveRecord.php(1227): CActiveRecord->deleteByPk('2')
+#2 C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php(150): CActiveRecord->delete()
+#3 [internal function]: ProductsController->actionDelete('2')
+#4 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#5 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): CController->run('delete')
+#15 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController('products/delete')
+#16 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/faylinnpolefitness/faylinn/products/delete/2
+HTTP_REFERER=http://localhost/faylinnpolefitness/faylinn/products/2
+---
+2015/11/06 23:44:43 [error] [php] unlink(/faylinnpolefitness/faylinn/images/catalogo/1446862322.jpg): No such file or directory (C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php:147)
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#1 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(133): ProductsController->runAction()
+#4 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CInlineFilter.php(58): ProductsController->filterAccessControl()
+#7 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(265): ProductsController->runActionWithFilters()
+#10 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): ProductsController->run()
+#11 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CWebApplication->run()
+REQUEST_URI=/faylinnpolefitness/faylinn/products/delete/2
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php (147)
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php (13)
+2015/11/06 23:46:13 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`faylinn`.`product_images`, CONSTRAINT `fk_product_images_products` FOREIGN KEY (`products_id`) REFERENCES `products` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). La sentencia SQL ejecutada fue: DELETE FROM `products` WHERE `products`.`id`=2.
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php (143)
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php (13)
+2015/11/06 23:46:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`faylinn`.`product_images`, CONSTRAINT `fk_product_images_products` FOREIGN KEY (`products_id`) REFERENCES `products` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `products` WHERE `products`.`id`=2' in C:\xampp\htdocs\faylinnpolefitness\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\framework\db\ar\CActiveRecord.php(1807): CDbCommand->execute()
+#1 C:\xampp\htdocs\faylinnpolefitness\framework\db\ar\CActiveRecord.php(1227): CActiveRecord->deleteByPk('2')
+#2 C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php(143): CActiveRecord->delete()
+#3 [internal function]: ProductsController->actionDelete('2')
+#4 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#5 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): CController->run('delete')
+#15 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController('products/delete')
+#16 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/faylinnpolefitness/faylinn/products/delete/2
+HTTP_REFERER=http://localhost/faylinnpolefitness/faylinn/products/2
+---
+2015/11/06 23:46:38 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`faylinn`.`product_images`, CONSTRAINT `fk_product_images_products` FOREIGN KEY (`products_id`) REFERENCES `products` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). La sentencia SQL ejecutada fue: DELETE FROM `products` WHERE `products`.`id`=2.
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php (143)
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php (13)
+2015/11/06 23:46:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`faylinn`.`product_images`, CONSTRAINT `fk_product_images_products` FOREIGN KEY (`products_id`) REFERENCES `products` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `products` WHERE `products`.`id`=2' in C:\xampp\htdocs\faylinnpolefitness\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\framework\db\ar\CActiveRecord.php(1807): CDbCommand->execute()
+#1 C:\xampp\htdocs\faylinnpolefitness\framework\db\ar\CActiveRecord.php(1227): CActiveRecord->deleteByPk('2')
+#2 C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php(143): CActiveRecord->delete()
+#3 [internal function]: ProductsController->actionDelete('2')
+#4 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#5 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): CController->run('delete')
+#15 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController('products/delete')
+#16 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/faylinnpolefitness/faylinn/products/delete/2
+HTTP_REFERER=http://localhost/faylinnpolefitness/faylinn/products/2
+---
+2015/11/06 23:46:40 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`faylinn`.`product_images`, CONSTRAINT `fk_product_images_products` FOREIGN KEY (`products_id`) REFERENCES `products` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). La sentencia SQL ejecutada fue: DELETE FROM `products` WHERE `products`.`id`=2.
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php (143)
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php (13)
+2015/11/06 23:46:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`faylinn`.`product_images`, CONSTRAINT `fk_product_images_products` FOREIGN KEY (`products_id`) REFERENCES `products` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `products` WHERE `products`.`id`=2' in C:\xampp\htdocs\faylinnpolefitness\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\framework\db\ar\CActiveRecord.php(1807): CDbCommand->execute()
+#1 C:\xampp\htdocs\faylinnpolefitness\framework\db\ar\CActiveRecord.php(1227): CActiveRecord->deleteByPk('2')
+#2 C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php(143): CActiveRecord->delete()
+#3 [internal function]: ProductsController->actionDelete('2')
+#4 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#5 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): CController->run('delete')
+#15 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController('products/delete')
+#16 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/faylinnpolefitness/faylinn/products/delete/2
+HTTP_REFERER=http://localhost/faylinnpolefitness/faylinn/products/2
+---
+2015/11/07 07:42:45 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`faylinn`.`product_images`, CONSTRAINT `fk_product_images_products` FOREIGN KEY (`products_id`) REFERENCES `products` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). La sentencia SQL ejecutada fue: DELETE FROM `products` WHERE `products`.`id`=2.
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php (143)
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php (13)
+2015/11/07 07:42:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`faylinn`.`product_images`, CONSTRAINT `fk_product_images_products` FOREIGN KEY (`products_id`) REFERENCES `products` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `products` WHERE `products`.`id`=2' in C:\xampp\htdocs\faylinnpolefitness\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\framework\db\ar\CActiveRecord.php(1807): CDbCommand->execute()
+#1 C:\xampp\htdocs\faylinnpolefitness\framework\db\ar\CActiveRecord.php(1227): CActiveRecord->deleteByPk('2')
+#2 C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php(143): CActiveRecord->delete()
+#3 [internal function]: ProductsController->actionDelete('2')
+#4 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#5 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): CController->run('delete')
+#15 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController('products/delete')
+#16 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/faylinnpolefitness/faylinn/products/delete/2
+HTTP_REFERER=http://localhost/faylinnpolefitness/faylinn/products/admin
+---
+2015/11/07 08:06:07 [error] [php] unlink(/faylinnpolefitness/faylinn/images/catalogo/1446862322.jpg): No such file or directory (C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php:148)
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#1 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(133): ProductsController->runAction()
+#4 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CInlineFilter.php(58): ProductsController->filterAccessControl()
+#7 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(265): ProductsController->runActionWithFilters()
+#10 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): ProductsController->run()
+#11 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CWebApplication->run()
+REQUEST_URI=/faylinnpolefitness/faylinn/products/delete/2
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php (148)
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php (13)
+2015/11/07 08:09:57 [error] [exception.CException] exception 'CException' with message 'La propiedad "CHttpRequest"."basePath" no se encuentra definida.' in C:\xampp\htdocs\faylinnpolefitness\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php(146): CComponent->__get('basePath')
+#1 [internal function]: ProductsController->actionDelete('2')
+#2 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): CController->run('delete')
+#13 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController('products/delete')
+#14 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/faylinnpolefitness/faylinn/products/delete/2
+HTTP_REFERER=http://localhost/faylinnpolefitness/faylinn/products/admin
+---
+2015/11/07 08:11:25 [error] [php] unlink(/faylinnpolefitness/faylinn/images/catalogo/1446862322.jpg): No such file or directory (C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php:149)
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#1 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(133): ProductsController->runAction()
+#4 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CInlineFilter.php(58): ProductsController->filterAccessControl()
+#7 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(265): ProductsController->runActionWithFilters()
+#10 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): ProductsController->run()
+#11 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CWebApplication->run()
+REQUEST_URI=/faylinnpolefitness/faylinn/products/delete/2
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php (149)
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php (13)
+2015/11/07 10:58:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php:232
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php(144): ProductsController->loadModel('2')
+#1 [internal function]: ProductsController->actionDelete('2')
+#2 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): CController->run('delete')
+#13 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController('products/delete')
+#14 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/faylinnpolefitness/faylinn/products/delete/2
+---
+2015/11/07 10:59:31 [error] [exception.CException] exception 'CException' with message 'La propiedad "CHttpRequest"."absoluteUrl" no se encuentra definida.' in C:\xampp\htdocs\faylinnpolefitness\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php(146): CComponent->__get('absoluteUrl')
+#1 [internal function]: ProductsController->actionDelete('2')
+#2 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): CController->run('delete')
+#13 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController('products/delete')
+#14 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/faylinnpolefitness/faylinn/products/delete/2
+---
+2015/11/07 11:00:33 [error] [exception.CException] exception 'CException' with message 'La propiedad "CHttpRequest"."absoluteUrl" no se encuentra definida.' in C:\xampp\htdocs\faylinnpolefitness\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php(146): CComponent->__get('absoluteUrl')
+#1 [internal function]: ProductsController->actionDelete('2')
+#2 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductsController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): CController->run('delete')
+#13 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController('products/delete')
+#14 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/faylinnpolefitness/faylinn/products/delete/2
+---
+2015/11/07 11:01:41 [error] [php] Undefined variable: product (C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php:147)
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(133): ProductsController->runAction()
+#3 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CInlineFilter.php(58): ProductsController->filterAccessControl()
+#6 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(265): ProductsController->runActionWithFilters()
+#9 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): ProductsController->run()
+#10 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CWebApplication->run()
+REQUEST_URI=/faylinnpolefitness/faylinn/products/delete/2
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php (147)
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php (13)
+2015/11/07 11:11:28 [error] [php] unlink(): http does not allow unlinking (C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php:150)
+Stack trace:
+#0 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#1 C:\xampp\htdocs\faylinnpolefitness\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(133): ProductsController->runAction()
+#4 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CInlineFilter.php(58): ProductsController->filterAccessControl()
+#7 C:\xampp\htdocs\faylinnpolefitness\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\faylinnpolefitness\framework\web\CController.php(265): ProductsController->runActionWithFilters()
+#10 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(282): ProductsController->run()
+#11 C:\xampp\htdocs\faylinnpolefitness\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\faylinnpolefitness\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php(13): CWebApplication->run()
+REQUEST_URI=/faylinnpolefitness/faylinn/products/delete/3
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\protected\controllers\ProductsController.php (150)
+in C:\xampp\htdocs\faylinnpolefitness\faylinn\index.php (13)

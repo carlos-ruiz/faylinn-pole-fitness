@@ -68,7 +68,10 @@
 						'description',
 						'price',
 						'size',
-						'status',
+						array(
+							'name'=>'status',
+							'value'=>array($this, 'getStatus'),
+						),
 						array(
 							'class'=>'CButtonColumn',
 							),
@@ -77,3 +80,4 @@
 			</div>
 		</div>
 	<?php } ?>
+	<hr/>

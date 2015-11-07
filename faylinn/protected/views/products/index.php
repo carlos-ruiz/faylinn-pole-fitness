@@ -46,14 +46,8 @@
 			</div>
 		<?php } ?>
 		<script type="text/javascript">
-		alert("hola <?=$fila;?>");
-				$(".row_<?=$fila;?>").height($("#row_<?=$fila;?>").height());
-				</script>
+			$(".row_<?=$fila;?>").height($("#row_<?=$fila;?>").height());
+		</script>
 		</div>
 	</div>
 </section>
-
-<style>
-
-
-</style>

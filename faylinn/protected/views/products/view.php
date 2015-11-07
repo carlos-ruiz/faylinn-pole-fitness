@@ -100,6 +100,22 @@
     <img class="m-04 mt-40" src="<?php echo $image->image_url;?>" />
   <?php } ?>
 
+  <hr/>
+  <?php if(!Yii::app()->user->isGuest){ ?>
+  <div id="buttons" class="m-12 clearfix">
+    <div class="m-02 float-right">
+      <a href="<?= Yii::app()->request->baseUrl; ?>/products/update/<?= $model->id; ?>" class="button-o pink-o">Editar</a>
+    </div>
+    <div class="m-02 float-right">
+      <a href="<?= Yii::app()->request->baseUrl; ?>/products/delete/<?= $model->id; ?>" class="button-o pink-o">Eliminar</a>
+    </div>
+    <div class="m-02 float-right">
+      <a href="<?= Yii::app()->request->baseUrl; ?>/products/admin" class="button-o pink-o">Ir al admin</a>
+    </div>
+  </div>
+  <?php } ?>
+  
+
 </div>
 
 <script type="text/javascript">
