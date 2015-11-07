@@ -170,10 +170,12 @@ div#slider figure {
   background-color: white;
   padding: 15px;
   border: 2px solid #E54C9F;
+  height: 100%;
 }
 
 .product-container {
   padding: 5px;
   box-sizing: border-box;
   display: inline-block;
+  height: 100%;
 }
