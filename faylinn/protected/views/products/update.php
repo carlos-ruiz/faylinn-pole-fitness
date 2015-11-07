@@ -3,9 +3,6 @@
 /* @var $model Products */
 
 ?>
-<br />
-<br />
-
 <div class="center-container clearfix" data-scroll-reveal>
 	<h1>Actualizar Producto: <?php echo $model->name; ?></h1>
 

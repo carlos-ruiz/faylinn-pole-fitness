@@ -38,7 +38,7 @@
 	</head>
 
 	<body>
-
+		<div id="backing-header"></div>
 		<!-- Page Preloader -->
 		<div id="preloader">
 		    <div id="status">&nbsp;</div>
@@ -46,9 +46,8 @@
 
 		<!-- BEGIN HEADER -->
 		<header>
-
 			<!-- Top Navigation -->
-			<nav data-scroll-reveal>
+			<nav id="menu-header" data-scroll-reveal>
 				<ul class="main-nav">
 					<li><a  class="imglog" href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart" target="_blank"><img   src="<?php echo Yii::app()->request->baseUrl; ?>/images/artlogo.png" width=100%  height=80% alt="Faylinn Gym" ></a></li>
 					<li class="sep"></li>
@@ -128,7 +127,11 @@
 		<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/inc/owl-carousel/owl.carousel.js" type="text/javascript"></script>
 		<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/js/custom.js" type="text/javascript"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-
+		<script type="text/javascript">
+			var backingHeader = document.getElementById("backing-header");
+            var offsetHeight = document.getElementById("menu-header").offsetHeight;
+            backingHeader.setAttribute("style","height:"+offsetHeight+"px");
+		</script>
 	</body>
 </html>
 

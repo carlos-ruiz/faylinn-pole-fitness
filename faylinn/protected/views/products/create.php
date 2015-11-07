@@ -1,6 +1,3 @@
-<br />
-<br />
-
 <div class="center-container clearfix" data-scroll-reveal>
 	<h1>Agregar producto</h1>
 
