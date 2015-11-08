@@ -170,22 +170,42 @@ div#slider figure {
   display: flex !important;
   display: -webkit-flex; /* Safari */
   flex-wrap: wrap;
+  align-content: flex-start;
+  space-around: 1;
 }
 
 .product-container {
-  padding: 5px;
+  margin: 0.5%;
   box-sizing: border-box;
-  display: inline-block;
   -webkit-flex: 1;  /* Safari 6.1+ */
   -ms-flex: 1;  /* IE 10 */    
   flex: 1;
-  width: 25%;
-  min-width: 25%;
-  background-color: white;
+  max-width: 24%;
+  min-width: 24%;
+  background-color: rgba(0, 0, 0, 0);
   border: 2px solid #E54C9F;
+  border-radius: 5%;
 }
 
 .product-item {
   padding: 15px;
   height: 100%;
+}
+
+.see-more {
+  background-color: #E54C9F;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: white !important;
+  margin: 15px 0;
+}
+
+.see-more a {
+  color: white;
+}
+
+.see-more:hover {
+  background-color: #E64EA0;
+  padding: 5px 20px;
 }
