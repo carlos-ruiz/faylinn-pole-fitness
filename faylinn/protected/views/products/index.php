@@ -4,9 +4,12 @@
 ?>
 
 <div class="center-container clearfix" data-scroll-reveal>
-
-	<h1>Productos</h1>
+	<div class="names" data-scroll-reveal>Productos</div>
+	<hr/>
 	<div class="m-12 catalog-container" data-scroll-reveal="enter right, move 100px, over 1.2s, after 0.3s">
+	<?php if(empty($products)){ ?>
+	<div class="m-12 align-center">No hay productos que mostrar</div>
+	<?php } ?>
 	<?php foreach ($products as $i=>$product) { ?>
 		<?php if($i > 0 && $i%4 == 0) { ?>
 			</div>
@@ -42,9 +45,9 @@
 <hr/>
 <?php if(!Yii::app()->user->isGuest){ ?>
 <div id="buttons" class="m-12 clearfix">
-<div class="m-02 float-right">
-  <a href="<?= Yii::app()->request->baseUrl; ?>/products/admin" class="button-o pink-o">Ir al admin</a>
-</div>
+	<div class="m-02 float-right">
+	  <a href="<?= Yii::app()->request->baseUrl; ?>/products/admin" class="button-o pink-o">Ir al admin</a>
+	</div>
 </div>
 <?php } ?>
 </div>

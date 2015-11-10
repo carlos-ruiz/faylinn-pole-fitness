@@ -96,7 +96,7 @@ class ProductsController extends Controller
 				$producto_imagen->image_url=Yii::app()->request->baseUrl."/images/catalogo/".$fileName;
 				$producto_imagen->products_id=$model->id;
 				if($producto_imagen->save()){
-	                $this->redirect(array('admin'));
+	                $this->redirect(array('view','id'=>$model->id));
 		        }
 	        }
 
@@ -141,15 +141,14 @@ class ProductsController extends Controller
 	public function actionDelete($id)
 	{
 		$product = $this->loadModel($id);
+		$baseUrl = Yii::app()->request->baseUrl;
 		foreach ($product->productImages as $image) {
-			$filePath = str_replace('/faylinnpolefitness/faylinn/', '', $image->image_url);
+			$filePath = str_replace($baseUrl.'/images', 'images', $image->image_url);
 			if (file_exists($filePath)) {
 				unlink($filePath);
-				$image->delete();
-			}else{
-				echo "<br/>Ocurrio un error al eliminar";
-				return;
 			}
+
+			$image->delete();
 		}
 		$product->delete();
 

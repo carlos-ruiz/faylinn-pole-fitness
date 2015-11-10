@@ -29,7 +29,7 @@
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 		<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/js/jquery-1.11.0.js" type="text/javascript"></script>
-		
+
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/assets/global/plugins/jssor/js/jssor.js"></script>
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/assets/global/plugins/jssor/js/jssor.slider.js"></script>
 		<!--[if IE]>
@@ -85,14 +85,18 @@
 				<div class="mobile-nav">
 					<ul class="mobile-nav-menu">
 						<li><a  class="imglog" href="<?php echo Yii::app()->request->baseUrl; ?>/site/poleart" target="_blank">Pole Art</a></li>
-						<li><a href="#home">Home</a></li>
-						<li><a href="#nosotros">Nosotros</a></li>
-						<li><a href="#ubicacion">Ubicación</a></li>
-						<li><a href="#dueña">Dueña</a></li>
-						<li><a href="#horario">Horario</a></li>
-						<li><a href="#eventos">Eventos</a></li>
-						<li><a href="#experiencias">Experiencias</a></li>
-						<li><a href="#rsvp">Contacto</a></li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/index#home">Home</a></li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/index#nosotros">Nosotros</a></li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/index#ubicacion">Ubicación</a></li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/index#dueña">Dueña</a></li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/index#horario">Horario</a></li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/index#eventos">Eventos</a></li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/index#experiencias">Experiencias</a></li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/index#rsvp">Contacto</a></li>
+						<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/products/index">Catálogo</a></li>
+						<?php if(!Yii::app()->user->isGuest){ ?>
+							<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/logout">Logout</a></li>
+						<?php }	?>
 					</ul>
 					<span class="show-menu"><i class="fa fa-bars"></i></span>
 				</div>
@@ -119,7 +123,7 @@
 		<!-- END FOOTER -->
 
 		<!-- Javascript -->
-		
+
 		<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/js/countdown.js" type="text/javascript"></script>
 		<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/js/scrollReveal.js" type="text/javascript"></script>
 		<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/florence/js/lightbox.js" type="text/javascript"></script>

@@ -5,9 +5,12 @@
 ?>
 
 <div class="center-container clearfix">
-	<h1 class="margin-top-large float-left">Producto <?php echo $model->name; ?></h1>
-	<h1 class="margin-top-large float-right"><a href="#" class="button pink" id="addImageButton"><i class="icon-plus"></i> Agregar imagen</a></h1>
-	<hr />
+  <h1 class="margin-top-large float-left">Producto <?php echo $model->name; ?></h1>
+  <?php if(!Yii::app()->user->isGuest){ ?>
+   <h1 class="margin-top-large float-right"><a href="#" class="button pink" id="addImageButton"><i class="icon-plus"></i> Agregar imagen</a></h1>
+  <?php } ?>
+    <hr />
+  <?php if(!Yii::app()->user->isGuest){ ?>
   <div class="image-form" id="addImageForm">
     <?php $form=$this->beginWidget('CActiveForm', array(
       'id'=>'products-form',
@@ -17,7 +20,7 @@
       // See class documentation of CActiveForm for details on this.
       'enableAjaxValidation'=>false,
       'htmlOptions' => array('enctype' => 'multipart/form-data'),
-    )); 
+    ));
     ?>
       <div class="row col-md-4">
         <label for="ProductImages_image_url" class="required float-left">Selecciona la nueva imagen <span class="required">*</span></label>
@@ -27,20 +30,20 @@
           <?php echo CHtml::submitButton($model->isNewRecord ? 'Guardar' : 'Actualizar', array('class'=>'button pink')); ?>
         </div>
       </div>
-    <?php $this->endWidget(); ?> 
+    <?php $this->endWidget(); ?>
     <hr style="margin-top:-20px;" />
   </div>
+  <?php } ?>
   <div class="row-view">
-		<div class="info">
-			<?php $this->widget('zii.widgets.CDetailView', array(
-				'data'=>$model,
-				'attributes'=>array(
-					'id',
-					'name',
+    <div class="info">
+      <?php $this->widget('zii.widgets.CDetailView', array(
+        'data'=>$model,
+        'attributes'=>array(
+          'id',
+          'name',
 					'description',
 					'price',
 					'size',
-					'status',
 				),
 			)); ?>
 		</div>
@@ -69,12 +72,12 @@
               <img u="image" src="<?php echo $image->image_url;?>" />
               <img u="thumb" src="<?php echo $image->image_url;?>" />
           </div>
-				
-			
-		<?php } ?>                 
-          
+
+
+		<?php } ?>
+
       </div>
-      
+
 
       <div u="thumbnavigator" class="jssort07" style="width: 720px; height: 100px; left: 0px; bottom: 0px;">
 
@@ -114,7 +117,7 @@
     </div>
   </div>
   <?php } ?>
-  
+
 
 </div>
 

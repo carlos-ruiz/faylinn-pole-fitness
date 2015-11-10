@@ -51,7 +51,7 @@
 	else{
 ?>
 		<div id="home" class="container">
-			<div class="names" data-scroll-reveal>Administrar Productos</div>
+			<h1>Administrar Productos</h1>
 			<div class="text-right">
 				<?php echo CHtml::link('<i class="icon-plus"></i> Agregar producto', array('products/create'), array('class'=>'button pink')); ?>
 			</div>
@@ -63,15 +63,10 @@
 					'dataProvider'=>$model->search(),
 					'filter'=>$model,
 					'columns'=>array(
-						'id',
 						'name',
 						'description',
 						'price',
 						'size',
-						array(
-							'name'=>'status',
-							'value'=>array($this, 'getStatus'),
-						),
 						array(
 							'class'=>'CButtonColumn',
 							),

@@ -161,8 +161,8 @@ class SiteController extends Controller
 	public function init(){
 		if(Users::model()->count()==0){
 			$admin = new Users;
-			$admin->username = "admin";
-			$admin->password = base64_encode("admin");
+			$admin->username = "faylinn";
+			$admin->password = base64_encode("p0lefitness02");
 			$admin->save();
 		}
 	}

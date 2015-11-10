@@ -13,7 +13,7 @@
 	// See class documentation of CActiveForm for details on this.
 	'enableAjaxValidation'=>false,
 	'htmlOptions' => array('enctype' => 'multipart/form-data'),
-)); 
+));
 
 ?>
 
@@ -34,7 +34,7 @@
 		<?php echo $form->textField($model,'price',array('size'=>7,'maxlength'=>7, 'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'price'); ?>
 	</div>
-	
+
 	<div class="row col-md-4">
 		<?php echo $form->labelEx($model,'size'); ?>
 		<?php echo $form->textField($model,'size',array('size'=>45,'maxlength'=>45, 'class'=>'form-control')); ?>
@@ -46,16 +46,16 @@
 			<?php echo $form->labelEx($producto_imagen,'image_url'); ?>
 			<?php echo $form->fileField($producto_imagen,'image_url'); ?>
 			<?php echo $form->error($producto_imagen,'image_url'); ?>
-			
+
 		</div>
 	<?php } ?>
-	
+
 
 	<div class="row col-md-4">
-		<?php echo $form->labelEx($model,'status'); ?>
+		<?php // echo $form->labelEx($model,'status'); ?>
 		<?php // echo $form->textField($model,'status', array('class'=>'form-control')); ?>
-		<?php echo $form->dropDownList($model, 'status', array('1'=>'Activo', '0'=>'Inactivo'), array('class'=>'form-control')); ?>
-		<?php echo $form->error($model,'status'); ?>
+		<?php $model->status = 1; echo $form->hiddenField($model, 'status'); ?>
+	<!--	<?php echo $form->error($model,'status'); ?> -->
 	</div>
 
 	<div class="row col-md-4 buttons text-right">

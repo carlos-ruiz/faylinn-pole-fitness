@@ -73,6 +73,7 @@
 	.names, .names-compact {margin-top: 20px;}
 
 	.main-nav {display: none;}
+	#backing-header {display: none !important;}
 	.mobile-nav {display: block !important;}
 
 	.main-images {width: 630px;}

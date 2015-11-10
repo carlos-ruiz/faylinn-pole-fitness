@@ -305,10 +305,23 @@ tr.even:hover{
     margin-left: 12%;
 }
 
+.align-center {
+    text-align: center;
+}
+
 .float-left{
     float: left;
 }
 
 .float-right{
     float: right;
+}
+
+.button-column a img {
+    max-width: 20px;
+    display: inline-block;
+}
+
+.grid-view .button-column {
+    width: 70px !important;
 }
