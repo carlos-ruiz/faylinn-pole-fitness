@@ -19,7 +19,7 @@
 			<div class="product-item" >
 				<a href="<?= Yii::app()->request->baseUrl.'/products/'.$product->id; ?>"><h2><?= $product->name; ?></h2></a>
 				<div class="item">
-					<a href="<?php echo $product->productImages[0]->image_url; ?>" data-lightbox="demo-gallery"><img src="<?php echo $product->productImages[0]->image_url; ?>" alt=""></a>
+					<a href="<?php echo $product->productImages[0]->image_url; ?>" data-lightbox="demo-gallery"><img src="<?php echo $product->productImages[0]->image_url; ?>" alt="<?= $product->name; ?>"></a>
 				</div>
 				<div id="owl-gallery" class="owl-gallery owl-carousel owl-theme" data-scroll-reveal>
 				<?php
@@ -28,7 +28,7 @@
 					?>
 					<div class="item">
 						<a href="<?php echo $image->image_url; ?>" data-lightbox="demo-gallery">
-						<img src="<?php echo $image->image_url; ?>" alt="" /></a>
+						<img src="<?php echo $image->image_url; ?>" alt="<?= $product->name; ?>" /></a>
 					</div>
 				<?php }} ?>
 
