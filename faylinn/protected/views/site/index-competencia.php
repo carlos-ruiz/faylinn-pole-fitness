@@ -166,10 +166,12 @@
 	<h1 data-scroll-reveal>Paquetes</h1>
 	<hr>
 	<div class="center-container clearfix">
+		<h3 data-scroll-reveal><strong>Muy pronto! Esperalos! ...</strong></h3>
+	<!-- Comment 01 
 		<h3 data-scroll-reveal>Hotel Sede: <strong>Real Inn </strong></h3>
 		<div class="m-12 mt-20">
 
-			<!-- Comment 01 -->
+			
 			<div class="m-06" data-scroll-reveal="enter bottom, over 1s">
 				<h3 class="darkPinkColor">Congresista</h3>
 				<div class="m-12 meta-info clearfix">
@@ -259,10 +261,11 @@
 			<br/><br/><br/><br/><h3>Nota:</h3><strong>Menor de edad Acompañante: Niños de hasta 11 años NO pagan su hospedaje.</strong>
 			</div>
 		</div>
-		<hr>
+				<hr>
 		<h3>Ubicate, puntos importantes</h3>
 		<p><strong>Gimnasio: Av. Fuentes de Morelia no. 107</strong> Morelia, Michoacán </p>
 		<div id="map-canvas" class="m-12" data-scroll-reveal></div>
+-->
 </div>
 </section>
 
@@ -407,7 +410,7 @@
 			  <tr>
 			    <td>AURORA BELEN MORA FERNANDEZ </td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/ELITE/Imelda Cabello.jpg" data-lightbox="demo-gallery">IMELDA CABELLO LARIOS</a></div></td>
-			    <td>LUIS EDMUNDO TEOS SUAREZ </td>
+			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/nuevos/LUIS TEHOZ.jpg" data-lightbox="demo-gallery">LUIS EDMUNDO TEHOZ SUAREZ </a></div></td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/Citlalli Leon.jpg" data-lightbox="demo-gallery">CITLALLI LEON MARTINEZ </a></div></td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/choreography/Maria fernanda Gonzalez Torres.jpg" data-lightbox="demo-gallery">MARIA FERNANDA GONZALEZ TORRES</a></div></td>
 			  </tr>
@@ -420,51 +423,51 @@
 			  </tr>
 			   <tr>
 			   <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/art/ANDREA MACIAS.jpg" data-lightbox="demo-gallery">ANDREA ARELI MACIAS TORRES</a></div></td>
-			    <td></td>
-			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/VARONIL/Alejandro de la Peña.jpg" data-lightbox="demo-gallery">ALEJANDRO DE LA PEÑA </a></div></td>
 			    <td>ALICIA IVETTH RAYA SANTOYO </td>
-			    <td>PAZ BRENDA TAPIA CABRERA </td>
+			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/VARONIL/Alejandro de la Peña.jpg" data-lightbox="demo-gallery">ALEJANDRO DE LA PEÑA </a></div></td>
+			    <td>IVONNE DENISSE VERA ALFARO</td>
+			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/nuevos/brenda tapia Cabrera.jpg" data-lightbox="demo-gallery">PAZ BRENDA TAPIA CABRERA</a></div> </td>
 			  </tr>
 			   <tr>
-			     <td>YAZMIN GARCIA MENDOZA </td>
+			     <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/nuevos/Yazmin Garcia Mendoza.jpg" data-lightbox="demo-gallery">YAZMIN GARCIA MENDOZA </a></div></td>
 			    <td></td>
 			    <td>SERGIO JOSUE CRUZ GARCIA </td>
-			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/art/Lua Yolanda Cardenas Rivera.jpg" data-lightbox="demo-gallery">LUZ YOLANDA CARDENAS RIVERA</a></div></td>
+			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/avanzado/tamara mendez.jpg" data-lightbox="demo-gallery">TAMARA MENDEZ LARA</a></div></td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/choreography/CLAUDIA SAMANTHA GALINDO.png" data-lightbox="demo-gallery">CLAUDIA SAMANTHA GALINDO MOTO</a></div> </td>
 			  </tr>
 			   <tr>
-			     <td>KARLA BERENICE CARRADA MURILLO</td>
+			     <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/nuevos/Karla Berenica Carrada.jpg" data-lightbox="demo-gallery">KARLA BERENICE CARRADA MURILLO</a></div></td>
 			    <td></td>
 			    <td>IVAN CONTRERAS </td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/avanzado/GLADYS GUEVARA.jpg" data-lightbox="demo-gallery">GALDYS YADIRA GUEVARA CEJA </a></div></td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/choreography/rocio castllo.jpg" data-lightbox="demo-gallery">ROCIO CASTILLO TORRES</a></div></td>
 			  </tr>
 			   <tr>
+			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/art/Lua Yolanda Cardenas Rivera.jpg" data-lightbox="demo-gallery">LUZ YOLANDA CARDENAS RIVERA</a></div></td>
 			    <td></td>
-			    <td></td>
-			    <td>GILBERTO OLGUIN MONTES </td>
+			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/nuevos/Gilberto Olguin.jpg" data-lightbox="demo-gallery">GILBERTO OLGUIN MONTES </a></div></td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/avanzado/PILAR CARDENAS.jpg" data-lightbox="demo-gallery">MARIA DEL PILAR CARDENAS ORTIZ</a></div></td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/choreography/LORELEIN.jpg" data-lightbox="demo-gallery">LORELEIN BENITEZ LOPEZ</a></div></td>
 			  </tr>
 			  <tr>
 			    <td></td>
 			    <td></td>
-			    <td>DANIEL PALACIOS</td>
+			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/nuevos/Daniel Palacios.jpg" data-lightbox="demo-gallery">DANIEL PALACIOS</a></div></td>
 			    <td>KARLA HERNANDEZ GRACIA </td>
-			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/choreography/JEANNETT AVILA.jpg" data-lightbox="demo-gallery">JANETH VERONICA AVILA NAVA</td>
+			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/choreography/JEANNETT AVILA.jpg" data-lightbox="demo-gallery">JANETH VERONICA AVILA NAVA</a></div></td>
 			  </tr>
 			  <tr>
 			    <td></td>
 			    <td></td>
 			    <td></td>
-			    <td>IVONNE DENISSE VERA ALFARO</td>
+			    <td></td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/choreography/Samantha Urtiz Rivera.jpg" data-lightbox="demo-gallery">SAMANTHA URTIZ RIVERA</a></div></td>
 			  </tr>
 			  <tr>
 			    <td></td>
 			    <td></td>
 			    <td></td>
-			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/avanzado/tamara mendez.jpg" data-lightbox="demo-gallery">TAMARA MENDEZ LARA</a></div></td>
+			    <td></td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/choreography/CINDY ARREGOITIA.jpg" data-lightbox="demo-gallery">CINDY ARREGOITIA LOR SADETT ARROYO</a></div></td>
 			  </tr>
 		</table>
@@ -479,17 +482,17 @@
 			  <tr>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/intermedio/Brenda Mora.jpg" data-lightbox="demo-gallery">BRENDA LETICIA MORA HURTADO</a></div> </td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/C/Maria Jose Martinez.jpg" data-lightbox="demo-gallery">MARIA JOSE METINEZ HERNADEZ </a></div> </td>
-			    <td>DANNA MICHEL GARCIA AYALA  </td>
+			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/nuevos/Danna Michel.jpg" data-lightbox="demo-gallery">DANNA MICHEL GARCIA AYALA </a></div> </td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/A/LUCIA IBIZA TENTORY.jpg" data-lightbox="demo-gallery">LUCIA IBIZA TENTORY CAMARENA</a></div> </td>
 			  </tr>
 			  <tr>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/intermedio/LAURA COVARRUBIAS.jpg" data-lightbox="demo-gallery">LAURA COVARRUBIAS MAGAÑA </a></div></td>
-			    <td>GRECIA FERNANDA TORRES PACHECO</td>
+			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/nuevos/GRECIA TORRES.jpg" data-lightbox="demo-gallery">GRECIA FERNANDA TORRES PACHECO</a></div></td>
 			    <td>SOFIA MARTINEZ HERNANDEZ</td>
 			    <td>CAMILA HERNANDEZ MELLADO </td>
 			  </tr>
 			  <tr>
-			    <td>NANCY MUZQUIZ MEDINA</td>
+			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/nancy musquiz.jpg" data-lightbox="demo-gallery">NANCY MUZQUIZ MEDINA</a></div></td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/C/LILIANA VAZQUEZ.jpg" data-lightbox="demo-gallery">BRENDA LILIANA VAZQUEZ GARCIA</a></div></td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/B/LESLI VAZQUEZ.jpg" data-lightbox="demo-gallery">LESLI VAZQUEZ GARCIA</a></div></td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/A/estefania salas.jpg" data-lightbox="demo-gallery">ESTEFANIA SALAS MARTINEZ</a></div></td>
@@ -509,7 +512,7 @@
 			   <tr>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/Maricela grajeda.jpg" data-lightbox="demo-gallery">MARICELA GRAJEDA FERNANDEZ</a></div></td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/C/FRIDA GUARNEROS.png" data-lightbox="demo-gallery">FRIDA GUARNEROS COVARRUBIAS</a></div></td>
-			    <td></td>
+			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/nuevos/lucrecia Gomez.jpg" data-lightbox="demo-gallery">LUCRECIA GOMEZ</a></div></td>
 			    <td></td>
 			  </tr>
 			   <tr>
@@ -532,7 +535,7 @@
 <section id="terminos">
 	<h1 data-scroll-reveal>Términos y Condiciones para la Compra de paquetes</h1>
 	<hr>
-	<!-- Couple Info -->
+
 	<div class="center-container clearfix" data-scroll-reveal>
 		<div class="floatLeft">
 			<p><strong><h3>Paquetes</h3></strong> </p>

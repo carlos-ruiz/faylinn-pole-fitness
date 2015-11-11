@@ -1,0 +1,18 @@
+2015/11/10 17:45:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/atletas/nuevo/brenda tapia Cabrera.jpg"' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/atletas/...')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/atletas/nuevo/brenda%20tapia%20Cabrera.jpg
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
+2015/11/10 17:46:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/atletas/nuevo/brenda tapia Cabrera.png"' in C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\faylinngym\framework\web\CWebApplication.php(141): CWebApplication->runController('images/atletas/...')
+#1 C:\xampp\htdocs\faylinngym\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\faylinngym\faylinn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/faylinngym/faylinn/images/atletas/nuevo/brenda%20tapia%20Cabrera.png
+HTTP_REFERER=http://localhost:8081/faylinngym/faylinn/site/poleart
+---
