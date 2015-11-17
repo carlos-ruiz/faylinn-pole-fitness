@@ -408,14 +408,14 @@
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/choreography/MONICA ELIZABETH DEL VALLE ESCAMILLA.jpg" data-lightbox="demo-gallery">MONICA ELIZABETH VALLE ESCAMILLA</a></div></td>
 			  </tr>
 			  <tr>
-			    <td>AURORA BELEN MORA FERNANDEZ </td>
+			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/Aurora Mora Fernandez.jpg" data-lightbox="demo-gallery">AURORA BELEN MORA FERNANDEZ </a></div></td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/ELITE/Imelda Cabello.jpg" data-lightbox="demo-gallery">IMELDA CABELLO LARIOS</a></div></td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/nuevos/LUIS TEHOZ.jpg" data-lightbox="demo-gallery">LUIS EDMUNDO TEHOZ SUAREZ </a></div></td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/Citlalli Leon.jpg" data-lightbox="demo-gallery">CITLALLI LEON MARTINEZ </a></div></td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/choreography/Maria fernanda Gonzalez Torres.jpg" data-lightbox="demo-gallery">MARIA FERNANDA GONZALEZ TORRES</a></div></td>
 			  </tr>
 			  <tr>
-			     <td>SILVIA MORA FERNANDEZ </td>
+			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/Silvia Mora Fernandez.jpg" data-lightbox="demo-gallery">SILVIA MORA FERNANDEZ </a></div> </td>
 			    <td>LARIOS NATHALY GOMEZ DEL VALLE</td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/VARONIL/cuauhtemoc_lemus_aguilar.jpg" data-lightbox="demo-gallery">CUAUHTEMOC LEMUS AGUILAR </a></div></td>
 			    <td>DAFNE VALERIA BRIONES PEÑA</td>
@@ -498,7 +498,7 @@
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/A/estefania salas.jpg" data-lightbox="demo-gallery">ESTEFANIA SALAS MARTINEZ</a></div></td>
 			  </tr>
 			  <tr>
-			     <td>MACARENA GARRIDO SUAREZ </td>
+			     <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/Macarena Garrido.jpg" data-lightbox="demo-gallery">MACARENA GARRIDO SUAREZ</a></div>  </td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/Daniela amaranta.jpg" data-lightbox="demo-gallery">DANIELA AMARANTA MEDINA GARCIA</a></div> </td>
 			    <td><div class="item"><a href="<?php echo Yii::app()->request->baseUrl; ?>/images/atletas/estefania Valentinez.jpg" data-lightbox="demo-gallery">DAYAN VALENTINEZ RODRIGUEZ </a></div> </td>
 			    <td></td>
